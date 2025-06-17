@@ -28,7 +28,7 @@
             <p><img src="./assets/icons/dashboard/client-status.svg" alt="dashboard icon" width="20" height="20"><span>Twój status klienta</p>
         </div>
         <div class="box-content big-arrow">
-            <img src="./assets/img/dashboard/easygifts-gold.jpg" alt="easygifts status arrow" width="350" height="194">
+            <img src="./assets/img/dashboard/GiftSerwis-gold.jpg" alt="GiftSerwis status arrow" width="350" height="194">
         </div>
     </div>
     <div class="dashboard-main-box">
@@ -48,7 +48,7 @@
         </div>
         <div class="box-content">
             <p><span class="orange text-uppercase fw-bold">Sprawdź</span> jakie korzyści na Ciebie czekają!</p>
-            <img class="arrows" src="./assets/img/dashboard/easygifts-arrows.jpg" alt="easygifts status arrow" width="550" height="117">
+            <img class="arrows" src="./assets/img/dashboard/GiftSerwis-arrows.jpg" alt="GiftSerwis status arrow" width="550" height="117">
         </div>
     </div>
     <div class="dashboard-main-box">

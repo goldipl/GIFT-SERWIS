@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>EasyGifts - Rejestracja EN</title>
+        <title>GiftSerwis - Rejestracja EN</title>
         <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="./css/bootstrap.min.css" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/select2.min.css" />
@@ -46,12 +46,12 @@
                                         <tr>
                                             <td>Lithuania</td>
                                             <td rowspan="5">
-                                                <strong>EasyGifts POLSKA</strong>
+                                                <strong>GiftSerwis POLSKA</strong>
                                                 <p><a href="www.GiftSerwis.pl">www.GiftSerwis.pl</a></p>
-                                                <p>E-mail: <a class="gtm-mail" href="mailto:easygifts@GiftSerwis.pl">easygifts@GiftSerwis.pl</a></p>
+                                                <p>E-mail: <a class="gtm-mail" href="mailto:GiftSerwis@GiftSerwis.pl">GiftSerwis@GiftSerwis.pl</a></p>
                                                 <p>Phone: <a class="gtm-phone" href="tel:+48 71 330 54 60">+48 71 330 54 60</a></p>
                                                 <br>
-                                                <p>easygifts Polska Sp. z o.o. Byków,<br> ul. Wrocławska 41<br> 55-095 Mirków k/Wrocławia</p>
+                                                <p>GiftSerwis Polska Sp. z o.o. Byków,<br> ul. Wrocławska 41<br> 55-095 Mirków k/Wrocławia</p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -77,12 +77,12 @@
                                         <tr>
                                             <td>Slovenia</td>
                                             <td rowspan="7">
-                                                <strong>EasyGifts HUNGARY</strong>
-                                                <p><a href="www.easygifts.hu">www.easygifts.hu</a></p>
-                                                <p>E-mail: <a class="gtm-mail" href="mailto:easygifts@easygifts.hu">easygifts@easygifts.hu</a></p>
+                                                <strong>GiftSerwis HUNGARY</strong>
+                                                <p><a href="www.GiftSerwis.hu">www.GiftSerwis.hu</a></p>
+                                                <p>E-mail: <a class="gtm-mail" href="mailto:GiftSerwis@GiftSerwis.hu">GiftSerwis@GiftSerwis.hu</a></p>
                                                 <p>Phone: <a class="gtm-phone" href="tel:+36 1 272 2720">+36 1 272 2720</a></p>
                                                 <br>
-                                                <p>easygifts Kft.<br> 1184 Budapest, Fáy u. 2.<br> Hungary</p>
+                                                <p>GiftSerwis Kft.<br> 1184 Budapest, Fáy u. 2.<br> Hungary</p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -116,20 +116,20 @@
                                         <tr class="darkgrey-line">
                                             <td>Germany</td>
                                             <td rowspan="1">
-                                                <strong>EasyGifts GERMANY</strong>
-                                                <p><a href="www.easygifts.de">www.easygifts.de</a></p>
-                                                <p>E-mail: <a class="gtm-mail" href="mailto:info@easygifts.de">info@easygifts.de</a></p>
+                                                <strong>GiftSerwis GERMANY</strong>
+                                                <p><a href="www.GiftSerwis.de">www.GiftSerwis.de</a></p>
+                                                <p>E-mail: <a class="gtm-mail" href="mailto:info@GiftSerwis.de">info@GiftSerwis.de</a></p>
                                                 <p>Phone: <a class="gtm-phone" href="tel:+49 (0) 911 9 81 81 33">+49 (0) 911 9 81 81 33</a></p>
                                                 <p>Fax: <a class="gtm-phone" href="tel:+49 (0) 911 9 81 81 340">+49 (0) 911 9 81 81 340</a></p>
                                                 <br>
-                                                <p>easygifts Werbeartikel oHG<br> Thomas-Mann-Str. 60<br>90471 Nürnberg<br>Deutschland</p>
+                                                <p>GiftSerwis Werbeartikel oHG<br> Thomas-Mann-Str. 60<br>90471 Nürnberg<br>Deutschland</p>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td><strong>DESK 4</strong></td>
                                             <td rowspan="7">
                                                 <p>Phone: <a class="gtm-phone" href="tel:+49 (0) 911 981 81 458">+49 (0) 911 981 81 458</a></p>
-                                                <p>E-mail: <a class="gtm-mail" href="mailto:desk4@easygifts.de">desk4@easygifts.de</a></p>
+                                                <p>E-mail: <a class="gtm-mail" href="mailto:desk4@GiftSerwis.de">desk4@GiftSerwis.de</a></p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -154,7 +154,7 @@
                                             <td><strong>DESK 3</strong></td>
                                             <td rowspan="2">
                                                 <p>Phone: <a class="gtm-phone" href="tel:+49 (0) 911 981 81 450">+49 (0) 911 981 81 450</a></p>
-                                                <p>E-mail: <a class="gtm-mail" href="mailto:desk3@easygifts.de">desk3@easygifts.de</a></p>
+                                                <p>E-mail: <a class="gtm-mail" href="mailto:desk3@GiftSerwis.de">desk3@GiftSerwis.de</a></p>
                                             </td>
                                         </tr>
                                         <tr class="darkgrey-line">
@@ -164,7 +164,7 @@
                                             <td><strong>DESK 1</strong></td>
                                             <td rowspan="2">
                                                 <p>Phone: <a class="gtm-phone" href="tel:+49 (0) 911 981 81 430">+49 (0) 911 981 81 430</a></p>
-                                                <p>E-mail: <a class="gtm-mail" href="mailto:commercial@easygifts.de">commercial@easygifts.de</a></p>
+                                                <p>E-mail: <a class="gtm-mail" href="mailto:commercial@GiftSerwis.de">commercial@GiftSerwis.de</a></p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -183,7 +183,7 @@
                                         <tr>
                                             <td>Netherlands</td>
                                             <td rowspan="3">
-                                                <strong>EasyGifts NORVALD</strong>
+                                                <strong>GiftSerwis NORVALD</strong>
                                                 <p>Phone: <a class="gtm-phone" href="tel:+31 26 31 93 959">+31 26 31 93 959</a></p>
                                                 <p>E-mail: <a class="gtm-mail" href="mailto:info@norvald.nl">info@norvald.nl</a></p>
                                             </td>
@@ -205,9 +205,9 @@
                                         <tr>
                                             <td>Sweden</td>
                                             <td rowspan="3">
-                                                <strong>EasyGifts NORDICA</strong>
+                                                <strong>GiftSerwis NORDICA</strong>
                                                 <p>Phone: <a class="gtm-phone" href="tel:+46 241 611 90">+46 241 611 90</a></p>
-                                                <p>E-mail: <a class="gtm-mail" href="mailto:info@easygifts.se">info@easygifts.se</a></p>
+                                                <p>E-mail: <a class="gtm-mail" href="mailto:info@GiftSerwis.se">info@GiftSerwis.se</a></p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -227,9 +227,9 @@
                                         <tr>
                                             <td>Other countries</td>
                                             <td rowspan="3">
-                                                <strong>EasyGifts NORDICA</strong>
+                                                <strong>GiftSerwis NORDICA</strong>
                                                 <p>Phone: <a class="gtm-phone" href="tel:+49 (0) 911 981 81 458">+49 (0) 911 981 81 458</a></p>
-                                                <p>E-mail: <a class="gtm-mail" href="mailto:desk4@easygifts.de">desk4@easygifts.de</a></p>
+                                                <p>E-mail: <a class="gtm-mail" href="mailto:desk4@GiftSerwis.de">desk4@GiftSerwis.de</a></p>
                                             </td>
                                         </tr>
                                     </tbody>

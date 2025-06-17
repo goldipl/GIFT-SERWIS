@@ -19,7 +19,7 @@
     <div class="hero-btns-box">
       <div class="hero_content--btn active">
         <a href="">
-          <div class="d-flex flex-column"> I am a new customer <span>EasyGifts</span>
+          <div class="d-flex flex-column"> I am a new customer <span>GiftSerwis</span>
           </div>
           <div class="d-flex flex-column">
             <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -32,7 +32,7 @@
       </div>
       <div class="hero_content--btn">
         <a href="">
-          <div class="d-flex flex-column"> I am already a customer of <span>EasyGifts</span>  
+          <div class="d-flex flex-column"> I am already a customer of <span>GiftSerwis</span>  
             and I am creating an additional account 
           </div>
           <div class="d-flex flex-column">

@@ -4,7 +4,7 @@
     </div>
     <div class="dashboard-program">
         <h2>Gratulacje</h2>
-        <img src="./assets/img/dashboard/easygifts-gold-status.jpg" alt="EasyGifts lvl img" width="700" height="200">
+        <img src="./assets/img/dashboard/GiftSerwis-gold-status.jpg" alt="GiftSerwis lvl img" width="700" height="200">
         <p>Do osiągnięcia kolejnego poziomu brakuje Ci <span>XXX</span> PLN obrotu.</p>
     </div>
     <div class="progress-wrapper">
@@ -55,7 +55,7 @@
         </div>
         <div class="program-benefits-box__right">
             <p>Sprawdź Program Rozwoju</p>
-            <img src="./assets/img/dashboard/easygifts-arrows-grey.jpg" alt="Program Rozwoju" width="500" height="110">
+            <img src="./assets/img/dashboard/GiftSerwis-arrows-grey.jpg" alt="Program Rozwoju" width="500" height="110">
             <a class="download-leaflet-btn" href="#">Pobierz ulotkę</a>
         </div>
     </div>

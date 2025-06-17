@@ -15,7 +15,7 @@
     <div class="hero-btns-box">
       <div class="hero_content--btn active">
         <a href="./register-pl.php">
-          <div class="d-flex flex-column"> Jestem nowym klientem <span>EasyGifts</span>
+          <div class="d-flex flex-column"> Jestem nowym klientem <span>GiftSerwis</span>
           </div>
           <div class="d-flex flex-column">
             <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -28,7 +28,7 @@
       </div>
       <div class="hero_content--btn">
         <a href="./register-had-account.php">
-          <div class="d-flex flex-column"> Jestem już klientem <span>EasyGifts</span>i zakładam dodatkowe konto </div>
+          <div class="d-flex flex-column"> Jestem już klientem <span>GiftSerwis</span>i zakładam dodatkowe konto </div>
           <div class="d-flex flex-column">
             <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="17" cy="17" r="16" stroke="black" stroke-width="2"></circle>

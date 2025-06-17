@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>EasyGifts - Kategoria</title>
+        <title>GiftSerwis - Kategoria</title>
         <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="./css/bootstrap.min.css" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/select2.min.css" />
@@ -18,17 +18,17 @@
                     "@type": "ListItem",
                     "position": 1,
                     "name": "Strona główna",
-                    "item": "https://www.easygifts.com.pl/index.php"
+                    "item": "https://www.GiftSerwis.com.pl/index.php"
                 }, {
                     "@type": "ListItem",
                     "position": 2,
                     "name": "Oferta",
-                    "item": "https://www.easygifts.com.pl/oferta"
+                    "item": "https://www.GiftSerwis.com.pl/oferta"
                 }, {
                     "@type": "ListItem",
                     "position": 3,
                     "name": "Artykuły biurowe",
-                    "item": "https://www.easygifts.com.pl/oferta/artykuly-biurowe"
+                    "item": "https://www.GiftSerwis.com.pl/oferta/artykuly-biurowe"
                 }]
             }
         </script>

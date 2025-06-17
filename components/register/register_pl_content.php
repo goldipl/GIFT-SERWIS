@@ -1,6 +1,6 @@
 <div class="grey-background">
     <div class="register container">
-        <h2>Jestem nowym klientem <span>EasyGifts</span></h2>
+        <h2>Jestem nowym klientem <span>GiftSerwis</span></h2>
         <form class="inputs-form-container-wrapper">
             <div class="title">
                 <p><img src="./assets/icons/dashboard/profile.svg" alt="menu icon" width="20" height="20">Twoje dane<span class="orange">Pola oznaczone * są wymagane.</span></p>
@@ -15,7 +15,7 @@
                     <input class="form-input" type="text" name="telephone" id="telephone" required="" placeholder="604 222 774">
                 </div>
                 <div class="inputs-wrapper__slot pre">
-                    <label for="select01">Skąd dowiedziałeś/aś się o EasyGifts?<span class="orange">*</span></label>
+                    <label for="select01">Skąd dowiedziałeś/aś się o GiftSerwis?<span class="orange">*</span></label>
                     <select class="form-select" name="select01" id="select01" required="">
                         <option value="Facebook">Facebook</option>
                         <option value="Google">Google</option>
@@ -90,7 +90,7 @@
             </div>
             <div class="checkboxes-box">
                 <div class="checkboxes-box__slot">
-                    <label class="custom-checkbox-container newsletter">Zapoznałem/zapoznałam się z treścią Regulaminu Sklepu Internetowego EasyGifts, jego treść jest dla mnie zrozumiała i w całości go akceptuję.<input type="checkbox" class="custom_input" required="">
+                    <label class="custom-checkbox-container newsletter">Zapoznałem/zapoznałam się z treścią Regulaminu Sklepu Internetowego GiftSerwis, jego treść jest dla mnie zrozumiała i w całości go akceptuję.<input type="checkbox" class="custom_input" required="">
                     <span class="custom-checkbox-checkmark"></span>
                     </label>
                 </div>

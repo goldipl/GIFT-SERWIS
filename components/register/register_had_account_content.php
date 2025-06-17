@@ -1,6 +1,6 @@
 <div class="grey-background">
     <div class="register container">
-        <h2>Jestem już klientem <span>EasyGifts</span> i tworzę dodatkowe konto.</h2>
+        <h2>Jestem już klientem <span>GiftSerwis</span> i tworzę dodatkowe konto.</h2>
         <form class="inputs-form-container-wrapper">
             <div class="register-top-container">
                 <div class="register-top-container__slot">
@@ -65,7 +65,7 @@
             </div>
             <div class="checkboxes-box">
                 <div class="checkboxes-box__slot">
-                    <label class="custom-checkbox-container newsletter">Zapoznałem/zapoznałam się z treścią Regulaminu Sklepu Internetowego EasyGifts, jego treść jest dla mnie zrozumiała i w całości go akceptuję.<input type="checkbox" class="custom_input" required="">
+                    <label class="custom-checkbox-container newsletter">Zapoznałem/zapoznałam się z treścią Regulaminu Sklepu Internetowego GiftSerwis, jego treść jest dla mnie zrozumiała i w całości go akceptuję.<input type="checkbox" class="custom_input" required="">
                     <span class="custom-checkbox-checkmark"></span>
                     </label>
                 </div>

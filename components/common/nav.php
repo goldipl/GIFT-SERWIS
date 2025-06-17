@@ -2,7 +2,7 @@
     <div class="navbar-first-row"></div>
     <div class="container-fluid">
         <a class="navbar-brand navbar-brand-mobile" href="./index.php">
-            <img src="./assets/icons/common/header/logo-giftserwis.svg" alt="EasyGifts - Dystrybutor gadżetów reklamowych" width="110" height="43">
+            <img src="./assets/icons/common/header/logo-giftserwis.svg" alt="GiftSerwis - Dystrybutor gadżetów reklamowych" width="110" height="43">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-top d-flex align-items-center justify-content-between navbar-nav me-auto mb-2 mb-lg-0 w-100">
                 <a class="navbar-brand navbar-brand-desktop" href="./index.php">
-                    <img src="./assets/icons/common/header/logo-giftserwis.svg" alt="EasyGifts - Dystrybutor gadżetów reklamowych" width="160" height="62">
+                    <img src="./assets/icons/common/header/logo-giftserwis.svg" alt="GiftSerwis - Dystrybutor gadżetów reklamowych" width="160" height="62">
                 </a>
                 <form class="d-flex" role="search" id="nav-searchbar">
                     <input class="form-control mx-2" type="search" placeholder="Cześć!  Czego dziś szukasz?" aria-label="Search">
