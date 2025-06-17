@@ -1,0 +1,229 @@
+#promo_products_container {
+  .container {
+    position: relative;
+  }
+}
+
+.mp-titles {
+  .mp-superscription {
+    h3,
+    a {
+      color: $main-color-second;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 16.38px;
+      letter-spacing: 0.19em;
+      margin: 0 0 8px 0;
+      text-align: center;
+      text-decoration: unset;
+      text-transform: uppercase;
+    }
+  }
+  .mp-title {
+    h2,
+    a {
+      color: $main-color-second;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 48.96px;
+      text-align: center;
+      margin: 0 0 8px 0;
+      text-decoration: unset;
+      text-transform: uppercase;
+    }
+  }
+  .mp-description {
+    span {
+      display: inline-flex;
+      max-width: 840px;
+      color: $small_text_color;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24.32px;
+      text-align: center;
+      margin: 0 0 24px 0;
+      text-decoration: unset;
+    }
+  }
+}
+
+.mp-bell-promo-box {
+  position: relative;
+  background-color: $main-color;
+  width: max-content;
+  height: 105px;
+  margin-right: 40px;
+  margin-left: 16px;
+  &--text {
+    p {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%;
+      text-transform: uppercase;
+      color: $white;
+      margin: 0;
+      text-align: right;
+      span {
+        display: flex;
+        font-weight: 700;
+      }
+    }
+  }
+  &--data {
+    margin-left: 32px;
+    margin-right: 24px;
+    div.calendar-card-top {
+      width: 77px;
+      height: auto;
+      background-color: $white;
+      border-bottom: 1px solid $main-color;
+      p {
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        color: $main-color;
+        margin: 0;
+      }
+    }
+    div.calendar-card-bottom {
+      width: 77px;
+      height: auto;
+      background-color: $white;
+      p {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        color: $main-color;
+        margin: 0;
+      }
+    }
+  }
+}
+
+.mp-check-all-btn {
+  position: relative;
+  &:hover {
+    a {
+      color: $main-color;
+    }
+    img {
+      filter: invert(13%) sepia(96%) saturate(7041%) hue-rotate(319deg)
+        brightness(89%) contrast(110%);
+    }
+  }
+  a {
+    display: flex;
+    width: 79px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    color: $text_color;
+    text-align: right;
+    text-decoration: none;
+    margin-right: 41px;
+    img {
+      margin: 0 0 0 11px;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  #promo_products_container {
+    .container {
+      flex-wrap: wrap;
+      .mp-check-all-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      .mp-bell-btn-box {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 24px;
+        .mp-bell-promo-box {
+          margin: auto 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  #promo_products_container .mp-titles .flex-row h1,
+  #promo_products_container .mp-titles .flex-row h2 {
+    width: 100vw;
+  }
+  .mp-titles {
+    padding: 16px 0 !important;
+    .flex-row {
+      &.mp-title {
+        width: max-content;
+      }
+      .promo-box {
+        margin-bottom: 16px;
+        padding: 4px 24px;
+        min-width: 40vw;
+        p,
+        a {
+          font-size: 13px;
+          line-height: 28px;
+          letter-spacing: 6px;
+        }
+      }
+      h1,
+      h2 {
+        font-size: 24px;
+        line-height: 140%;
+      }
+      h3 {
+        font-size: 15px;
+      }
+    }
+  }
+  .mp-bell-promo-box {
+    &--text {
+      p {
+        font-size: 14px;
+        line-height: 140%;
+      }
+    }
+    &--data {
+      margin-left: 16px;
+      margin-right: 16px;
+      div.calendar-card-top {
+        height: 48px;
+        p {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+  .mp-check-all-btn {
+    padding: 8px 0 !important;
+    a {
+      font-size: 14px;
+      line-height: 125%;
+      img {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #promo_products_container {
+    .container {
+      .mp-check-all-btn {
+        right: 16px;
+      }
+    }
+  }
+}

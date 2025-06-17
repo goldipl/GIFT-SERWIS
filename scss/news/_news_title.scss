@@ -1,0 +1,25 @@
+#main-wrapper:has(.news_articles.container) {
+  background-color: $light_grey;
+}
+.news_title {
+  background-color: $light_grey;
+  h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 136%;
+    text-transform: uppercase;
+    color: $main-color-second;
+    padding: 24px 0 11px 0;
+    margin-bottom: 0;
+  }
+  p {
+    font-family: Instrument Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    letter-spacing: 0%;
+    color: $small_text_color;
+    padding: 0 0 16px 0;
+    margin-bottom: 0;
+  }
+}

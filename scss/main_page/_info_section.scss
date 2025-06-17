@@ -1,0 +1,110 @@
+#info_section {
+  padding: 64px 0;
+  .info-section {
+    &-box {
+      display: flex;
+      flex-direction: row;
+      &__slot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        &:hover {
+          p {
+            color: $main-color !important;
+          }
+          img {
+            filter: invert(13%) sepia(96%) saturate(7041%) hue-rotate(319deg)
+              brightness(89%) contrast(110%);
+          }
+        }
+        .info_section__top {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          img {
+            height: 50px;
+            width: auto;
+            object-fit: contain;
+          }
+          p {
+            display: inline-flex;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 150%;
+            color: $text_color;
+            text-transform: uppercase;
+            width: auto;
+            max-width: 240px;
+            margin: 30px 0 8px 0;
+            height: 60px;
+          }
+        }
+        .info_section__bottom {
+          text-align: center;
+          p {
+            display: inline-flex;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 160%;
+            color: $small_text_color;
+            text-align: center;
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  #info_section {
+    .info-section {
+      &-box {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        &__slot {
+          width: 50%;
+          .info_section__top {
+            p {
+              font-size: 16px;
+              margin-bottom: 16px;
+              height: 40px;
+            }
+          }
+          .info_section__bottom {
+            p {
+              font-size: 14px;
+              line-height: 140%;
+              width: 77%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #info_section {
+    padding: 32px 0;
+    .info-section {
+      &-box {
+        &__slot {
+          .info_section__top {
+            flex-direction: column;
+            p {
+              margin-left: 0;
+              margin-top: 1rem;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
