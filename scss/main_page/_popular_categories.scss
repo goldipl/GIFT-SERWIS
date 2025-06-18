@@ -18,5 +18,44 @@
     z-index: 1;
     display: flex;
     flex-direction: row;
+    gap: 26px;
+    &__slot {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      width: 150px;
+      height: 140px;
+      background-color: $white;
+      border-radius: 11px;
+      gap: 12px;
+      &:hover {
+        box-shadow: 0px 10.93px 13.45px 0px #00000026;
+        background-color: $main-color-second;
+        img,
+        h3 {
+          filter: invert(1) brightness(222);
+          font-weight: 700;
+        }
+      }
+    }
+    &__image {
+      img {
+        width: 100%;
+        height: auto;
+        max-width: 50px;
+        max-height: 50px;
+      }
+    }
+    &__name {
+      h3 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 120%;
+        color: $text_color;
+        text-align: center;
+      }
+    }
   }
 }
