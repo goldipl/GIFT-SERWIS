@@ -18,7 +18,7 @@
         </header>
         <main id="main-wrapper">
             <?php include "./components/main_page/hero_swiper.php"; ?> 
-            <?php include "./components/main_page/our_brands.php"; ?> 
+            <?php include "./components/main_page/popular_categories.php"; ?> 
             <?php include "./components/main_page/promo_products.php"; ?>  
             <?php include "./components/main_page/banners.php"; ?> 
             <?php include "./components/main_page/news.php"; ?> 

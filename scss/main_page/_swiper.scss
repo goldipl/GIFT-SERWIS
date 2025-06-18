@@ -8,6 +8,9 @@
     max-width: 1920px;
     .swiper.desktop {
       .swiper-slide {
+        .color-btn {
+          width: 300px;
+        }
         a {
           img {
             object-fit: cover;

@@ -8,7 +8,7 @@
   .mp-superscription {
     h3,
     a {
-      color: $main-color-second;
+      color: $main-color;
       font-weight: 600;
       font-size: 18px;
       line-height: 16.38px;
@@ -22,15 +22,24 @@
   .mp-title {
     h2,
     a {
-      color: $main-color-second;
+      color: $main-color;
       font-weight: 700;
-      font-size: 36px;
-      line-height: 48.96px;
+      font-size: 34px;
+      line-height: 120%;
       text-align: center;
       margin: 0 0 8px 0;
       text-decoration: unset;
       text-transform: uppercase;
     }
+  }
+  .title-red-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 106px;
+    height: 1px;
+    background-color: $main-color-second;
+    margin: 8px auto 16px auto;
   }
   .mp-description {
     span {
@@ -38,7 +47,8 @@
       max-width: 840px;
       color: $small_text_color;
       font-weight: 400;
-      font-size: 16px;
+      font-size: 91%;
+      letter-spacing: 19%;
       line-height: 24.32px;
       text-align: center;
       margin: 0 0 24px 0;
