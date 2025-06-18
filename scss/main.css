@@ -1786,6 +1786,7 @@ label.add-files:focus, label.add-files:hover {
   top: 50%;
   right: 40px;
   z-index: 1;
+  border-radius: 100%;
 }
 #swiper .swiper .swiper-button-next::after {
   display: none;
@@ -1802,6 +1803,7 @@ label.add-files:focus, label.add-files:hover {
   top: 50%;
   left: 40px;
   z-index: 1;
+  border-radius: 100%;
 }
 #swiper .swiper .swiper-button-prev::after {
   display: none;
