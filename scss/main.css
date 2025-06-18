@@ -2128,7 +2128,7 @@ label.add-files:focus, label.add-files:hover {
 #popular-categories {
   position: relative;
   background-color: #f2f3f7;
-  padding: 24px 0 80px 0;
+  padding: 24px 0 25px 0;
 }
 #popular-categories::before {
   position: absolute;
