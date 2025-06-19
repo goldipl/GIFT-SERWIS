@@ -1759,16 +1759,18 @@ label.add-files:focus, label.add-files:hover {
 }
 #swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content h1,
 #swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content h2 {
-  font-size: 56px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
   text-transform: uppercase;
   margin: 0 0 20px 0;
-  color: #e63027;
+  color: #003671;
+  max-width: 649px;
 }
 #swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content h1 span,
 #swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content h2 span {
+  display: inline-flex;
   font-weight: 700;
   color: #ffffff;
 }
@@ -1786,13 +1788,24 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 400;
   line-height: 177.023%;
   color: #ffffff;
-  margin: 0;
+  margin: 24px 0;
   max-width: 649px;
 }
 #swiper .swiper {
   width: 100%;
   height: 577px;
   z-index: 0;
+}
+#swiper .swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 30px;
+}
+@media (max-width: 991px) {
+  #swiper .swiper-pagination {
+    bottom: 12px;
+  }
 }
 #swiper .swiper.mobile {
   display: none;
@@ -1843,14 +1856,15 @@ label.add-files:focus, label.add-files:hover {
 #swiper .swiper .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
   width: 17px;
   height: 17px;
-  background-color: #ffffff;
+  background-color: #c3c3c3;
   border: 2px solid #fff;
   opacity: 1;
-  margin: 0 12px;
+  margin: 0 8px;
 }
 #swiper .swiper .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  border: 2px solid #fff;
   background-color: #e63027;
+  width: 20px;
+  height: 20px;
 }
 
 .our_brands_swiper .swiper-slide img {
@@ -2055,19 +2069,28 @@ label.add-files:focus, label.add-files:hover {
   }
   #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content h1,
   #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content h2 {
-    font-size: 34px;
+    font-size: 28px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 110%;
     text-transform: uppercase;
     margin: 0 0 20px 0;
     text-align: center;
-    color: #e63027;
+    color: #003671;
   }
   #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content h1 span,
   #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content h2 span {
+    display: inline-flex;
     font-weight: 700;
     color: #ffffff;
+  }
+  #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content .color-btn {
+    font-size: 14px;
+    height: 44px;
+  }
+  #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content .color-btn img {
+    width: 18px;
+    height: 18px;
   }
   #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content h3 {
     text-align: center;
@@ -2129,8 +2152,8 @@ label.add-files:focus, label.add-files:hover {
 @media (max-width: 576px) {
   #swiper .swiper .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
   #swiper .swiper .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-    width: 15px;
-    height: 15px;
+    width: 14px;
+    height: 14px;
     margin: 0 6px;
   }
 }
@@ -2139,10 +2162,12 @@ label.add-files:focus, label.add-files:hover {
     width: 100%;
     height: auto;
     max-height: 577px;
+    height: 577px;
   }
   #swiper .swiper.desktop {
     height: auto;
     max-height: 577px;
+    height: 577px;
   }
 }
 #popular-categories {
