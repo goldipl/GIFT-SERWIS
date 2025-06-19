@@ -1749,7 +1749,17 @@ label.add-files:focus, label.add-files:hover {
 #swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content {
   position: absolute;
   bottom: 25%;
-  left: 9%;
+  left: calc((100vw - 1280px) / 2);
+}
+@media (max-width: 1640px) {
+  #swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content {
+    left: 3%;
+  }
+}
+@media (min-width: 1920px) {
+  #swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content {
+    left: 17%;
+  }
 }
 #swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content img {
   width: 18px;

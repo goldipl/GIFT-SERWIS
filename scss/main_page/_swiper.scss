@@ -19,7 +19,13 @@
         .hero_content--content {
           position: absolute;
           bottom: 25%;
-          left: 9%;
+          left: calc((100vw - 1280px) / 2);
+          @media (max-width: 1640px) {
+            left: 3%;
+          }
+          @media (min-width: 1920px) {
+            left: 17%;
+          }
           img {
             width: 18px;
             height: 18px;
