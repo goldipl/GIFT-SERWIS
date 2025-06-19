@@ -827,6 +827,7 @@ footer .footer__container__bottom {
   margin: 0 auto;
   background-color: #000000;
   z-index: 1;
+  padding: 0 16px;
 }
 footer .footer__container__bottom::before {
   position: absolute;
@@ -899,7 +900,7 @@ footer .footer__container__bottom .contip img {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
-    padding: 8px 0 !important;
+    padding: 8px 16px !important;
     height: auto !important;
   }
   .footer__container__bottom p {
