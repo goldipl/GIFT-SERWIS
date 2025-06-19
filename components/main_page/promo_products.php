@@ -2,11 +2,12 @@
   <div class="container d-flex flex-row align-items-center justify-content-center">
     <div class="d-flex flex-column py-4 mp-titles align-items-center justify-content-center">
       <div class="d-flex flex-row mp-superscription">
-        <h3>Nowości</h3>
+        <h3>Najczęściej kupowane</h3>
       </div>
       <div class="d-flex flex-row mp-title">
-        <h2>Najnowsze produkty</h2>
+        <h2>Bestsellers</h2>
       </div>
+      <div class="title-red-line"></div>
     </div>
   </div>
 

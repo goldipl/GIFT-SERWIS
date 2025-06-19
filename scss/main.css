@@ -2191,7 +2191,7 @@ label.add-files:focus, label.add-files:hover {
   z-index: 1;
   display: flex;
   flex-direction: row;
-  gap: 26px;
+  gap: 28px;
 }
 #popular-categories .popular-categories__slot {
   display: flex;
@@ -2323,6 +2323,9 @@ label.add-files:focus, label.add-files:hover {
   position: relative;
   background-color: #f2f3f7;
   padding: 60px 0 60px 0;
+}
+#promo_products_container .container {
+  max-width: 1240px;
 }
 #promo_products_container::before {
   position: absolute;
@@ -2867,12 +2870,13 @@ label.add-files:focus, label.add-files:hover {
   border: 1px solid #e6e6e6;
   background-color: #ffffff;
   height: 670px;
+  border-radius: 10px;
 }
 .swiper_products_block_box:hover {
   box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.1);
 }
 .swiper_products_block_box:hover {
-  border: 1px solid #003671;
+  border: 1px solid #e63027;
 }
 .swiper_products_block_box:hover .product-hover-box {
   display: flex;

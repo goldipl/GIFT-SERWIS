@@ -15,7 +15,7 @@ const promo_products_swiper = new Swiper('.promo_products_swiper', {
     breakpoints: {
       // when window width is >= 1240px
        1240: {
-        slidesPerView: 5,
+        slidesPerView: 4,
       },
       // when window width is >= 992px
       992: {
