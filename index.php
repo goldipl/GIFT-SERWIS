@@ -23,6 +23,7 @@
             <?php include "./components/main_page/banners.php"; ?> 
             <?php include "./components/main_page/why_we.php"; ?> 
             <?php include "./components/main_page/about_us.php"; ?> 
+            <?php include "./components/main_page/opinions.php"; ?> 
             <?php include "./components/main_page/info_section.php"; ?> 
         </main>
         <footer> 

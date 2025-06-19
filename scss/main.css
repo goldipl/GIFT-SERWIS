@@ -2278,7 +2278,20 @@ label.add-files:focus, label.add-files:hover {
 }
 
 #info_section {
-  padding: 64px 0;
+  position: relative;
+  background-color: #f2f3f7;
+  padding: 60px 0 60px 0;
+}
+#info_section::before {
+  position: absolute;
+  display: block;
+  content: "";
+  background-color: #f2f3f7;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  z-index: -1;
 }
 #info_section .info-section-box {
   display: flex;
@@ -3504,12 +3517,22 @@ label.add-files:focus, label.add-files:hover {
   text-transform: uppercase;
   text-align: center;
 }
+@media (max-width: 991px) {
+  #about_us .about-us-box__text h4 {
+    font-size: 16px;
+  }
+}
 #about_us .about-us-box__text p {
   font-weight: 400;
   font-size: 18px;
   line-height: 160%;
   margin: 0 0 24px 0;
   color: #374957;
+}
+@media (max-width: 991px) {
+  #about_us .about-us-box__text p {
+    font-size: 14px;
+  }
 }
 @media (max-width: 1100px) {
   #about_us .about-us-box {
@@ -3520,6 +3543,18 @@ label.add-files:focus, label.add-files:hover {
   }
   #about_us .about-us-box__img {
     margin: 0 0 24px 0;
+  }
+}
+
+#opinions {
+  padding: 60px 0 80px 0;
+}
+@media (max-width: 991px) {
+  #opinions {
+    padding: 40px 0;
+  }
+  #opinions .mp-description {
+    font-size: 14px;
   }
 }
 

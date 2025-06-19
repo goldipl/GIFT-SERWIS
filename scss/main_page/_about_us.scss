@@ -16,6 +16,9 @@
         color: $text_color;
         text-transform: uppercase;
         text-align: center;
+        @media (max-width: 991px) {
+          font-size: 16px;
+        }
       }
       p {
         font-weight: 400;
@@ -23,6 +26,9 @@
         line-height: 160%;
         margin: 0 0 24px 0;
         color: $text_color;
+        @media (max-width: 991px) {
+          font-size: 14px;
+        }
       }
     }
     @media (max-width: 1100px) {

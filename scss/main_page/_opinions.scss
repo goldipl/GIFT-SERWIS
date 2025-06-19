@@ -1,0 +1,9 @@
+#opinions {
+  padding: 60px 0 80px 0;
+  @media (max-width: 991px) {
+    padding: 40px 0;
+    .mp-description {
+      font-size: 14px;
+    }
+  }
+}

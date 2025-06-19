@@ -2,7 +2,7 @@
     <div class="footer__container__top container d-flex flex-row justify-content-between">
         <div class="d-flex flex-column col-4 first-column">
             <div class="footer-logo">
-                <img src="./assets/icons/common/footer/logo-GiftSerwis-footer.svg" alt="GiftSerwis - Dystrybutor gadżetów reklamowych" width="160" height="62">
+                <img src="./assets/icons/common/footer/logo-footer.svg" alt="GiftSerwis - Dystrybutor gadżetów reklamowych" width="301" height="86">
             </div>
             <div class="footer-text">
                 <strong>Tysiące gadżetów w jednych miejscu!</strong>
