@@ -15,21 +15,38 @@
       grid-row-gap: 24px;
     }
     &__slot {
+      border-radius: 10px;
       .banners-slot-img {
         position: relative;
+        border-radius: 10px;
         .banners-img {
           width: 100%;
           height: auto;
+          border-radius: 10px;
         }
-        .white-purple-btn {
+        .white-red-btn {
           position: absolute;
-          bottom: 11%;
+          bottom: 16%;
           left: 7%;
-          width: 248px;
-          height: 52px;
+          width: 220px;
+          height: 40px;
+          border-radius: 10px;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 177%;
+          color: $main-color;
+          text-transform: uppercase;
+          &:hover {
+            color: $white;
+          }
           @media (max-width: 760px) {
-            width: 50%;
-            height: auto;
+            width: 40%;
+            height: 32px;
+            font-size: 12px;
+            img {
+              width: 13px;
+              height: 13px;
+            }
           }
         }
       }

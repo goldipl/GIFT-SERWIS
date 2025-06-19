@@ -1219,7 +1219,7 @@ footer .footer__container__bottom .contip img {
   content: url("./../assets/icons/dashboard/save-btn-color.svg?gf=534");
 }
 
-.white-purple-btn {
+.white-red-btn {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -1238,18 +1238,18 @@ footer .footer__container__bottom .contip img {
   font-size: 20px;
   line-height: 24px;
 }
-.white-purple-btn img {
+.white-red-btn img {
   margin-left: 10px;
 }
-.white-purple-btn:hover {
+.white-red-btn:hover {
   background-color: #e63027;
   color: #ffffff;
 }
-.white-purple-btn:hover img {
+.white-red-btn:hover img {
   content: url("./../assets/icons/common/buttons/button_white_arrow.svg?=gdfg5");
 }
 
-.white-pink-btn {
+.white-purple-btn {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -1268,27 +1268,27 @@ footer .footer__container__bottom .contip img {
   font-size: 20px;
   line-height: 24px;
 }
-.white-pink-btn img {
+.white-purple-btn img {
   margin-left: 10px;
 }
-.white-pink-btn:hover {
+.white-purple-btn:hover {
   background-color: #003671;
   color: #ffffff;
 }
-.white-pink-btn:hover img {
+.white-purple-btn:hover img {
   content: url("./../assets/icons/common/buttons/button_white_arrow.svg?=gdfg5");
 }
 
 @media (max-width: 991px) {
-  .white-purple-btn,
-  .white-pink-btn {
+  .white-red-btn,
+  .white-purple-btn {
     font-size: 14px;
     line-height: 16px;
     margin-top: 12px;
     height: 42px;
   }
-  .white-purple-btn img,
-  .white-pink-btn img {
+  .white-red-btn img,
+  .white-purple-btn img {
     width: 16px;
     height: 16px;
   }
@@ -3221,24 +3221,43 @@ label.add-files:focus, label.add-files:hover {
     grid-row-gap: 24px;
   }
 }
+#banners .banners_container__slot {
+  border-radius: 10px;
+}
 #banners .banners_container__slot .banners-slot-img {
   position: relative;
+  border-radius: 10px;
 }
 #banners .banners_container__slot .banners-slot-img .banners-img {
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
-#banners .banners_container__slot .banners-slot-img .white-purple-btn {
+#banners .banners_container__slot .banners-slot-img .white-red-btn {
   position: absolute;
-  bottom: 11%;
+  bottom: 16%;
   left: 7%;
-  width: 248px;
-  height: 52px;
+  width: 220px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 177%;
+  color: #003671;
+  text-transform: uppercase;
+}
+#banners .banners_container__slot .banners-slot-img .white-red-btn:hover {
+  color: #ffffff;
 }
 @media (max-width: 760px) {
-  #banners .banners_container__slot .banners-slot-img .white-purple-btn {
-    width: 50%;
-    height: auto;
+  #banners .banners_container__slot .banners-slot-img .white-red-btn {
+    width: 40%;
+    height: 32px;
+    font-size: 12px;
+  }
+  #banners .banners_container__slot .banners-slot-img .white-red-btn img {
+    width: 13px;
+    height: 13px;
   }
 }
 

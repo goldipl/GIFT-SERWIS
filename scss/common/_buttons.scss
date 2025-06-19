@@ -119,7 +119,7 @@
   }
 }
 
-.white-purple-btn {
+.white-red-btn {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -148,7 +148,7 @@
   }
 }
 
-.white-pink-btn {
+.white-purple-btn {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -178,8 +178,8 @@
 }
 
 @media (max-width: 991px) {
-  .white-purple-btn,
-  .white-pink-btn {
+  .white-red-btn,
+  .white-purple-btn {
     font-size: 14px;
     line-height: 16px;
     margin-top: 12px;
