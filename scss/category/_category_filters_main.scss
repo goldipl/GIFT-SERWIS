@@ -21,9 +21,7 @@
       }
     }
     .product-label-box {
-      position: absolute;
-      top: 25px;
-      left: 25px;
+      position: relative;
       display: inline-flex;
       flex-wrap: wrap;
       z-index: 1;
@@ -33,9 +31,9 @@
         align-items: center;
         width: auto;
         padding: 3px 27px;
+        margin: 30px 5px;
         height: 27px;
-        margin-right: 5px;
-        margin-bottom: 5px;
+        border-radius: 5px;
         p {
           font-size: 14px;
           font-style: normal;
@@ -107,7 +105,7 @@
         display: flex;
         height: 200px;
         width: 200px;
-        margin: 60px auto 24px;
+        margin: 24px auto;
         text-decoration: none;
         img {
           height: 200px;
@@ -156,7 +154,7 @@
         align-items: center;
         justify-content: flex-start;
         box-sizing: border-box;
-        margin-bottom: 17px;
+        margin-bottom: 28px;
         .color {
           width: 20px;
           min-width: 20px !important;
@@ -201,16 +199,12 @@
         }
       }
       .products-code {
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        text-align: center;
-        height: 40px;
+        display: block;
+        text-align: left;
         width: 100%;
-        margin: 0 0 31px 0;
+        margin: 0 0 16px 0;
         p {
-          font-size: 16px;
+          font-size: 13px;
           font-style: normal;
           font-weight: 400;
           line-height: 130%;
@@ -219,15 +213,25 @@
         }
       }
       .catalog-price {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
         p {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
           font-size: 16px;
           font-style: normal;
-          font-weight: 600;
+          font-weight: 400;
           line-height: 160%;
-          margin: 19px 0 8px 0;
+          margin: 8px 0;
           color: $text_color;
           span {
-            font-size: 20px;
+            display: inline-flex;
+            font-size: 24px;
+            font-weight: 700;
+            color: $green;
+            margin: 6px 0 0 0;
           }
         }
       }

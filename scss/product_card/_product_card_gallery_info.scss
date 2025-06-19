@@ -56,18 +56,16 @@
     .slider-one {
       border: 1px solid $light_grey;
       .product-label-box {
-        position: absolute;
-        top: 25px;
-        left: 25px;
+        position: relative;
         display: inline-flex;
         flex-wrap: wrap;
         z-index: 1;
         .product-label {
           width: auto;
-          padding: 0 6px;
+          padding: 3px 27px;
+          margin: 30px 5px;
           height: 27px;
-          margin-right: 5px;
-          margin-bottom: 5px;
+          border-radius: 5px;
           p {
             font-size: 14px;
             font-style: normal;
