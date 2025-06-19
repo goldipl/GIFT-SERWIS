@@ -674,7 +674,7 @@ footer .footer__container__top .first-column .socials-footer a {
   text-decoration: none;
 }
 footer .footer__container__top .first-column .socials-footer a:hover img {
-  filter: invert(13%) sepia(96%) saturate(7041%) hue-rotate(319deg) brightness(89%) contrast(110%);
+  filter: brightness(0) saturate(100%) invert(35%) sepia(94%) saturate(4713%) hue-rotate(348deg) brightness(92%) contrast(94%);
 }
 footer .footer__container__top .first-column .newsletter-form .accepts-info label {
   font-size: 12px;
@@ -770,7 +770,7 @@ footer .footer__container__top .fourth-column a:hover {
 }
 footer .footer__container__top .third-column a:hover img,
 footer .footer__container__top .fourth-column a:hover img {
-  filter: invert(13%) sepia(96%) saturate(7041%) hue-rotate(319deg) brightness(89%) contrast(110%);
+  filter: brightness(0) saturate(100%) invert(35%) sepia(94%) saturate(4713%) hue-rotate(348deg) brightness(92%) contrast(94%);
 }
 footer .footer__container__top .fifth-column .footer-contacts-box h2 {
   font-size: 20px;
@@ -2304,18 +2304,13 @@ label.add-files:focus, label.add-files:hover {
   justify-content: center;
   text-decoration: none;
 }
-#info_section .info-section-box__slot:hover p {
-  color: #003671 !important;
-}
-#info_section .info-section-box__slot:hover img {
-  filter: invert(13%) sepia(96%) saturate(7041%) hue-rotate(319deg) brightness(89%) contrast(110%);
-}
 #info_section .info-section-box__slot .info_section__top {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  max-width: 120px;
 }
 #info_section .info-section-box__slot .info_section__top img {
   height: 50px;
@@ -2331,7 +2326,6 @@ label.add-files:focus, label.add-files:hover {
   color: #374957;
   text-transform: uppercase;
   width: auto;
-  max-width: 240px;
   margin: 30px 0 8px 0;
   height: 60px;
 }
@@ -2346,6 +2340,12 @@ label.add-files:focus, label.add-files:hover {
   color: #374957;
   text-align: center;
   width: 80%;
+}
+#info_section .info-section-box__slot:hover p {
+  color: #e63027;
+}
+#info_section .info-section-box__slot:hover img {
+  filter: brightness(0) saturate(100%) invert(35%) sepia(94%) saturate(4713%) hue-rotate(348deg) brightness(92%) contrast(94%);
 }
 
 @media (max-width: 991px) {
@@ -2837,7 +2837,7 @@ label.add-files:focus, label.add-files:hover {
   color: #003671;
 }
 .mp-check-all-btn:hover img {
-  filter: invert(13%) sepia(96%) saturate(7041%) hue-rotate(319deg) brightness(89%) contrast(110%);
+  filter: brightness(0) saturate(100%) invert(35%) sepia(94%) saturate(4713%) hue-rotate(348deg) brightness(92%) contrast(94%);
 }
 .mp-check-all-btn a {
   display: flex;
@@ -4427,7 +4427,7 @@ label.add-files:focus, label.add-files:hover {
   color: #003671;
 }
 .product_card_tabs .tab-content .tab-pane .table-container table tbody tr td a:hover img {
-  filter: invert(13%) sepia(96%) saturate(7041%) hue-rotate(319deg) brightness(89%) contrast(110%);
+  filter: brightness(0) saturate(100%) invert(35%) sepia(94%) saturate(4713%) hue-rotate(348deg) brightness(92%) contrast(94%);
 }
 .product_card_tabs .tab-content .tab-pane .table-container table tbody tr td .two-lines p {
   font-size: 16px;
@@ -4500,7 +4500,7 @@ label.add-files:focus, label.add-files:hover {
   align-items: center;
 }
 .product_card_tabs .tab-content .tab-pane .movies-container_slot__bottom .desc_right a:hover img {
-  filter: invert(13%) sepia(96%) saturate(7041%) hue-rotate(319deg) brightness(89%) contrast(110%);
+  filter: brightness(0) saturate(100%) invert(35%) sepia(94%) saturate(4713%) hue-rotate(348deg) brightness(92%) contrast(94%);
 }
 .product_card_tabs .tab-content .tab-pane .movies-container_slot__bottom .desc_right img {
   -o-object-fit: contain;
@@ -5619,7 +5619,7 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 .delete-icon img:hover {
-  filter: invert(13%) sepia(96%) saturate(7041%) hue-rotate(319deg) brightness(89%) contrast(110%);
+  filter: brightness(0) saturate(100%) invert(35%) sepia(94%) saturate(4713%) hue-rotate(348deg) brightness(92%) contrast(94%);
 }
 
 .cart_container.step_two .cart-products-table tr td {

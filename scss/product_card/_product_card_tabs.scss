@@ -182,8 +182,9 @@
                   }
                   &:hover {
                     img {
-                      filter: invert(13%) sepia(96%) saturate(7041%)
-                        hue-rotate(319deg) brightness(89%) contrast(110%);
+                      filter: brightness(0) saturate(100%) invert(35%)
+                        sepia(94%) saturate(4713%) hue-rotate(348deg)
+                        brightness(92%) contrast(94%);
                     }
                   }
                 }
@@ -265,8 +266,9 @@
               a {
                 &:hover {
                   img {
-                    filter: invert(13%) sepia(96%) saturate(7041%)
-                      hue-rotate(319deg) brightness(89%) contrast(110%);
+                    filter: brightness(0) saturate(100%) invert(35%) sepia(94%)
+                      saturate(4713%) hue-rotate(348deg) brightness(92%)
+                      contrast(94%);
                   }
                 }
               }

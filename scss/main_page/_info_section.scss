@@ -23,21 +23,13 @@
         align-items: center;
         justify-content: center;
         text-decoration: none;
-        &:hover {
-          p {
-            color: $main-color !important;
-          }
-          img {
-            filter: invert(13%) sepia(96%) saturate(7041%) hue-rotate(319deg)
-              brightness(89%) contrast(110%);
-          }
-        }
         .info_section__top {
           display: flex;
           flex-direction: column;
           align-items: center;
           justify-content: center;
           text-align: center;
+          max-width: 120px;
           img {
             height: 50px;
             width: auto;
@@ -51,7 +43,6 @@
             color: $text_color;
             text-transform: uppercase;
             width: auto;
-            max-width: 240px;
             margin: 30px 0 8px 0;
             height: 60px;
           }
@@ -66,6 +57,15 @@
             color: $small_text_color;
             text-align: center;
             width: 80%;
+          }
+        }
+        &:hover {
+          p {
+            color: $main-color-second;
+          }
+          img {
+            filter: brightness(0) saturate(100%) invert(35%) sepia(94%)
+              saturate(4713%) hue-rotate(348deg) brightness(92%) contrast(94%);
           }
         }
       }
