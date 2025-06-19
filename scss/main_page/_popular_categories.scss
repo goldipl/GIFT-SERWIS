@@ -19,17 +19,26 @@
     display: flex;
     flex-direction: row;
     gap: 28px;
+    @media (max-width: 1200px) {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+    }
     &__slot {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       text-decoration: none;
+      min-width: 140px;
       width: 150px;
       height: 140px;
       background-color: $white;
       border-radius: 11px;
       gap: 12px;
+      @media (max-width: 991px) {
+        padding: 8px;
+      }
       &:hover {
         box-shadow: 0px 10.93px 13.45px 0px #00000026;
         background-color: $main-color-second;
@@ -46,6 +55,9 @@
         height: auto;
         max-width: 50px;
         max-height: 50px;
+        @media (max-width: 991px) {
+          width: 40px;
+        }
       }
     }
     &__name {
@@ -55,6 +67,9 @@
         line-height: 120%;
         color: $text_color;
         text-align: center;
+        @media (max-width: 991px) {
+          font-size: 14px;
+        }
       }
     }
   }
