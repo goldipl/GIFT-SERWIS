@@ -7,8 +7,8 @@
         </div>
         <div class="d-flex">
             <div class=" topbar-contact d-flex flex-row align-items-center">
-                <a href="mailto:gift@giftserwis.com.pl"><img src="./assets/icons/common/topbar/envelope.svg" alt="mail">gift@giftserwis.com.pl</a>
-                <a href="tel:91 433 97 11"><img src="./assets/icons/common/topbar/telephone.svg" alt="telefon">91 433 97 11</a>
+                <a class="gtm-mail" href="mailto:gift@giftserwis.com.pl"><img src="./assets/icons/common/topbar/envelope.svg" alt="mail">gift@giftserwis.com.pl</a>
+                <a class="gtm-phone" href="tel:91 433 97 11"><img src="./assets/icons/common/topbar/telephone.svg" alt="telefon">91 433 97 11</a>
             </div>
         </div>
     </div>
