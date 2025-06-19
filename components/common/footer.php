@@ -5,27 +5,7 @@
                 <img src="./assets/icons/common/footer/logo-footer.svg" alt="GiftSerwis - Dystrybutor gadżetów reklamowych" width="301" height="86">
             </div>
             <div class="footer-text">
-                <strong>Tysiące gadżetów w jednych miejscu!</strong>
-            </div>
-            <div class="footer-text">
-                <p>Oferujemy najciekawszy wybór gadżetów reklamowych oraz darmowe narzędzia  wspierające sprzedaż dla agencji reklamowych - sprawdź co możesz zyskać!</p>
-            </div>
-            <div class="socials-footer">
-                <a href="" rel="nofollow" target="_blank">
-                    <img src="./assets/icons/common/footer/facebook.svg" alt="facebook" width="26" height="26">
-                </a>
-                <a href="" rel="nofollow" target="_blank">
-                    <img src="./assets/icons/common/footer/youtube.svg" alt="youtube" width="26" height="26">
-                </a>
-                <a href="" rel="nofollow" target="_blank">
-                    <img src="./assets/icons/common/footer/instagram.svg" alt="instagram" width="26" height="26">
-                </a>
-                <a href="" rel="nofollow" target="_blank">
-                    <img src="./assets/icons/common/footer/pinterest.svg" alt="pinterest" width="26" height="26">
-                </a>
-                <a href="" rel="nofollow" target="_blank">
-                    <img src="./assets/icons/common/footer/linkedin.svg" alt="linkedin" width="26" height="26">
-                </a>
+                <p>Bardzo szeroki zakres dostarczanych przez nas artykułów począwszy od  porcelany, poprzez tekstylia, produkty codziennego użytku, artykuły  piśmienne, na elektronice kończąc, daje możliwość współpracy z  odbiorcami praktycznie każdej branży.</p>
             </div>
         </div>
         <div class="d-flex flex-column align-items-center col-2 second-column">
@@ -78,6 +58,6 @@
         </div>
     </div>
     <div class="footer__container__bottom d-flex justify-content-center align-items-center">
-        <p>All rights reserved. Copyright by PCM Sp. z o.o. EASY GIFTS Sp.k. 2016 - <span></span>.</p><p class="contip">Realizacja <a href="https://www.contip.net/"><img src="./assets/img/common/footer/contip-logo.png" height="24" alt="Contip logo"></a></p>
+        <p>All rights reserved. Copyright by GIFTSERWIS <span></span>.</p><p class="contip">Realizacja <a href="https://www.contip.net/"><img src="./assets/img/common/footer/contip-logo.png" height="24" alt="Contip logo"></a></p>
     </div>
 </div>
