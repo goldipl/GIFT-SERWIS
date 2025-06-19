@@ -2360,7 +2360,7 @@ label.add-files:focus, label.add-files:hover {
 }
 @media (max-width: 576px) {
   #info_section {
-    padding: 32px 0;
+    padding: 64px 0 40px 0;
   }
   #info_section .info-section-box__slot .info_section__top {
     flex-direction: column;
@@ -3358,6 +3358,11 @@ label.add-files:focus, label.add-files:hover {
   background-color: #f2f3f7;
   padding: 60px 0 80px 0;
 }
+@media (max-width: 991px) {
+  #why_we {
+    padding: 32px 0;
+  }
+}
 #why_we .container {
   max-width: 1240px;
 }
@@ -3488,6 +3493,11 @@ label.add-files:focus, label.add-files:hover {
 #about_us {
   position: relative;
   padding: 62px 0;
+}
+@media (max-width: 991px) {
+  #about_us {
+    padding: 32px 0 0 0;
+  }
 }
 #about_us .about-us-box {
   display: flex;
