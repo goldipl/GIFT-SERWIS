@@ -96,100 +96,59 @@ body #main-wrapper.opened-menu::after {
   height: 40px;
   z-index: 11;
 }
+@media (max-width: 991px) {
+  #topbar {
+    height: auto;
+    padding: 4px 16px;
+  }
+}
 #topbar .container {
   height: 40px;
   padding: 0;
 }
-#topbar .container .topbar-lang {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-  position: relative;
-  margin-left: 16px;
+@media (max-width: 991px) {
+  #topbar .container {
+    flex-direction: column;
+    justify-content: flex-end !important;
+    align-items: flex-end !important;
+  }
 }
-#topbar .container .topbar-lang .flag-toggle {
-  cursor: pointer;
-}
-#topbar .container .topbar-lang .flag-toggle .flag-arrow {
-  display: inline-flex;
-  align-items: center;
-  margin-left: 4px;
-}
-#topbar .container .topbar-lang .flag-toggle .flag-arrow img {
-  width: 9px;
-  height: auto;
-}
-#topbar .container .topbar-lang .flag-modal {
-  display: none;
-  position: absolute;
-  top: 40px;
-  right: 0;
-}
-#topbar .container .topbar-lang .flag-modal .flag-modal-content {
-  display: flex;
-  padding: 16px;
-  background-color: #f0f0f0;
-  border: 1px solid #000000;
-  cursor: pointer;
-}
-#topbar .container .topbar-lang .flag-modal .flag-modal-content:hover {
-  opacity: 0.8;
-}
-#topbar .container .topbar-lang .flag-modal .flag-modal-content .flag-img {
-  cursor: pointer;
-}
-#topbar .container .topbar-socials a {
-  margin-right: 8px;
-  filter: invert(1) brightness(2);
-}
-#topbar .container .topbar-socials a img {
-  width: 20px;
-  height: 20px;
-}
-#topbar .container .topbar-socials a:hover {
-  filter: invert(13%) sepia(96%) saturate(7041%) hue-rotate(319deg) brightness(89%) contrast(110%);
-}
-#topbar .container div:not(.topbar-lang) a {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1;
-  color: #003671;
-  text-decoration: none;
-}
-#topbar .container div:not(.topbar-lang) a:first-of-type {
-  padding-left: 0 !important;
-}
-#topbar .container div:not(.topbar-lang) a.active, #topbar .container div:not(.topbar-lang) a:hover {
-  color: #003671;
-}
-#topbar .container div:not(.topbar-lang) span {
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1;
+#topbar .container .topbar-links a,
+#topbar .container .topbar-contact a {
   color: #374957;
-  height: 26px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 133%;
+  text-decoration: none;
+  padding: 2px 0;
+}
+@media (max-width: 991px) {
+  #topbar .container .topbar-links a,
+  #topbar .container .topbar-contact a {
+    font-size: 12px;
+  }
+  #topbar .container .topbar-links a img,
+  #topbar .container .topbar-contact a img {
+    width: 16px;
+    height: 16px;
+  }
+}
+#topbar .container .topbar-links a:hover,
+#topbar .container .topbar-contact a:hover {
+  color: #e63027;
+}
+#topbar .container .topbar-links a:hover img,
+#topbar .container .topbar-contact a:hover img {
+  filter: brightness(0) saturate(100%) invert(35%) sepia(94%) saturate(4713%) hue-rotate(348deg) brightness(92%) contrast(94%);
+}
+#topbar .container .topbar-links a img,
+#topbar .container .topbar-contact a img {
+  margin-right: 8px;
+}
+#topbar .container .topbar-contact {
+  gap: 24px;
 }
 
-@media (max-width: 1200px) {
-  #topbar .container div a {
-    font-size: 13px;
-  }
-}
-@media (max-width: 992px) {
-  #topbar > .container {
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
-  }
-  .topbar-links a {
-    font-size: 12px !important;
-    padding: 1rem 0.5rem !important;
-  }
-  .topbar-links a:nth-of-type(1), .topbar-links a:nth-of-type(2), .topbar-links a:nth-of-type(3), .topbar-links a:nth-of-type(4), .topbar-links a:nth-of-type(5), .topbar-links a:nth-of-type(6) {
-    display: none;
-  }
-}
 nav .navbar-brand img {
   font-size: 12px;
 }
