@@ -253,6 +253,7 @@
     top: 50%;
     right: -56px;
     z-index: 1;
+    border-radius: 100%;
     &::after {
       display: none;
     }
@@ -269,6 +270,7 @@
     top: 50%;
     left: -56px;
     z-index: 1;
+    border-radius: 100%;
     &::after {
       display: none;
     }

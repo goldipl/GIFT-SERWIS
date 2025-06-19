@@ -2003,6 +2003,7 @@ label.add-files:focus, label.add-files:hover {
   top: 50%;
   right: -56px;
   z-index: 1;
+  border-radius: 100%;
 }
 .promo_products_swiper .swiper-button-next::after,
 .our_products_swiper .swiper-button-next::after,
@@ -2031,6 +2032,7 @@ label.add-files:focus, label.add-files:hover {
   top: 50%;
   left: -56px;
   z-index: 1;
+  border-radius: 100%;
 }
 .promo_products_swiper .swiper-button-prev::after,
 .our_products_swiper .swiper-button-prev::after,
