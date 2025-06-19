@@ -21,9 +21,7 @@
             <?php include "./components/main_page/popular_categories.php"; ?> 
             <?php include "./components/main_page/promo_products.php"; ?>  
             <?php include "./components/main_page/banners.php"; ?> 
-            <?php include "./components/main_page/news.php"; ?> 
-            <?php include "./components/main_page/about_us.php"; ?>
-            <?php include "./components/main_page/blog.php"; ?>   
+            <?php include "./components/main_page/about_us.php"; ?> 
             <?php include "./components/main_page/info_section.php"; ?> 
         </main>
         <footer> 

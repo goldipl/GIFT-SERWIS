@@ -1,5 +1,21 @@
 #about_us {
-  margin-bottom: 77px;
+  position: relative;
+  background-color: $light_grey;
+  padding: 60px 0 60px 0;
+  .container {
+    max-width: 1240px;
+  }
+  &::before {
+    position: absolute;
+    display: block;
+    content: "";
+    background-color: $light_grey;
+    left: calc((100vw - 1576px) / 2 * (-1));
+    top: 0;
+    width: 100vw;
+    height: 100%;
+    z-index: -1;
+  }
   .mp-titles {
     padding: 0 !important;
     .flex-row {

@@ -16,7 +16,7 @@
       <div class="swiper-wrapper">
         <!-- Slide -->
         <div class="swiper-slide">
-          <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+          <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-start text-decoration-none">
             <div class="swiper_products_block_box__top">
               <a href="#" class="products-image" rel="nofollow">
                 <img src="./assets/img/main_page/products/green_pen.jpg" alt="products img" width="200" height="200">
@@ -55,7 +55,7 @@
         </div>
         <!-- Slide -->
         <div class="swiper-slide">
-          <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+          <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-start text-decoration-none">
             <div class="swiper_products_block_box__top">
               <a href="#" class="products-image" rel="nofollow">
                 <img src="./assets/img/main_page/products/headphones.jpg" alt="products block img" width="200" height="200">
@@ -94,7 +94,7 @@
         </div>
         <!-- Slide -->
         <div class="swiper-slide">
-          <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+          <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-start text-decoration-none">
             <div class="swiper_products_block_box__top">
               <a href="#" class="products-image" rel="nofollow">
                 <img src="./assets/img/main_page/products/green_pen.jpg" alt="products img" width="200" height="200">
@@ -133,7 +133,7 @@
         </div>
         <!-- Slide -->
         <div class="swiper-slide">
-          <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+          <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-start text-decoration-none">
             <div class="swiper_products_block_box__top">
               <a href="#" class="products-image" rel="nofollow">
                 <img src="./assets/img/main_page/products/headphones.jpg" alt="products block img" width="200" height="200">
@@ -172,7 +172,7 @@
         </div>
         <!-- Slide -->
         <div class="swiper-slide">
-          <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+          <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-start text-decoration-none">
             <div class="swiper_products_block_box__top">
               <a href="#" class="products-image" rel="nofollow">
                 <img src="./assets/img/main_page/products/green_pen.jpg" alt="products img" width="200" height="200">
@@ -211,7 +211,7 @@
         </div>
         <!-- Slide -->
         <div class="swiper-slide">
-          <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
+          <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-start text-decoration-none">
             <div class="swiper_products_block_box__top">
               <a href="#" class="products-image" rel="nofollow">
                 <img src="./assets/img/main_page/products/headphones.jpg" alt="products block img" width="200" height="200">
