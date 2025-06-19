@@ -16,9 +16,7 @@
             <?php include "./components/common/nav.php"; ?> 
         </header>
         <main id="main-wrapper">
-            <?php include "./components/branding_page/hero.php"; ?> 
-            <?php include "./components/branding_page/branding_title.php"; ?> 
-            <?php include "./components/branding_page/branding_articles.php"; ?> 
+            <?php include "./components/branding/branding.php"; ?> 
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 
