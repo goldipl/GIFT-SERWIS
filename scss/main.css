@@ -462,7 +462,6 @@ nav .navbar-bottom .main-nav-item > a.big-dropdown.show::after {
     position: relative;
     grid-template-columns: repeat(4, 1fr);
     margin: 0 !important;
-    border: 0 !important;
     --bs-dropdown-spacer: 0 !important;
     --bs-dropdown-padding-y: 0 !important;
     min-height: 36px;
@@ -470,6 +469,7 @@ nav .navbar-bottom .main-nav-item > a.big-dropdown.show::after {
     background-color: #f2f3f7;
     border-radius: 0 0 50px 50px !important;
     width: 100%;
+    border-top: 1px solid #e63027;
   }
   nav .dropdown-menu.show {
     display: grid;
