@@ -1,7 +1,8 @@
 nav {
   .navbar-brand {
     img {
-      font-size: 12px;
+      width: 195px;
+      height: 55px;
     }
   }
   .container-fluid {
@@ -14,9 +15,10 @@ nav {
       width: 901px;
       height: 45px;
       background-color: $light_grey;
-      padding: 0 60px 0 38px;
-      border-radius: 30px;
+      padding: 0 170px 0 38px;
+      border-radius: 16px;
       border: 1px solid $grey11;
+      box-sizing: border-box;
       &::placeholder {
         font-size: 16px;
         font-weight: 300;
@@ -25,8 +27,26 @@ nav {
       }
       &:hover,
       &:active {
-        border: 1px solid $main-color-second;
+        border: 1px solid $main-color;
       }
+    }
+    .vertical-line {
+      position: absolute;
+      top: 14px;
+      right: 190px;
+      display: block;
+      width: 1px;
+      height: 20px;
+      background-color: $main-color;
+    }
+    #search-query-select {
+      background-color: $light_grey;
+      position: absolute;
+      top: 14px;
+      right: 88px;
+      font-size: 14px;
+      color: $main-color;
+      border: 0;
     }
     button {
       all: unset;
@@ -51,24 +71,17 @@ nav {
       flex-direction: row;
       align-items: center;
     }
-    .cart-value {
+    .cart-value-text {
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: flex-end;
       font-weight: 700;
-      font-size: 18px;
-      line-height: 28.8px;
+      font-size: 14px;
+      line-height: 1;
+      margin: 4px 0 0 8px;
+      width: 46px;
       color: $black;
-      width: 100%;
-      .cart-value-text {
-        display: flex;
-        font-weight: 700;
-        font-size: 12px;
-        line-height: 19.2px;
-        margin: 4px 0 0 4px;
-        width: 100%;
-      }
     }
     a {
       span {
@@ -80,11 +93,11 @@ nav {
       }
       &:hover {
         span {
-          color: $main-color;
+          color: $main-color-second;
         }
         svg {
-          filter: invert(13%) sepia(96%) saturate(7041%) hue-rotate(319deg)
-            brightness(89%) contrast(110%) !important;
+          filter: brightness(0) saturate(100%) invert(35%) sepia(94%)
+            saturate(4713%) hue-rotate(348deg) brightness(92%) contrast(94%);
         }
       }
       &.nav-cart-icon,
@@ -102,9 +115,9 @@ nav {
           filter: invert(0) brightness(0);
         }
         .cart-icon {
-          margin-top: -10px;
+          margin-right: 24px;
           @media (max-width: 991px) {
-            height: 40px;
+            height: 30px;
             width: auto;
           }
         }
@@ -114,9 +127,9 @@ nav {
           position: absolute;
           display: flex;
           justify-content: center;
-          top: -8px;
+          top: 0px;
           right: 8px;
-          background-color: $main-color;
+          background-color: $main-color-second;
           border-radius: 100%;
           z-index: 10;
           min-width: 27px;
@@ -172,12 +185,6 @@ nav {
     }
   }
   .navbar-bottom {
-    .offert-nav-toggler {
-      margin-right: 120px;
-      @media (max-width: 1360px) {
-        margin-right: auto;
-      }
-    }
     .main-nav-item {
       &:first-of-type {
         > a {
@@ -191,12 +198,11 @@ nav {
       }
     }
     .main-nav-item > a {
-      font-size: 16px;
-      font-style: normal;
+      font-family: Instrument Sans;
       font-weight: 500;
-      line-height: 177.023%;
-      text-transform: uppercase;
-      color: $text_color;
+      font-size: 16px;
+      line-height: 177%;
+      color: $black;
       padding: 10px;
       margin: 0 15px;
       @media (max-width: 1220px) {
@@ -204,15 +210,24 @@ nav {
       }
       &:hover,
       &.active {
-        color: $main-color;
-        text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
-        &::after {
-          border-top: 0.3em solid $main-color !important;
-        }
+        color: $main-color-second;
       }
-      &.show {
-        &::after {
-          transform: rotate(180deg);
+      &.big-dropdown {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: $main-color;
+        border: 1px solid $main-color;
+        color: $white;
+        border-radius: 10px;
+        height: 42px;
+        &.show {
+          background-color: $main-color-second;
+          border: 1px solid $main-color-second;
+          &::after {
+            rotate: 180deg;
+          }
         }
       }
     }
@@ -231,10 +246,10 @@ nav {
 
 @media (min-width: 992px) {
   header {
-    height: 184px;
+    height: 244px;
   }
   nav {
-    height: 144px;
+    height: 203px;
     .navbar-brand-mobile {
       display: none;
     }
@@ -250,12 +265,32 @@ nav {
     }
     .navbar-bottom {
       position: absolute;
-      top: 84px;
+      top: 76px;
       left: 0;
       display: flex;
-      height: 60px;
-      .main-nav-item {
-        height: 60px;
+      height: 128px;
+      .dropdown {
+        position: static !important;
+      }
+      .bottom-nav-categories {
+        height: 40px;
+        margin-bottom: 16px;
+      }
+      .offert-nav-toggler {
+        height: 40px;
+        padding: 6px 0 16px 0;
+        width: 100%;
+        gap: 60px;
+        .nav-item {
+          width: 33%;
+          .nav-link {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 177%;
+            text-transform: uppercase;
+            margin: 0;
+          }
+        }
       }
     }
     .nav-account-cart {
@@ -272,34 +307,33 @@ nav {
     }
     .dropdown-menu {
       position: relative;
+      grid-template-columns: repeat(4, 1fr);
       margin: 0 !important;
       border: 0 !important;
-      border-radius: 0 !important;
       --bs-dropdown-spacer: 0 !important;
       --bs-dropdown-padding-y: 0 !important;
       min-height: 36px;
       padding: 21px 39px;
       background-color: $light_grey;
-      &.show:not(.second-lvl-menu) {
-        &::before {
-          position: absolute;
-          top: 0;
-          right: 0;
-          content: "";
-          display: block;
-          width: 100vw;
-          height: 100%;
-          background-color: $light_grey;
-          z-index: -1;
-        }
+      border-radius: 0 0 50px 50px !important;
+      width: 100%;
+      &.show {
+        display: grid;
       }
       li {
-        margin-left: -39px;
-        margin-right: -39px;
         margin-bottom: 6px;
         a {
-          padding-left: 39px;
-          padding-right: 39px;
+          padding: 8px 16px;
+          border-radius: 10px;
+          width: max-content;
+          img {
+            margin-right: 18px;
+          }
+          &:hover {
+            img {
+              filter: invert(1) brightness(220);
+            }
+          }
         }
       }
       &.second-lvl-menu {
@@ -347,8 +381,21 @@ nav {
       input {
         width: 100%;
         height: 48px;
-        padding: 0 60px 0 16px;
+        padding: 0 144px 0 16px;
         margin: 0 !important;
+        font-size: 14px;
+        &::placeholder {
+          font-size: 14px;
+        }
+      }
+      button {
+        right: 16px;
+      }
+      #search-query-select {
+        right: 48px;
+      }
+      .vertical-line {
+        right: 140px;
       }
     }
     .navbar-brand-desktop {
@@ -372,12 +419,23 @@ nav {
           }
         }
       }
+      .cart-value-text {
+        font-size: 13px;
+      }
     }
     .navbar-bottom {
       align-items: flex-start !important;
       .offert-nav-toggler {
+        flex-direction: column;
         margin-right: unset;
         width: 100%;
+        gap: 6px;
+        margin-top: 8px;
+        .dropdown-item {
+          img {
+            margin-right: 12px;
+          }
+        }
       }
       .bottom-nav-categories {
         flex-direction: column;
@@ -390,6 +448,7 @@ nav {
         .dropdown-toggle,
         > a {
           font-size: 16px;
+          padding: 6px 0;
         }
         .dropdown-item {
           font-size: 14px;
