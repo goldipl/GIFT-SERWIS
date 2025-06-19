@@ -3,6 +3,10 @@ nav {
     img {
       width: 195px;
       height: 55px;
+      @media (max-width: 991px) {
+        width: auto;
+        height: 45px;
+      }
     }
   }
   .container-fluid {

@@ -153,6 +153,12 @@ nav .navbar-brand img {
   width: 195px;
   height: 55px;
 }
+@media (max-width: 991px) {
+  nav .navbar-brand img {
+    width: auto;
+    height: 45px;
+  }
+}
 nav .container-fluid {
   padding: 0 !important;
 }
