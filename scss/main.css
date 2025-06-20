@@ -2460,7 +2460,7 @@ label.add-files:focus, label.add-files:hover {
   max-width: 200px;
   -o-object-fit: contain;
      object-fit: contain;
-  padding: 15px 15px 0 15px;
+  padding: 0 15px;
 }
 .promo_products_swiper .swiper_products_block_box__top .products-title {
   display: -webkit-box;
@@ -8259,6 +8259,7 @@ main.grey-background {
   margin-right: 24px;
   margin-bottom: 24px;
   border-radius: 10px;
+  height: 530px;
 }
 .category-filters-main__slot:nth-of-type(4n) {
   margin-right: 0;
@@ -8280,13 +8281,13 @@ main.grey-background {
   justify-content: center;
   align-items: center;
   width: auto;
-  padding: 3px 27px;
+  padding: 0px 19px;
   margin: 30px 5px;
-  height: 27px;
+  height: 25px;
   border-radius: 5px;
 }
 .category-filters-main__slot .product-label-box .product-label p {
-  font-size: 14px;
+  font-size: 11px;
   font-style: normal;
   font-weight: 600;
   line-height: 21px;
@@ -8348,7 +8349,7 @@ main.grey-background {
   text-transform: uppercase;
 }
 .category-filters-main__slot__top {
-  padding: 24px 32px 0 32px;
+  padding: 0 18px 18px 18px;
 }
 .category-filters-main__slot__top .products-image {
   display: flex;
@@ -8363,7 +8364,7 @@ main.grey-background {
   max-width: 160px;
   -o-object-fit: contain;
      object-fit: contain;
-  padding: 15px 15px 0 15px;
+  padding: 0 15px;
 }
 .category-filters-main__slot__top .products-title {
   display: -webkit-box;
@@ -8371,14 +8372,14 @@ main.grey-background {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-align: left;
-  height: 60px;
+  height: 45px;
   width: 100%;
   margin: 0 auto 16px;
   text-decoration: none;
   text-transform: uppercase;
 }
 .category-filters-main__slot__top .products-title h3 {
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 137%;
@@ -8407,9 +8408,9 @@ main.grey-background {
   margin-bottom: 28px;
 }
 .category-filters-main__slot__top .products-colors .color {
-  width: 20px;
-  min-width: 20px !important;
-  height: 20px;
+  width: 15px;
+  min-width: 15px !important;
+  height: 15px;
   box-sizing: border-box;
   margin-right: 5px;
   margin-bottom: 5px;
@@ -8452,7 +8453,7 @@ main.grey-background {
   display: block;
   text-align: left;
   width: 100%;
-  margin: 0 0 16px 0;
+  margin: 0 0 8px 0;
 }
 .category-filters-main__slot__top .products-code p {
   font-size: 13px;
@@ -8471,7 +8472,7 @@ main.grey-background {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  font-size: 16px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
@@ -8480,7 +8481,7 @@ main.grey-background {
 }
 .category-filters-main__slot__top .catalog-price p span {
   display: inline-flex;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   color: #21a500;
   margin: 6px 0 0 0;
