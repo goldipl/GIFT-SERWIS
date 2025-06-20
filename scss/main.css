@@ -399,6 +399,10 @@ nav .navbar-bottom .main-nav-item > a.big-dropdown {
   border-radius: 10px;
   height: 42px;
 }
+nav .navbar-bottom .main-nav-item > a.big-dropdown:hover {
+  background-color: #e63027;
+  border: 1px solid #e63027;
+}
 nav .navbar-bottom .main-nav-item > a.big-dropdown.show {
   background-color: #e63027;
   border: 1px solid #e63027;

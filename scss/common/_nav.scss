@@ -230,6 +230,10 @@ nav {
         color: $white;
         border-radius: 10px;
         height: 42px;
+        &:hover {
+          background-color: $main-color-second;
+          border: 1px solid $main-color-second;
+        }
         &.show {
           background-color: $main-color-second;
           border: 1px solid $main-color-second;
