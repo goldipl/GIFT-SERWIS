@@ -7990,6 +7990,7 @@ main.grey-background {
   border: 1px solid #e6e6e6;
   border-bottom: 0;
   width: 296px;
+  border-radius: 10px;
 }
 .category-left-filters-box__button h3 {
   font-size: 16px;
