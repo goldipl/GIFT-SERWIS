@@ -28,19 +28,19 @@
   left: 2px;
   height: 18px;
   width: 18px;
-  background-color: #eee;
+  background-color: $main-color;
   border-radius: 50%;
   border: 1px solid $main-color;
 }
 
 /* On mouse-over, add a grey background color */
 .custom-radio-container:hover input ~ .custom-radio-checkmark {
-  background-color: #d9d9d9;
+  background-color: $grey3;
 }
 
 /* When the radio button is checked, add a background */
 .custom-radio-container input:checked ~ .custom-radio-checkmark {
-  background-color: #d9d9d9;
+  background-color: $main-color !important;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -114,17 +114,18 @@
   left: 0;
   height: 25px;
   width: 25px;
-  background-color: #eee;
+  background-color: $grey13;
+  border-radius: 100%;
 }
 
 /* On mouse-over, add a grey background color */
 .custom-checkbox-container:hover input ~ .custom-checkbox-checkmark {
-  background-color: #ccc;
+  background-color: $grey3;
 }
 
 /* When the checkbox is checked, add a grey background */
 .custom-checkbox-container input:checked ~ .custom-checkbox-checkmark {
-  background-color: #f4f4f4;
+  background-color: $main-color !important;
   outline: 1px solid $main-color;
 }
 
@@ -146,7 +147,7 @@
   top: 5px;
   width: 6px;
   height: 12px;
-  border: solid $main-color;
+  border: solid $white;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);

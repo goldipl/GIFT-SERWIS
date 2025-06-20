@@ -6,25 +6,6 @@
     <div class="category-left-filters">
         <div class="category-left-filters__slot">
             <div class="header">
-                <h3>Filtruj</h3>
-            </div>
-            <div class="content">
-                <label class="custom-checkbox-container">Nowość <input type="checkbox" class="custom_input">
-                    <span class="custom-checkbox-checkmark"></span>
-                </label>
-                <label class="custom-checkbox-container">Bestseller <input type="checkbox" class="custom_input">
-                    <span class="custom-checkbox-checkmark"></span>
-                </label>
-                <label class="custom-checkbox-container">Promocja <input type="checkbox" class="custom_input">
-                    <span class="custom-checkbox-checkmark"></span>
-                </label>
-                <label class="custom-checkbox-container">Ekologiczny <input type="checkbox" class="custom_input">
-                    <span class="custom-checkbox-checkmark"></span>
-                </label>
-            </div>
-        </div>
-        <div class="category-left-filters__slot">
-            <div class="header">
                 <h3>Cena</h3>
             </div>
             <div class="content">
@@ -36,41 +17,7 @@
                     <div class="row-inputs__right">
                         <input class="form-input" type="text" name="price-right-input" id="price-right-input" placeholder="Do" min="0">
                     </div>
-                    <span class="spacer btn-spacer"></span>
-                    <div class="row-inputs__right">
-                        <button type="submit" class="color-btn small-btn">Zastosuj</button>                            
-                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="category-left-filters__slot">
-            <div class="header">
-                <h3>Ilość</h3>
-            </div>
-            <div class="content">
-                <div class="row-inputs">
-                    <input class="form-input" type="text" name="quantity-input" id="quantity-input" min="1">
-                    <span class="spacer btn-spacer"></span>
-                    <div class="row-inputs__right">
-                        <button type="submit" class="color-btn small-btn">Zastosuj</button>                            
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="category-left-filters__slot">
-            <div class="header">
-                <h3>Dostępność</h3>
-            </div>
-            <div class="content">
-                <label class="custom-checkbox-container">24h/48h <input type="checkbox" class="custom_input">
-                    <span class="custom-checkbox-checkmark"></span>
-                </label>
-                <label class="custom-checkbox-container">2-3 dni <input type="checkbox" class="custom_input">
-                    <span class="custom-checkbox-checkmark"></span>
-                </label>
-                <label class="custom-checkbox-container">Dostawa <input type="checkbox" class="custom_input">
-                    <span class="custom-checkbox-checkmark"></span>
-                </label>
             </div>
         </div>
         <div class="category-left-filters__slot">
@@ -126,7 +73,38 @@
         </div>
         <div class="category-left-filters__slot">
             <div class="header">
-                <h3>Znakowanie</h3>
+                <h3>Materiał</h3>
+            </div>
+            <div class="content">
+                <label class="custom-checkbox-container">Bambus <input type="checkbox" class="custom_input">
+                    <span class="custom-checkbox-checkmark"></span>
+                </label>
+                <label class="custom-checkbox-container">Plastik <input type="checkbox" class="custom_input">
+                    <span class="custom-checkbox-checkmark"></span>
+                </label>
+                <label class="custom-checkbox-container">Metal <input type="checkbox" class="custom_input">
+                    <span class="custom-checkbox-checkmark"></span>
+                </label>
+                <label class="custom-checkbox-container">Bawełna <input type="checkbox" class="custom_input">
+                    <span class="custom-checkbox-checkmark"></span>
+                </label>
+                <label class="custom-checkbox-container">Ceramika <input type="checkbox" class="custom_input">
+                    <span class="custom-checkbox-checkmark"></span>
+                </label>
+                <label class="custom-checkbox-container">Karton <input type="checkbox" class="custom_input">
+                    <span class="custom-checkbox-checkmark"></span>
+                </label>
+                <label class="custom-checkbox-container">Juta <input type="checkbox" class="custom_input">
+                    <span class="custom-checkbox-checkmark"></span>
+                </label>
+                <label class="custom-checkbox-container">Tworzywo sztuczne <input type="checkbox" class="custom_input">
+                    <span class="custom-checkbox-checkmark"></span>
+                </label>
+            </div>
+        </div>
+        <div class="category-left-filters__slot">
+            <div class="header">
+                <h3>Technika znakowania</h3>
             </div>
             <div class="content">
                 <label class="custom-checkbox-container">Tampodruk <input type="checkbox" class="custom_input">
@@ -171,39 +149,9 @@
                 </label>
             </div>
         </div>
-        <div class="category-left-filters__slot">
-            <div class="header">
-                <h3>Materiał</h3>
-            </div>
-            <div class="content">
-                <label class="custom-checkbox-container">Bambus <input type="checkbox" class="custom_input">
-                    <span class="custom-checkbox-checkmark"></span>
-                </label>
-                <label class="custom-checkbox-container">Plastik <input type="checkbox" class="custom_input">
-                    <span class="custom-checkbox-checkmark"></span>
-                </label>
-                <label class="custom-checkbox-container">Metal <input type="checkbox" class="custom_input">
-                    <span class="custom-checkbox-checkmark"></span>
-                </label>
-                <label class="custom-checkbox-container">Bawełna <input type="checkbox" class="custom_input">
-                    <span class="custom-checkbox-checkmark"></span>
-                </label>
-                <label class="custom-checkbox-container">Ceramika <input type="checkbox" class="custom_input">
-                    <span class="custom-checkbox-checkmark"></span>
-                </label>
-                <label class="custom-checkbox-container">Karton <input type="checkbox" class="custom_input">
-                    <span class="custom-checkbox-checkmark"></span>
-                </label>
-                <label class="custom-checkbox-container">Juta <input type="checkbox" class="custom_input">
-                    <span class="custom-checkbox-checkmark"></span>
-                </label>
-                <label class="custom-checkbox-container">Tworzywo sztuczne <input type="checkbox" class="custom_input">
-                    <span class="custom-checkbox-checkmark"></span>
-                </label>
-            </div>
-        </div>
         <div class="category-left-filters__slot buttons">
-            <a href="" class="white-btn filter-clear">Wyczyść</a>                
+            <button type="submit" class="filter-set-up color-btn">Zastosuj</button> 
+            <button type="submit" class="filter-clear white-btn">Wyczyść</button>                
         </div>
     </div>
 </div>

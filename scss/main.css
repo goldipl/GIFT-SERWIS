@@ -1602,19 +1602,19 @@ label.add-files:focus, label.add-files:hover {
   left: 2px;
   height: 18px;
   width: 18px;
-  background-color: #eee;
+  background-color: #003671;
   border-radius: 50%;
   border: 1px solid #003671;
 }
 
 /* On mouse-over, add a grey background color */
 .custom-radio-container:hover input ~ .custom-radio-checkmark {
-  background-color: #d9d9d9;
+  background-color: #c0c5c8;
 }
 
 /* When the radio button is checked, add a background */
 .custom-radio-container input:checked ~ .custom-radio-checkmark {
-  background-color: #d9d9d9;
+  background-color: #003671 !important;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -1679,17 +1679,18 @@ label.add-files:focus, label.add-files:hover {
   left: 0;
   height: 25px;
   width: 25px;
-  background-color: #eee;
+  background-color: #f4f4f4;
+  border-radius: 100%;
 }
 
 /* On mouse-over, add a grey background color */
 .custom-checkbox-container:hover input ~ .custom-checkbox-checkmark {
-  background-color: #ccc;
+  background-color: #c0c5c8;
 }
 
 /* When the checkbox is checked, add a grey background */
 .custom-checkbox-container input:checked ~ .custom-checkbox-checkmark {
-  background-color: #f4f4f4;
+  background-color: #003671 !important;
   outline: 1px solid #003671;
 }
 
@@ -1711,7 +1712,7 @@ label.add-files:focus, label.add-files:hover {
   top: 5px;
   width: 6px;
   height: 12px;
-  border: solid #003671;
+  border: solid #ffffff;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }
