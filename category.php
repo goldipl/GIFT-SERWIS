@@ -17,7 +17,7 @@
                 "itemListElement": [{
                     "@type": "ListItem",
                     "position": 1,
-                    "name": "Strona główna",
+                    "name": "Home",
                     "item": "https://www.GiftSerwis.com.pl/index.php"
                 }, {
                     "@type": "ListItem",
@@ -42,7 +42,7 @@
             <div class="breadcrumbs container">
                 <ul>
                     <li class="breadcrumb-item">
-                        <a href="./index.php">Strona główna</a>
+                        <a href="./index.php">Home</a>
                     </li>
                     <li class="breadcrumb-item">
                         <a href="#">Oferta</a>
