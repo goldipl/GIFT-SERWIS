@@ -67,6 +67,7 @@
                     </div>
                 </div>
             </div> 
+            <?php include "./components/main_page/info_section.php"; ?>
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 
