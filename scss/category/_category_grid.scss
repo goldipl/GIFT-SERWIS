@@ -6,8 +6,17 @@ main.grey-background {
   padding-bottom: 0;
 }
 
+.category-top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media (max-width: 991px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
 .category-wrapper {
-  background-color: $light_grey;
   margin-top: 40px;
   .container {
     display: flex;

@@ -38,7 +38,7 @@
             <?php include "./components/common/topbar.php"; ?> 
             <?php include "./components/common/nav.php"; ?> 
         </header>
-        <main id="main-wrapper" class="grey-background">
+        <main id="main-wrapper">
             <div class="breadcrumbs container">
                 <ul>
                     <li class="breadcrumb-item">
@@ -53,14 +53,15 @@
                 </ul>
             </div>
             <div class="category-wrapper">
+                <div class="container category-top-menu">
+                    <?php include "./components/category/category_top_seo_text.php"; ?> 
+                    <?php include "./components/category/category_top_filters.php"; ?> 
+                </div>
                 <div class="container">
                     <aside class="category-wrapper__left">
-                        <?php include "./components/category/category_menu.php"; ?> 
                         <?php include "./components/category/category_left_filters.php"; ?> 
                     </aside>
                     <div class="category-wrapper__right">
-                        <?php include "./components/category/category_top_seo_text.php"; ?> 
-                        <?php include "./components/category/category_top_filters.php"; ?> 
                         <?php include "./components/category/category_filters_main.php"; ?> 
                         <?php include "./components/common/pagination.php"; ?> 
                     </div>

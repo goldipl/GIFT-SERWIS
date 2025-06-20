@@ -1,16 +1,24 @@
 .category-top-seo-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 49px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  @media (max-width: 991px) {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 16px;
+    gap: 0;
+  }
   h1 {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 136%;
-    text-transform: uppercase;
-    color: $main-color-second;
-    margin-bottom: 19px;
+    color: $text_color;
   }
   .category-seo-top-desc {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 34px;
     p {
       font-family: Instrument Sans;
       font-weight: 400;

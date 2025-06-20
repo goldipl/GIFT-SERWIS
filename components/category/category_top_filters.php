@@ -1,12 +1,5 @@
 <div class="category-top-filters">
     <div class="category-top-filters__slot">
-        <label for="show-all-colors">Pokaż wszystkie kolory:</label>
-        <select name="show-all-colors" id="show-all-colors" class="form-select">
-            <option value="Nie">Nie</option>
-            <option value="Tak">Tak</option>
-        </select>
-    </div>
-    <div class="category-top-filters__slot">
         <label for="sort-by">Sortuj wg:</label>
         <select name="sort-by" id="sort-by" class="form-select">
             <option value="Nazwa produktu A-Z">Nazwa produktu A-Z</option>
