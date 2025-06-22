@@ -59,7 +59,8 @@
                 </div>
                 <div class="container">
                     <aside class="category-wrapper__left">
-                        <?php include "./components/category/category_left_filters.php"; ?> 
+                        <?php include "./components/category/category_left_filters.php"; ?>
+                        <?php include "./components/category/category_left_helpbox.php"; ?>  
                     </aside>
                     <div class="category-wrapper__right">
                         <?php include "./components/category/category_filters_main.php"; ?> 
