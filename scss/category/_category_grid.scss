@@ -4,6 +4,10 @@ main.grey-background {
 
 .category-filters-main + .pagination {
   padding-bottom: 0;
+  margin: 40px 0 64px 0;
+  @media (max-width: 991px) {
+    margin: 24px 0 32px 0;
+  }
 }
 
 .category-top-menu {

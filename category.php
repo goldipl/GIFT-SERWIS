@@ -64,6 +64,7 @@
                     <div class="category-wrapper__right">
                         <?php include "./components/category/category_filters_main.php"; ?> 
                         <?php include "./components/common/pagination.php"; ?> 
+                        <?php include "./components/category/category_bottom_seo_text.php"; ?> 
                     </div>
                 </div>
             </div> 
