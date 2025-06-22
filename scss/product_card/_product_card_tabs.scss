@@ -1,6 +1,8 @@
 .product_card_tabs {
   nav {
     height: unset;
+    background-color: $light_grey;
+    border-bottom: 1px solid $grey16;
     .nav-tabs {
       border-bottom: 0;
       width: 100%;
@@ -9,9 +11,8 @@
         padding: 24px 32px;
         width: max-content;
         height: 79px;
-        border-bottom: 2px solid $white;
         background-color: $light_grey;
-        color: $text_color;
+        color: $main-color;
         font-size: 20px;
         font-weight: 400;
         line-height: 177.023%;
@@ -25,9 +26,8 @@
         &:hover,
         &.active {
           font-weight: 600;
-          background-color: $white;
-          color: $main-color-second;
-          border-bottom: 2px solid $main-color;
+          background-color: $light_grey;
+          color: $main-color;
         }
       }
     }
@@ -48,7 +48,7 @@
       z-index: -1;
     }
     .tab-pane {
-      background-color: $white;
+      background-color: $light_grey;
       padding: 45px;
       &:hover,
       &:focus {

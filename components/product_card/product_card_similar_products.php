@@ -1,6 +1,7 @@
 <div class="product-card-similar-products">
     <div class="container">
         <h2>Podobne produkty</h2>
+        <div class="title-red-line"></div>
         <div id="promo_products_swiper" class="container position-relative">
             <div class="promo_products_swiper">
             <!-- Additional required wrapper -->
