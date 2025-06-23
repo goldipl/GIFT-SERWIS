@@ -3745,6 +3745,12 @@ label.add-files:focus, label.add-files:hover {
   width: max-content;
   max-height: 474px;
   cursor: zoom-in;
+  padding: 40px;
+}
+@media (max-width: 991px) {
+  .product_card_gallery_info .product-gallery .gallery img {
+    padding: 0;
+  }
 }
 .product_card_gallery_info .product-gallery .gallery-thumbs .swiper-slide {
   width: auto;

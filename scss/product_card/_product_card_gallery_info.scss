@@ -133,6 +133,10 @@
       width: max-content;
       max-height: 474px;
       cursor: zoom-in;
+      padding: 40px;
+      @media (max-width: 991px) {
+        padding: 0;
+      }
     }
 
     /* thumbs */
