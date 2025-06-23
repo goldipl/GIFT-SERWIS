@@ -79,20 +79,22 @@
             <div class="product-info_availability">Dostępnych: <span>23 szt.</span>
             </div>
         </div>
-        <p class="product-info_availability-colors-title">Dostępne kolory</p>
-        <div class="product-info_availability-colors">
-            <a href="#" class="color grey"></a>
-            <a href="#" class="color red"></a>
-            <a href="#" class="color yellow"></a>
-            <a href="#" class="color lightblue"></a>
-            <a href="#" class="color blue"></a>
-            <a href="#" class="color pink"></a>
-            <a href="#" class="color purple"></a>
-            <a href="#" class="color green"></a>
-            <a href="#" class="color black checked"></a>
-        </div>
         <div class="catalog-price">
-            <p>Cena katalogowa<span>7,56 PLN</span></p>
+            <p>Cena katalogowa:<span>7,56 zł <s>19,65 zł</s></span></p>
+        </div>
+        <div class="product-card-colors-box">
+            <p class="product-info_availability-colors-title">Kolor:</p>
+            <div class="product-info_availability-colors">
+                <a href="#" class="color grey"></a>
+                <a href="#" class="color red"></a>
+                <a href="#" class="color yellow"></a>
+                <a href="#" class="color lightblue"></a>
+                <a href="#" class="color blue"></a>
+                <a href="#" class="color pink"></a>
+                <a href="#" class="color purple"></a>
+                <a href="#" class="color green"></a>
+                <a href="#" class="color black checked"></a>
+            </div>
         </div>
     </div>
 </div>

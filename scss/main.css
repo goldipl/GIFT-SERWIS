@@ -1040,8 +1040,8 @@ footer .footer__container__bottom .contip img {
   }
 }
 .breadcrumbs {
-  padding-top: 26px;
-  margin-bottom: 26px;
+  padding-top: 15px;
+  margin-bottom: 15px;
 }
 .breadcrumbs ul {
   display: inline-flex;
@@ -3617,20 +3617,20 @@ label.add-files:focus, label.add-files:hover {
   background-color: #f2f3f7;
 }
 
-#main-wrapper:has(.product_card_gallery_info) #main-wrapper:has(.product_card_gallery_info) .breadcrumbs {
+#main-wrapper:has(.product_card_gallery_info) .breadcrumbs {
   position: relative;
   background-color: #f2f3f7;
   height: 65px;
-  padding-top: 20px;
+  padding-bottom: 24px;
 }
 @media (max-width: 760px) {
-  #main-wrapper:has(.product_card_gallery_info) #main-wrapper:has(.product_card_gallery_info) .breadcrumbs {
+  #main-wrapper:has(.product_card_gallery_info) .breadcrumbs {
     height: auto;
     padding-top: 6px;
     padding-bottom: 6px;
   }
 }
-#main-wrapper:has(.product_card_gallery_info) #main-wrapper:has(.product_card_gallery_info) .breadcrumbs::before {
+#main-wrapper:has(.product_card_gallery_info) .breadcrumbs::before {
   position: absolute;
   display: block;
   content: "";
@@ -3885,18 +3885,30 @@ label.add-files:focus, label.add-files:hover {
   outline: 1px solid #000000;
 }
 .product_card_gallery_info .product-info .catalog-price p {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 160%;
-  color: #8a8a8a;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  color: #374957;
+  margin: 8px 0;
+  gap: 8px;
 }
 .product_card_gallery_info .product-info .catalog-price p span {
   display: inline-flex;
-  margin-left: 5px;
-  font-weight: 600;
-  font-size: 35px;
-  line-height: 160%;
-  color: #e63027;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 100%;
+  color: #21a500;
+  gap: 8px;
+}
+.product_card_gallery_info .product-info .catalog-price p span s {
+  color: #ed1717;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 100%;
 }
 
 .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
