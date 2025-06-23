@@ -1103,7 +1103,6 @@ footer .footer__container__bottom .contip img {
 }
 @media (max-width: 991px) {
   .breadcrumbs {
-    margin-top: 6px;
     padding-top: 0;
     margin-bottom: 8px;
   }
