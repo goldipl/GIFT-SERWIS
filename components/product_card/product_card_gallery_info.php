@@ -37,7 +37,7 @@
                 </div>
                 <!-- Product label -->
                 <div class="product-label-box">
-                    <div class="product-label" style="background-color: #E4EDFF;">
+                    <div class="product-label" style="background-color: #FFEE8B;">
                         <p>Promocja</p>
                     </div>
                 </div>
@@ -74,11 +74,9 @@
             <h1>Długopis metalowy</h1>
         </div>
         <div class="product-info_short-description">
-            <div class="product-info_code">Kod produktu: <span>1333903</span>
+            <div class="product-info_code">KOD: <span>516 41211</span>
             </div>
-            <div class="product-info_color">Kolor: <span>czarny</span>
-            </div>
-            <div class="product-info_ean">EAN: <span>465651333903</span>
+            <div class="product-info_availability">Dostępnych: <span>23 szt.</span>
             </div>
         </div>
         <p class="product-info_availability-colors-title">Dostępne kolory</p>
@@ -95,67 +93,6 @@
         </div>
         <div class="catalog-price">
             <p>Cena katalogowa<span>7,56 PLN</span></p>
-        </div>
-        <div class="product-price-box">
-            <div class="product-price-box_top">
-                <div class="product-price-box_top__left">
-                    <div class="catalog-price">
-                        <span>Cena katalogowa <p>2,88 PLN</p>
-                        </span>
-                    </div>
-                    <div class="your-price">
-                        <span>Twoja cena <p>2,55 PLN</p>
-                        </span>
-                    </div>
-                </div>
-                <a href="" class="product-price-box_top__right">
-                    <img src="./assets/icons/product_page/calculator.svg" alt="calc icon">
-                    <p>Kalkulator</p>
-                </a>
-            </div>
-            <div class="product-price-box_bottom">
-                <div class="product-price-box_bottom__left">
-                    <span>Cena promocyjna <p>1,88 PLN</p>
-                    </span>
-                    <p class="minimal-quantity">Minimalna ilość: 500 szt.</p>
-                </div>
-                <button class="product-price-box_bottom__right">
-                    <img src="./assets/icons/product_page/cart.svg" alt="cart icon">
-                    <p>Dodaj do koszyka</p>
-                </button>
-            </div>
-        </div>
-        <div class="product-more-box">
-            <div class="product-more-box__row">
-                <a href="#" class="product-more-box__col">
-                    <img src="./assets/icons/product_page/nego-price.svg" alt="download icon" width="25" height="25">
-                    <p>Negocjuj cenę</p>
-                </a>
-                <a href="#" class="product-more-box__col offerts">
-                    <img src="./assets/icons/product_page/offert.svg" alt="download icon" width="25" height="25">
-                    <p>Ofertownik</p>
-                </a>
-            </div>
-            <div class="product-more-box__row">
-                <a href="#" class="product-more-box__col">
-                    <img src="./assets/icons/product_page/download.svg" alt="comparision icon" width="25" height="25">
-                    <p>Stwórz e-ulotkę</p>
-                </a>
-                <a href="#" class="product-more-box__col">
-                    <img src="./assets/icons/product_page/shopping-list.png" alt="comparision icon" width="25" height="25">
-                    <p>Lista zakupów</p>
-                </a>
-            </div>
-            <div class="product-more-box__row last-row">
-                <a href="#" class="product-more-box__col">
-                    <img src="./assets/icons/product_page/branding-location.svg" alt="comparision icon" width="25" height="25">
-                    <p>Miejsce znakowania</p>
-                </a>
-                <a href="#" class="product-more-box__col">
-                    <img src="./assets/icons/product_page/branding-time.svg" alt="download icon" width="25" height="25">
-                    <p class="small">TT2 (termotransfer): <span>3</span> dni</p>
-                </a>
-            </div>
         </div>
     </div>
 </div>
