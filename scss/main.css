@@ -115,7 +115,7 @@ body #main-wrapper.opened-menu::after {
 }
 #topbar .container .topbar-links a,
 #topbar .container .topbar-contact a {
-  color: #374957;
+  color: #212321;
   font-weight: 500;
   font-size: 14px;
   line-height: 133%;
@@ -251,7 +251,7 @@ nav .nav-account-cart a span {
   font-size: 16px;
   font-weight: 400;
   line-height: 100%;
-  color: #374957;
+  color: #212321;
   width: 62px;
 }
 nav .nav-account-cart a:hover span {
@@ -843,7 +843,7 @@ footer .footer__container__top .fourth-column .newsletter-small-form-box input {
   height: 45px;
   background-color: #d9d9d9;
   padding: 0 16px;
-  color: #374957;
+  color: #212321;
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
@@ -852,14 +852,14 @@ footer .footer__container__top .third-column .newsletter-small-form-box input::-
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
-  color: #374957;
+  color: #212321;
 }
 footer .footer__container__top .third-column .newsletter-small-form-box input::placeholder,
 footer .footer__container__top .fourth-column .newsletter-small-form-box input::placeholder {
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
-  color: #374957;
+  color: #212321;
 }
 @media (max-width: 991px) {
   footer .footer__container__top .third-column .newsletter-small-form-box input,
@@ -1084,7 +1084,7 @@ footer .footer__container__bottom .contip img {
   font-weight: 400;
   font-size: 14px;
   line-height: 160%;
-  color: #374957;
+  color: #212321;
   text-decoration: none;
   margin: 0;
 }
@@ -1374,7 +1374,7 @@ select.form-select {
   font-size: 14px;
   font-weight: 300;
   line-height: 160%;
-  color: #374957;
+  color: #212321;
   padding: 0 32px;
   margin: 16px 0 0 0;
   border: 0;
@@ -1396,7 +1396,7 @@ textarea.form-textarea {
   font-size: 14px;
   font-weight: 300;
   line-height: 160%;
-  color: #374957;
+  color: #212321;
   padding: 16px 32px;
   margin: 16px 0 0 0;
 }
@@ -1414,7 +1414,7 @@ label.add-files {
   font-size: 14px;
   font-weight: 300;
   line-height: 160%;
-  color: #374957;
+  color: #212321;
   padding: 16px 32px;
   margin: 16px 0 0 0;
 }
@@ -1455,7 +1455,7 @@ label.add-files:focus, label.add-files:hover {
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
-  color: #374957;
+  color: #212321;
   text-decoration: none;
   margin: 0;
 }
@@ -2312,7 +2312,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 500;
   font-size: 16px;
   line-height: 120%;
-  color: #374957;
+  color: #212321;
   text-align: center;
 }
 @media (max-width: 991px) {
@@ -2367,7 +2367,7 @@ label.add-files:focus, label.add-files:hover {
   font-size: 20px;
   font-weight: 700;
   line-height: 150%;
-  color: #374957;
+  color: #212321;
   text-transform: uppercase;
   width: auto;
   margin: 30px 0 8px 0;
@@ -2381,7 +2381,7 @@ label.add-files:focus, label.add-files:hover {
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
-  color: #374957;
+  color: #212321;
   text-align: center;
   width: 80%;
 }
@@ -2484,7 +2484,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 137%;
-  color: #374957;
+  color: #212321;
   text-align: left;
   margin: 0 auto;
   text-transform: uppercase;
@@ -2494,7 +2494,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 137%;
-  color: #374957;
+  color: #212321;
   text-align: center;
   margin: 0 auto;
   text-decoration: none;
@@ -2561,7 +2561,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 130%;
-  color: #374957;
+  color: #212321;
   margin: 0 auto;
 }
 .promo_products_swiper .swiper_products_block_box__top .catalog-price {
@@ -2578,7 +2578,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 400;
   line-height: 160%;
   margin: 8px 0;
-  color: #374957;
+  color: #212321;
 }
 .promo_products_swiper .swiper_products_block_box__top .catalog-price p span {
   display: inline-flex;
@@ -2597,7 +2597,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 160%;
-  color: #374957;
+  color: #212321;
   margin: 0 0 29px 0;
 }
 .promo_products_swiper .swiper_products_block_box__bottom .your-price p span {
@@ -2609,7 +2609,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 160%;
-  color: #374957;
+  color: #212321;
   margin: 0 0 29px 0;
 }
 .promo_products_swiper .swiper_products_block_box__bottom .promo-price p span {
@@ -2629,7 +2629,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 500;
   line-height: 130%;
-  color: #374957;
+  color: #212321;
   margin: 0;
   text-align: center;
   padding: 2px 0;
@@ -2640,7 +2640,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 130%;
-  color: #374957;
+  color: #212321;
   margin: 0;
   text-align: center;
   padding: 2px 0;
@@ -2806,7 +2806,7 @@ label.add-files:focus, label.add-files:hover {
 .mp-titles .mp-description span {
   display: inline-flex;
   max-width: 840px;
-  color: #374957;
+  color: #212321;
   font-weight: 400;
   font-size: 91%;
   letter-spacing: 19%;
@@ -2890,7 +2890,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 130%;
-  color: #374957;
+  color: #212321;
   text-align: right;
   text-decoration: none;
   margin-right: 41px;
@@ -3017,7 +3017,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 600;
   line-height: 21px;
   text-transform: uppercase;
-  color: #374957;
+  color: #212321;
   margin: 0;
   text-align: center;
 }
@@ -3102,7 +3102,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 137%;
-  color: #374957;
+  color: #212321;
   text-align: center;
   margin: 0 auto;
   text-transform: uppercase;
@@ -3112,7 +3112,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 137%;
-  color: #374957;
+  color: #212321;
   text-align: center;
   margin: 0 auto;
   text-decoration: none;
@@ -3129,7 +3129,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 130%;
-  color: #374957;
+  color: #212321;
   margin: 0 auto;
 }
 .swiper_products_block_box__bottom {
@@ -3150,7 +3150,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 400;
   line-height: 160%;
   margin: 8px 0;
-  color: #374957;
+  color: #212321;
 }
 .swiper_products_block_box__bottom .catalog-price p span {
   display: inline-flex;
@@ -3164,7 +3164,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 160%;
-  color: #374957;
+  color: #212321;
   margin: 0 0 29px 0;
 }
 .swiper_products_block_box__bottom .your-price p span {
@@ -3176,7 +3176,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 160%;
-  color: #374957;
+  color: #212321;
   margin: 0 0 29px 0;
 }
 .swiper_products_block_box__bottom .promo-price p span {
@@ -3375,7 +3375,7 @@ label.add-files:focus, label.add-files:hover {
 .blog_swiper .swiper-slide .article_swiper_box__text--date a, .blog_swiper .swiper-slide .article_swiper_box__text--title p,
 .blog_swiper .swiper-slide .article_swiper_box__text--title h3,
 .blog_swiper .swiper-slide .article_swiper_box__text--title a {
-  color: #374957;
+  color: #212321;
 }
 .blog_swiper .swiper-slide .article_swiper_box__text--date h3, .blog_swiper .swiper-slide .article_swiper_box__text--title h3 {
   margin-bottom: 10px;
@@ -3536,7 +3536,7 @@ label.add-files:focus, label.add-files:hover {
   font-size: 18px;
   line-height: 160%;
   margin: 0 0 8px 0;
-  color: #374957;
+  color: #212321;
 }
 @media (max-width: 991px) {
   #why_we .why-we-box__text .about-text-slot__text p {
@@ -3567,7 +3567,7 @@ label.add-files:focus, label.add-files:hover {
   font-size: 18px;
   line-height: 160%;
   margin: 0 0 18px 0;
-  color: #374957;
+  color: #212321;
   text-transform: uppercase;
   text-align: center;
 }
@@ -3581,7 +3581,7 @@ label.add-files:focus, label.add-files:hover {
   font-size: 18px;
   line-height: 160%;
   margin: 0 0 24px 0;
-  color: #374957;
+  color: #212321;
 }
 @media (max-width: 991px) {
   #about_us .about-us-box__text p {
@@ -3707,7 +3707,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 500;
   line-height: 27px;
   text-transform: uppercase;
-  color: #374957;
+  color: #212321;
   margin: 0;
   text-align: center;
 }
@@ -3838,7 +3838,7 @@ label.add-files:focus, label.add-files:hover {
   font-size: 32px;
   font-weight: 700;
   line-height: 120%;
-  color: #374957;
+  color: #212321;
   text-transform: uppercase;
 }
 .product_card_gallery_info .product-info_ean {
@@ -3855,7 +3855,7 @@ label.add-files:focus, label.add-files:hover {
   font-size: 16px;
   font-weight: 700;
   line-height: 177.023%;
-  color: #374957;
+  color: #212321;
   margin: 0 0 1px 0;
 }
 .product_card_gallery_info .product-info_color span, .product_card_gallery_info .product-info_code span, .product_card_gallery_info .product-info_ean span, .product_card_gallery_info .product-info_availability span {
@@ -3869,7 +3869,7 @@ label.add-files:focus, label.add-files:hover {
   font-size: 20px;
   font-weight: 500;
   line-height: 177.023%;
-  color: #374957;
+  color: #212321;
   margin: 0 0 16px 0;
   width: 100%;
 }
@@ -3895,7 +3895,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 700;
   font-size: 16px;
   line-height: 100%;
-  color: #374957;
+  color: #212321;
   margin: 8px 0;
   gap: 8px;
 }
@@ -4271,7 +4271,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 600;
   line-height: 120%;
   text-transform: uppercase;
-  color: #374957;
+  color: #212321;
   margin: 0;
 }
 .cart_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom,
@@ -4323,7 +4323,7 @@ label.add-files:focus, label.add-files:hover {
 .calculator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--right p span,
 .negotiator_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--right p span,
 .usb_container .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--right p span {
-  color: #374957;
+  color: #212321;
 }
 .cart_container .cart-table_box .cart-products-table tbody tr td input,
 .calculator_container .cart-table_box .cart-products-table tbody tr td input,
@@ -4339,7 +4339,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 177.023%;
-  color: #374957;
+  color: #212321;
   text-align: left;
   margin: 0;
 }
@@ -4374,7 +4374,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
-  color: #374957;
+  color: #212321;
   margin: 0 16px 0 0;
   white-space: pre;
 }
@@ -4392,7 +4392,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 177.023%;
-  color: #374957;
+  color: #212321;
   text-align: left;
   margin: 0 24px 0 0;
 }
@@ -4497,7 +4497,7 @@ label.add-files:focus, label.add-files:hover {
   line-height: 120%;
   text-transform: uppercase;
   margin: 0;
-  color: #374957;
+  color: #212321;
   text-align: center;
 }
 .cart_container .sumary_box--netto,
@@ -4550,7 +4550,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 400;
   line-height: 177.023%;
   margin: 0;
-  color: #374957;
+  color: #212321;
   text-align: center;
 }
 .cart_container .sumary_box--brutto .brutto-text,
@@ -4772,7 +4772,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 600;
   line-height: 120%;
   text-transform: uppercase;
-  color: #374957;
+  color: #212321;
   margin: 0;
   text-align: left;
   text-decoration: none;
@@ -4789,7 +4789,7 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container.step_two .cart-products-table tr td .cart-branding-product-box__top__left .code span,
 .cart_container.step_two .cart-products-table tr td .cart-branding-product-box__top__left .qty span {
-  color: #374957;
+  color: #212321;
 }
 .cart_container.step_two .cart-products-table tr td .cart-branding-product-box__top__right {
   display: flex;
@@ -4800,7 +4800,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 700;
   line-height: 177.023%;
   margin: 0;
-  color: #374957;
+  color: #212321;
   padding-left: 0;
   padding-right: 50px;
 }
@@ -4845,7 +4845,7 @@ label.add-files:focus, label.add-files:hover {
   font-size: 18px;
   font-weight: 400;
   line-height: 160%;
-  color: #374957;
+  color: #212321;
 }
 .cart_container.step_two .cart-products-table tr td .cart-branding-product-box__middle__branding .branding-radios-types label:first-of-type {
   margin-right: 32px;
@@ -4904,7 +4904,7 @@ label.add-files:focus, label.add-files:hover {
 .cart_container.step_two .cart-products-table tr td .cart-branding-product-box__middle__files .logo-list {
   font-size: 12px;
   text-decoration: none;
-  color: #374957;
+  color: #212321;
   cursor: pointer;
 }
 .cart_container.step_two .cart-products-table tr td .cart-branding-product-box__middle__files .title {
@@ -4912,7 +4912,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 177.023%;
-  color: #374957;
+  color: #212321;
   margin: 16px 0 7px 0;
   text-align: center;
 }
@@ -4998,7 +4998,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
-  color: #374957;
+  color: #212321;
   margin: 0;
 }
 .cart_container.step_two .cart-products-table tr td .cart-branding-product-box__bottom--col .price {
@@ -5006,7 +5006,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 177.023%;
-  color: #374957;
+  color: #212321;
   margin: 0 0 6px 0;
 }
 .cart_container.step_two .cart-products-table tr td .cart-branding-product-box__bottom--col .price.orange {
@@ -5258,7 +5258,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 600;
   line-height: 120%;
   text-transform: uppercase;
-  color: #374957;
+  color: #212321;
   margin: 0;
   text-align: left;
   text-decoration: none;
@@ -5273,7 +5273,7 @@ label.add-files:focus, label.add-files:hover {
   text-align: left;
 }
 .cart_container.step_three .cart-products-table tr td .cart-delivery-product-box__top__left .code span {
-  color: #374957;
+  color: #212321;
 }
 .cart_container.step_three .cart-products-table tr td .cart-delivery-product-box__bottom {
   display: flex;
@@ -5319,7 +5319,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 177.023%;
-  color: #374957;
+  color: #212321;
   margin: 0 0 4px 0;
   text-transform: uppercase;
 }
@@ -5333,7 +5333,7 @@ label.add-files:focus, label.add-files:hover {
   text-align: left;
 }
 .cart_container.step_three .cart-products-table tr td .cart-delivery-product-box__bottom .cart-delivery__col p span {
-  color: #374957;
+  color: #212321;
 }
 .cart_container.step_three .cart-products-table tr td .cart-delivery-product-box__bottom .cart-delivery__col .horizontal-line {
   display: block;
@@ -5375,7 +5375,7 @@ label.add-files:focus, label.add-files:hover {
 .cart_container.step_three .cart-products-table tr td .cart-delivery-product-box__bottom .cart-delivery__col__two p:last-of-type.price {
   font-size: 18px;
   line-height: 18px;
-  color: #374957;
+  color: #212321;
 }
 .cart_container.step_three .cart-products-table tr td .cart-delivery-checkboxes-box {
   display: flex;
@@ -5409,7 +5409,7 @@ label.add-files:focus, label.add-files:hover {
   font-size: 16px;
   font-weight: 600;
   line-height: 120%;
-  color: #374957;
+  color: #212321;
   text-transform: uppercase;
   text-align: left;
   white-space: pre;
@@ -5451,7 +5451,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 700;
   line-height: 1;
   text-transform: uppercase;
-  color: #374957;
+  color: #212321;
   margin: 0;
   text-align: center;
 }
@@ -5637,7 +5637,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 600;
   line-height: 120%;
   text-transform: uppercase;
-  color: #374957;
+  color: #212321;
   margin: 0;
 }
 .cart_container.step_four .cart-table_box .cart-your-data-container__col .title.email {
@@ -5674,7 +5674,7 @@ label.add-files:focus, label.add-files:hover {
   font-size: 16px;
   font-weight: 400;
   line-height: 120%;
-  color: #374957;
+  color: #212321;
   margin: 17px 0 0 0;
 }
 .cart_container.step_four .cart-table_box .cart-your-data-container__col .title.send-address .title-bottom select {
@@ -5691,7 +5691,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
-  color: #374957;
+  color: #212321;
   margin: 0 0 0 10px;
   padding: 0 35px 0 0;
   text-align: right;
@@ -5712,7 +5712,7 @@ label.add-files:focus, label.add-files:hover {
   font-size: 16px;
   font-weight: 400;
   line-height: 177.023%;
-  color: #374957;
+  color: #212321;
   margin: 0;
 }
 .cart_container.step_four .cart-table_box .cart-your-data-container__col .inputs-container .input-slot input,
@@ -5821,7 +5821,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 600;
   line-height: 120%;
   text-transform: uppercase;
-  color: #374957;
+  color: #212321;
   margin: 0;
 }
 .cart_container.step_five .cart-table_box .cart-final-container__col .col-container {
@@ -5838,7 +5838,7 @@ label.add-files:focus, label.add-files:hover {
   font-size: 18px;
   font-weight: 400;
   line-height: 160%;
-  color: #374957;
+  color: #212321;
 }
 .cart_container.step_five .cart-table_box .cart-final-container__col .col-container.middle .final-radios-types label .custom-radio-checkmark {
   top: 5px;
@@ -5876,7 +5876,7 @@ label.add-files:focus, label.add-files:hover {
   color: #8a8a8a;
 }
 .cart_container.step_five .cart-table_box .cart-final-container__col .col-container_prices p span {
-  color: #374957;
+  color: #212321;
 }
 .cart_container.step_five .cart-table_box .cart-final-container__col .col-container_line {
   display: block;
@@ -5911,7 +5911,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 600;
   line-height: 120%;
   text-transform: uppercase;
-  color: #374957;
+  color: #212321;
 }
 .cart_container.step_five .cart-table_box .cart-final-container__col .col-container_discount-code .input-button input {
   width: 70%;
@@ -5949,7 +5949,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 600;
   line-height: 40px;
   text-transform: uppercase;
-  color: #374957;
+  color: #212321;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -5975,7 +5975,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
-  color: #374957;
+  color: #212321;
 }
 .cart_container.step_five .cart-table_box .cart-final-container__col .col-container .final-radios-types_slot label small {
   font-size: 12px;
@@ -5991,7 +5991,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 177.023%;
-  color: #374957;
+  color: #212321;
 }
 .cart_container.step_five .cart-table_box .cart-final-container__col .col-container .custom-checkbox-container .custom-checkbox-checkmark {
   width: 20px;
@@ -6126,7 +6126,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
-  color: #374957;
+  color: #212321;
   margin: 6px 0 16px 0;
 }
 .contact-container .contact-wrapper {
@@ -6172,7 +6172,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
-  color: #374957;
+  color: #212321;
   padding-left: 46px;
   margin: 0;
 }
@@ -6202,7 +6202,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 700;
   line-height: 177.023%;
   margin: 0 0 18px 0;
-  color: #374957;
+  color: #212321;
 }
 .contact-container .contact-wrapper_col__content .contact-box h3.office::before {
   display: block;
@@ -6247,7 +6247,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 400;
   line-height: 177.023%;
   margin: 0 0 9px 0;
-  color: #374957;
+  color: #212321;
 }
 .contact-container .contact-wrapper_col__content .contact-box p.phone::before {
   display: block;
@@ -6298,7 +6298,7 @@ label.add-files:focus, label.add-files:hover {
   height: 18px;
 }
 .contact-container .contact-wrapper_col__content .contact-box p a {
-  color: #374957;
+  color: #212321;
   text-decoration: none;
 }
 .contact-container .contact-wrapper_col__content .contact-box p a:hover {
@@ -6385,10 +6385,10 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 400;
   line-height: 177.023%;
   margin: 0;
-  color: #374957;
+  color: #212321;
 }
 .contact-container .contact-wrapper_col__content .data-box p a {
-  color: #374957;
+  color: #212321;
   text-decoration: none;
 }
 .contact-container .contact-wrapper_col__content .data-box p a:hover {
@@ -6629,7 +6629,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
-  color: #374957;
+  color: #212321;
   margin: 0;
   padding-left: 23px;
 }
@@ -6662,7 +6662,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 177.023%;
-  color: #374957;
+  color: #212321;
   padding-left: 23px;
   margin: 0 0 10px 0;
 }
@@ -6707,7 +6707,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 177.023%;
-  color: #374957;
+  color: #212321;
   text-decoration: none;
 }
 .sales-department-box__row__col__bottom p a:hover {
@@ -6839,7 +6839,7 @@ label.add-files:focus, label.add-files:hover {
   font-size: 20px;
   line-height: 177%;
   text-transform: uppercase;
-  color: #374957;
+  color: #212321;
   padding-left: 46px;
 }
 .other-department-box__row__col b.graphic-department::before {
@@ -6896,7 +6896,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 177.023%;
-  color: #374957;
+  color: #212321;
   margin: 0 0 9px 0;
   padding-left: 46px;
 }
@@ -6950,7 +6950,7 @@ label.add-files:focus, label.add-files:hover {
 }
 .other-department-box__row__col p a {
   text-decoration: none;
-  color: #374957;
+  color: #212321;
 }
 .other-department-box__row__col p a:hover {
   color: #003671;
@@ -7080,7 +7080,7 @@ main.grey-background {
   font-style: normal;
   font-weight: 500;
   line-height: 177.023%;
-  color: #374957;
+  color: #212321;
 }
 .category-left-filters-box__button img {
   margin-top: -10px;
@@ -7198,7 +7198,7 @@ main.grey-background {
   font-weight: 400;
   width: 100%;
   margin-bottom: 8px;
-  color: #374957;
+  color: #212321;
 }
 .category-left-filters-box .category-left-filters__slot .content .custom-checkbox-container .custom-checkbox-checkmark {
   width: 18px;
@@ -7422,7 +7422,7 @@ main.grey-background {
   font-weight: 600;
   line-height: 21px;
   text-transform: uppercase;
-  color: #374957;
+  color: #212321;
   margin: 0;
   text-align: center;
 }
@@ -7513,7 +7513,7 @@ main.grey-background {
   font-style: normal;
   font-weight: 700;
   line-height: 137%;
-  color: #374957;
+  color: #212321;
   text-align: left;
   margin: 0 auto;
   text-transform: uppercase;
@@ -7523,7 +7523,7 @@ main.grey-background {
   font-style: normal;
   font-weight: 700;
   line-height: 137%;
-  color: #374957;
+  color: #212321;
   text-align: center;
   margin: 0 auto;
   text-decoration: none;
@@ -7590,7 +7590,7 @@ main.grey-background {
   font-style: normal;
   font-weight: 400;
   line-height: 130%;
-  color: #374957;
+  color: #212321;
   margin: 0 auto;
 }
 .category-filters-main__slot__top .catalog-price {
@@ -7607,7 +7607,7 @@ main.grey-background {
   font-weight: 400;
   line-height: 160%;
   margin: 8px 0;
-  color: #374957;
+  color: #212321;
 }
 .category-filters-main__slot__top .catalog-price p span {
   display: inline-flex;
@@ -7628,7 +7628,7 @@ main.grey-background {
   font-style: normal;
   font-weight: 700;
   line-height: 160%;
-  color: #374957;
+  color: #212321;
   margin: 0 0 29px 0;
 }
 .category-filters-main__slot__bottom .your-price p span {
@@ -7640,7 +7640,7 @@ main.grey-background {
   font-style: normal;
   font-weight: 700;
   line-height: 160%;
-  color: #374957;
+  color: #212321;
   margin: 0 0 29px 0;
 }
 .category-filters-main__slot__bottom .promo-price p span {
@@ -7660,7 +7660,7 @@ main.grey-background {
   font-style: normal;
   font-weight: 500;
   line-height: 130%;
-  color: #374957;
+  color: #212321;
   margin: 0;
   text-align: center;
   padding: 2px 0;
@@ -7671,7 +7671,7 @@ main.grey-background {
   font-style: normal;
   font-weight: 400;
   line-height: 130%;
-  color: #374957;
+  color: #212321;
   margin: 0;
   text-align: center;
   padding: 2px 0;
@@ -7810,7 +7810,7 @@ main.grey-background {
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
-  color: #374957;
+  color: #212321;
   margin: 0 0 24px 0;
 }
 
@@ -7825,7 +7825,7 @@ main.grey-background {
   font-weight: 600;
   line-height: 120%;
   text-transform: uppercase;
-  color: #374957;
+  color: #212321;
   margin: 0 0 22px 0;
 }
 
@@ -7861,7 +7861,7 @@ main.grey-background {
   font-weight: 700;
   font-size: 32px;
   line-height: 136%;
-  color: #374957;
+  color: #212321;
 }
 .category-top-seo-text .category-seo-top-desc p {
   font-family: Instrument Sans;
@@ -7870,7 +7870,7 @@ main.grey-background {
   line-height: 160%;
   letter-spacing: 0%;
   vertical-align: middle;
-  color: #374957;
+  color: #212321;
   margin-bottom: 16px;
 }
 .category-top-seo-text .category-seo-top-desc p:last-of-type {
@@ -7897,7 +7897,7 @@ main.grey-background {
   font-weight: 700;
   font-size: 32px;
   line-height: 136%;
-  color: #374957;
+  color: #212321;
 }
 .category-bottom-seo-text p {
   font-family: Instrument Sans;
@@ -7906,7 +7906,7 @@ main.grey-background {
   line-height: 160%;
   letter-spacing: 0%;
   vertical-align: middle;
-  color: #374957;
+  color: #212321;
   margin-bottom: 16px;
 }
 .category-bottom-seo-text p:last-of-type {
@@ -7979,7 +7979,7 @@ main.grey-background {
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
-  color: #374957;
+  color: #212321;
   text-align: left;
   margin: 0 0 24px 0;
 }
@@ -8030,7 +8030,7 @@ main.grey-background {
   font-weight: 700;
   line-height: 120%;
   text-transform: uppercase;
-  color: #374957;
+  color: #212321;
   margin: 0;
   padding: 46px 0;
 }
@@ -8090,7 +8090,7 @@ main.grey-background {
   line-height: 160%;
   text-transform: uppercase;
   padding-left: 40px;
-  color: #374957;
+  color: #212321;
   margin: 0 15px 0 0;
 }
 .grey-background .register .inputs-form-container-wrapper .title p img {
@@ -8103,7 +8103,7 @@ main.grey-background {
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
-  color: #374957;
+  color: #212321;
   margin: 0 0 0 15px;
   text-transform: none;
 }
@@ -8139,7 +8139,7 @@ main.grey-background {
   font-style: normal;
   font-weight: 500;
   line-height: 140%;
-  color: #374957;
+  color: #212321;
 }
 .grey-background .register .inputs-form-container-wrapper .checkboxes-box__slot label.custom-checkbox-container {
   font-size: 12px;
@@ -8185,7 +8185,7 @@ main.grey-background {
   font-style: normal;
   font-weight: 400;
   line-height: 37px;
-  color: #374957;
+  color: #212321;
   background-color: #f2f3f7;
   height: 37px;
   text-align: center;
@@ -8235,7 +8235,7 @@ main.grey-background {
   font-style: normal;
   font-weight: 500;
   line-height: 140%;
-  color: #374957;
+  color: #212321;
 }
 .grey-background .register .inputs-form-container-wrapper .inputs-wrapper__slot label.custom-checkbox-container.marketing-consents {
   font-size: 12px;
@@ -8506,7 +8506,7 @@ main.grey-background {
   font-weight: 800;
   line-height: normal;
   text-transform: uppercase;
-  color: #374957;
+  color: #212321;
   margin: 0;
 }
 .country-modal .modal-content .modal-header .title p img {
@@ -8531,7 +8531,7 @@ main.grey-background {
   font-style: normal;
   font-weight: 500;
   line-height: 140%;
-  color: #374957;
+  color: #212321;
   margin: 24px 0 16px 0;
 }
 .country-modal .modal-content .modal-body .table-wrapper {
@@ -8558,7 +8558,7 @@ main.grey-background {
   border-bottom: 1px solid #b9b9b9;
 }
 .country-modal .modal-content .modal-body .table-wrapper__col table tbody tr th {
-  background-color: #374957;
+  background-color: #212321;
   color: #ffffff;
   padding: 10px 23px;
 }
@@ -8566,7 +8566,7 @@ main.grey-background {
   background-color: #f2f3f7;
 }
 .country-modal .modal-content .modal-body .table-wrapper__col table tbody tr td {
-  color: #374957;
+  color: #212321;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -8575,14 +8575,14 @@ main.grey-background {
   padding: 6px 23px;
 }
 .country-modal .modal-content .modal-body .table-wrapper__col table tbody tr td a {
-  color: #374957;
+  color: #212321;
   text-decoration: none;
 }
 .country-modal .modal-content .modal-body .table-wrapper__col table tbody tr td a:hover {
   color: #003671;
 }
 .country-modal .modal-content .modal-body .table-wrapper__col table tbody tr td p {
-  color: #374957;
+  color: #212321;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -8668,7 +8668,7 @@ main.grey-background {
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
-  color: #374957;
+  color: #212321;
   margin: 6px 0 16px 0;
 }
 .catalogs-container .catalogs-wrapper {
@@ -8740,7 +8740,7 @@ main.grey-background {
   font-weight: 400;
   line-height: 171%;
   text-align: left;
-  color: #374957;
+  color: #212321;
   margin: 0 0 16px 0;
 }
 .catalogs-container .catalogs-wrapper_col_top_right .catalogs-text p a {
