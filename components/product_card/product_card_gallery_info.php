@@ -8,71 +8,31 @@
                         <div class="swiper-zoom-container">
                             <img class="zoom-image" src="./assets/img/product_card/product-card-01.jpg" href="./assets/img/product_card/product-card-01.jpg">
                         </div>
-                        <!-- Product icons -->
-                        <div class="product-icons">
-                            <span class="product-zoom-in">
-                                <img class="zoom-icon" src="./assets/icons/product_page/zoom.svg" alt="zoom icon">
-                            </span>
-                            <a class="product-download" href="#">
-                                <img class="download-icon" src="./assets/icons/product_page/download.svg" alt="download icon">
-                            </a>
-                        </div>
+
                     </div>
                     <div class="swiper-slide">
                         <div class="swiper-zoom-container">
                             <img class="zoom-image" src="./assets/img/product_card/product-card-02.jpg" href="./assets/img/product_card/product-card-02.jpg">
                         </div>
-                        <!-- Product icons -->
-                        <div class="product-icons">
-                            <span class="product-zoom-in">
-                                <img class="zoom-icon" src="./assets/icons/product_page/zoom.svg" alt="zoom icon">
-                            </span>
-                            <a class="product-download" href="#">
-                                <img class="download-icon" src="./assets/icons/product_page/download.svg" alt="download icon">
-                            </a>
-                        </div>
+
                     </div>
                     <div class="swiper-slide">
                         <div class="swiper-zoom-container">
                             <img class="zoom-image" src="./assets/img/product_card/product-card-01.jpg" href="./assets/img/product_card/product-card-01.jpg">
                         </div>
-                        <!-- Product icons -->
-                        <div class="product-icons">
-                            <span class="product-zoom-in">
-                                <img class="zoom-icon" src="./assets/icons/product_page/zoom.svg" alt="zoom icon">
-                            </span>
-                            <a class="product-download" href="#">
-                                <img class="download-icon" src="./assets/icons/product_page/download.svg" alt="download icon">
-                            </a>
-                        </div>
+
                     </div>
                     <div class="swiper-slide">
                         <div class="swiper-zoom-container">
                             <img class="zoom-image" src="./assets/img/product_card/product-card-01.jpg" href="./assets/img/product_card/product-card-01.jpg">
                         </div>
-                        <!-- Product icons -->
-                        <div class="product-icons">
-                            <span class="product-zoom-in">
-                                <img class="zoom-icon" src="./assets/icons/product_page/zoom.svg" alt="zoom icon">
-                            </span>
-                            <a class="product-download" href="#">
-                                <img class="download-icon" src="./assets/icons/product_page/download.svg" alt="download icon">
-                            </a>
-                        </div>
+
                     </div>
                     <div class="swiper-slide">
                         <div class="swiper-zoom-container">
                             <img class="zoom-image" src="./assets/img/product_card/product-card-01.jpg" href="./assets/img/product_card/product-card-01.jpg">
                         </div>
-                        <!-- Product icons -->
-                        <div class="product-icons">
-                            <span class="product-zoom-in">
-                                <img class="zoom-icon" src="./assets/icons/product_page/zoom.svg" alt="zoom icon">
-                            </span>
-                            <a class="product-download" href="#">
-                                <img class="download-icon" src="./assets/icons/product_page/download.svg" alt="download icon">
-                            </a>
-                        </div>
+
                     </div>
                 </div>
                 <!-- Product label -->
