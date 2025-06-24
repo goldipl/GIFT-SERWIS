@@ -7252,7 +7252,7 @@ label.add-files:focus, label.add-files:hover {
     font-size: 15px;
   }
 }
-main.grey-background {
+main:has(.category-wrapper) {
   background-color: #f2f3f7;
 }
 

@@ -1,4 +1,4 @@
-main.grey-background {
+main:has(.category-wrapper) {
   background-color: $light_grey;
 }
 
