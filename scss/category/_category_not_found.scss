@@ -5,6 +5,9 @@
     line-height: 136%;
     color: $text_color;
     margin: 0 0 6px 0;
+    @media (max-width: 760px) {
+      font-size: 20px;
+    }
   }
   .finding-box {
     display: flex;
@@ -22,14 +25,24 @@
         font-size: 16px;
         line-height: 160%;
         color: $main-color;
+        @media (max-width: 760px) {
+          font-size: 14px;
+        }
       }
     }
     &-quantity {
+      @media (max-width: 760px) {
+        line-height: 1.2;
+      }
       span {
         font-weight: 400;
         font-size: 16px;
         line-height: 160%;
         color: $main-color;
+        @media (max-width: 760px) {
+          font-size: 14px;
+          line-height: 1.2;
+        }
         strong {
           font-weight: 700;
         }

@@ -6886,6 +6886,11 @@ main:has(.category-wrapper) {
   color: #212321;
   margin: 0 0 6px 0;
 }
+@media (max-width: 760px) {
+  .not-found-title {
+    font-size: 20px;
+  }
+}
 .not-found .finding-box {
   display: flex;
   flex-direction: row;
@@ -6905,11 +6910,27 @@ main:has(.category-wrapper) {
   line-height: 160%;
   color: #003671;
 }
+@media (max-width: 760px) {
+  .not-found .finding-box-slots strong {
+    font-size: 14px;
+  }
+}
+@media (max-width: 760px) {
+  .not-found .finding-box-quantity {
+    line-height: 1.2;
+  }
+}
 .not-found .finding-box-quantity span {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
   color: #003671;
+}
+@media (max-width: 760px) {
+  .not-found .finding-box-quantity span {
+    font-size: 14px;
+    line-height: 1.2;
+  }
 }
 .not-found .finding-box-quantity span strong {
   font-weight: 700;
