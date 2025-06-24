@@ -23,7 +23,7 @@
           <button class="btn btn-outline-success" type="submit">Szukaj</button>
         </form>
         <div class="nav-account-cart d-flex align-items-center">
-          <a href="./cart-step-one.php" class="nav-cart-icon" rel="nofollow">
+          <a href="./cart.php" class="nav-cart-icon" rel="nofollow">
             <div class="cart-nav-box">
               <span class="cart-quantity">
                 <p>0</p>

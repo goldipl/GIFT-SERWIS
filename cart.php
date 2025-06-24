@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>GiftSerwis - Koszyk - Produkty</title>
+        <title>GiftSerwis - Koszyk</title>
         <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="./css/bootstrap.min.css" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/select2.min.css" />
@@ -16,29 +16,7 @@
             <?php include "./components/common/nav.php"; ?> 
         </header>
         <main id="main-wrapper">
-            <div class="progress common-progress-bar">
-                <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <div class="common-steps-container">
-                <div class="container">
-                    <div class="common-steps-container-slot">
-                        <p class="active">1. Produkty</p>
-                    </div>
-                    <div class="common-steps-container-slot">
-                        <p>2. Znakowanie</p>
-                    </div>
-                    <div class="common-steps-container-slot">
-                        <p>3. Wysyłka</p>
-                    </div>
-                    <div class="common-steps-container-slot">
-                        <p>4. Twoje dane</p>
-                    </div>
-                    <div class="common-steps-container-slot">
-                        <p>5. Finalizacja</p>
-                    </div>
-                </div>
-            </div>
-            <?php include "./components/cart/cart_step_one_content.php"; ?> 
+            <?php include "./components/cart/cart_content.php"; ?> 
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 
