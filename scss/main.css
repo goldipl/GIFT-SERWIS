@@ -7259,6 +7259,7 @@ main:has(.category-wrapper) {
 .category-filters-main + .pagination {
   padding-bottom: 0;
   margin: 40px 0 64px 0;
+  background-color: #f2f3f7;
 }
 @media (max-width: 991px) {
   .category-filters-main + .pagination {
