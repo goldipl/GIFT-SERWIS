@@ -36,6 +36,7 @@
             </div>
             <?php include "./components/product_card/product_card_gallery_info.php"; ?>  
             <?php include "./components/product_card/product_card_similar_products.php"; ?> 
+            <?php include "./components/main_page/info_section.php"; ?>
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 
