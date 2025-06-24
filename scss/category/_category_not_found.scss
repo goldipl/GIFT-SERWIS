@@ -1,0 +1,124 @@
+.not-found {
+  &-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 136%;
+    color: $text_color;
+    margin: 0 0 6px 0;
+  }
+  .finding-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 37px 0;
+    gap: 15px;
+    &-slots {
+      display: inline-flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      strong {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 160%;
+        color: $main-color;
+      }
+    }
+    &-quantity {
+      span {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        color: $main-color;
+        strong {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  &-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $white;
+    padding: 64px;
+    gap: 24px;
+    border-radius: 10px;
+    margin: 0 0 32px 0;
+    width: 100%;
+    height: max-content;
+    @media (max-width: 1200px) {
+      padding: 40px;
+    }
+    @media (max-width: 760px) {
+      flex-direction: column;
+      justify-content: center;
+    }
+    &-text {
+      h3 {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 120%;
+        color: $black;
+        margin: 0 0 40px 0;
+        @media (max-width: 760px) {
+          text-align: center;
+          margin: 0 0 24px 0;
+        }
+      }
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: $text_color;
+        margin: 0 0 24px 0;
+        @media (max-width: 1200px) {
+          font-size: 14px;
+        }
+        @media (max-width: 760px) {
+          text-align: center;
+          margin: 0 0 16px 0;
+        }
+      }
+      .contact-btn {
+        all: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 370px;
+        height: 50px;
+        background-color: $green;
+        color: $white;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1;
+        border-radius: 20px;
+        &:hover {
+          background-color: darken($green, 10%);
+        }
+        @media (max-width: 1200px) {
+          font-size: 15px;
+          height: 40px;
+          padding: 0 24px;
+          width: max-content;
+        }
+        @media (max-width: 760px) {
+          margin: 24px auto;
+        }
+      }
+    }
+    &-img {
+      width: 100%;
+      img {
+        object-fit: contain;
+        width: 100%;
+        min-width: 385px;
+        @media (max-width: 1200px) {
+          min-width: 300px;
+        }
+      }
+    }
+  }
+}
