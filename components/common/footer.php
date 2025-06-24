@@ -41,15 +41,22 @@
           <div class="contact-icon">
             <img src="./assets/icons/common/footer/blue-telephone.svg" alt="telefon" width="18" height="18">
           </div>
-          <a class="gtm-phone" href="tel:91 433 97 11">91 433 97 11</a>
+          <a class="gtm-phone" href="tel:605 390 934">605 390 934</a>
+        </div>
+        <div class="footer-contact-box">
+          <div class="contact-icon">
+            <img src="./assets/icons/common/footer/blue-envelope.svg" alt="e-mail" width="18" height="18">
+          </div>
+          <a class="gtm-mail" href="mailto:produkcja@giftserwis.com.pl">produkcja@giftserwis.com.pl</a>
         </div>
         <div class="footer-contact-box">
           <div class="contact-icon">
             <img src="./assets/icons/common/footer/blue-location.svg" alt="adres" width="18" height="18">
           </div>
           <div class="address-footer d-flex flex-column">
-            <span>ul. Wrocławska 41 Byków</span>
-            <span>55-095 Mirków</span>
+            <span>al. Piastów 41 –</span>
+            <span>teren ZUT, hala A</span>
+            <span>71-065 Szczecin</span>
           </div>
         </div>
       </div>
