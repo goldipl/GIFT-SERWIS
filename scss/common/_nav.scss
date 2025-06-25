@@ -248,11 +248,11 @@ nav {
   }
 }
 
-@media (max-width: 1576px) {
+@media (max-width: 1260px) {
   nav {
     #nav-searchbar {
       input {
-        width: 300px;
+        width: 100%;
       }
     }
   }

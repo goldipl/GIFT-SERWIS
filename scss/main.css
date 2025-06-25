@@ -424,9 +424,9 @@ nav .navbar-bottom .main-nav-item > a.big-dropdown.show::after {
   rotate: 180deg;
 }
 
-@media (max-width: 1576px) {
+@media (max-width: 1260px) {
   nav #nav-searchbar input {
-    width: 300px;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
