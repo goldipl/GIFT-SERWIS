@@ -337,11 +337,6 @@
       background-color: $light_grey;
       .next {
         width: 100%;
-        &:hover {
-          img {
-            content: url("./../assets/icons/common/buttons/button_pink_arrow.svg");
-          }
-        }
       }
     }
   }

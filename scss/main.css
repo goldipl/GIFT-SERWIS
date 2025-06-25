@@ -4689,9 +4689,6 @@ label.add-files:focus, label.add-files:hover {
 .cart_container .sumary_box--button .next {
   width: 100%;
 }
-.cart_container .sumary_box--button .next:hover img {
-  content: url("./../assets/icons/common/buttons/button_pink_arrow.svg");
-}
 
 @media (max-width: 1260px) {
   .cart_container h1 {
