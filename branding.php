@@ -16,7 +16,17 @@
             <?php include "./components/common/nav.php"; ?> 
         </header>
         <main id="main-wrapper">
-            <?php include "./components/branding/branding.php"; ?> 
+            <div class="breadcrumbs container">
+                <ul>
+                    <li class="breadcrumb-item">
+                        <a href="./index.php">Home</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <span>Znakowanie</span>
+                    </li>
+                </ul>
+            </div>
+            <?php include "./components/branding/branding_content.php"; ?> 
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 
