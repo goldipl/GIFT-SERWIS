@@ -90,6 +90,17 @@ body #main-wrapper.opened-menu::after {
     height: 5px;
   }
 }
+.ask-product-link {
+  color: #003671;
+  text-decoration: none;
+}
+.ask-product-link img {
+  margin-bottom: 16px;
+}
+.ask-product-link:hover {
+  color: #e63027;
+}
+
 #topbar {
   position: relative;
   background-color: #f0f0f0;

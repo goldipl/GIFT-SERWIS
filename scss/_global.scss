@@ -71,3 +71,14 @@ body {
     height: 5px;
   }
 }
+
+.ask-product-link {
+  color: $main-color;
+  text-decoration: none;
+  img {
+    margin-bottom: 16px;
+  }
+  &:hover {
+    color: $main-color-second;
+  }
+}
