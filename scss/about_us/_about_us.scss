@@ -1,0 +1,191 @@
+#main-wrapper:has(.section-about-us) {
+  background-color: $light_grey;
+  padding-bottom: 150px;
+  @media (max-width: 760px) {
+    padding-bottom: 32px;
+  }
+}
+
+.section-about-us {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 34px;
+  background-color: $white;
+  padding: 45px;
+  border-radius: 20px;
+  margin: 0 auto 32px auto;
+  &:last-of-type {
+    margin: 0 auto;
+  }
+  @media (max-width: 991px) {
+    flex-direction: column;
+    padding: 24px;
+    gap: 16px;
+  }
+  &__text {
+    @media (max-width: 991px) {
+      display: flex;
+      flex-direction: column;
+      order: 0;
+    }
+    h3 {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 91%;
+      letter-spacing: 19%;
+      text-transform: uppercase;
+      color: $text_color;
+      margin: 0 0 7px 0;
+      span {
+        color: $red;
+      }
+    }
+    h2 {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 136%;
+      text-transform: uppercase;
+      color: $main-color;
+      @media (max-width: 991px) {
+        font-size: 26px;
+      }
+    }
+    .title-red-line {
+      display: flex;
+      justify-content: flex-start;
+      text-align: left;
+      margin: 8px auto 24px 16px;
+      @media (max-width: 760px) {
+        margin: 0 auto 16px 4px;
+      }
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      color: $text_color;
+      strong,
+      b {
+        font-weight: 700;
+      }
+      @media (max-width: 760px) {
+        font-size: 14px;
+      }
+    }
+    .icon-text-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 34px;
+      margin: 0 0 12px 0;
+      @media (max-width: 760px) {
+        gap: 16px;
+      }
+      &__text {
+        strong {
+          display: inline-flex;
+          margin: 0 0 12px 0;
+          @media (max-width: 760px) {
+            font-size: 15px;
+          }
+        }
+      }
+      &__icon {
+        img {
+          @media (max-width: 760px) {
+            width: 38px;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+  &__img {
+    @media (max-width: 991px) {
+      display: flex;
+      flex-direction: column;
+      order: 1;
+    }
+    img {
+      object-fit: contain;
+      border-radius: 20px;
+    }
+  }
+  .send-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+    .input-slot {
+      display: flex;
+      flex-direction: column;
+      label {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 177%;
+        color: $text_color;
+        @media (max-width: 760px) {
+          font-size: 14px;
+        }
+      }
+      input {
+        background-color: $grey13;
+        border-radius: 10px;
+        margin: 0 0 10px 0;
+        width: 100%;
+        padding: 0 18px;
+      }
+      textarea {
+        background-color: $grey13;
+        border-radius: 10px;
+        margin: 0 0 20px 0;
+        width: 100%;
+        padding: 16px 18px;
+        border: 0;
+      }
+    }
+    .custom-checkbox-container {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 156%;
+      color: $text_color;
+    }
+    &-left {
+      width: 50%;
+      h2 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 136%;
+        text-transform: uppercase;
+        color: $main-color;
+        @media (max-width: 760px) {
+          font-size: 26px;
+        }
+      }
+    }
+    &-right {
+      margin-top: 48px;
+      width: 50%;
+    }
+    @media (max-width: 760px) {
+      flex-direction: column;
+      gap: 0;
+      &-left,
+      &-right {
+        width: 100%;
+        margin: 0;
+      }
+      button {
+        @media (max-width: 500px) {
+          display: flex;
+          justify-content: center;
+          width: 50%;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}

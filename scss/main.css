@@ -1370,6 +1370,35 @@ footer .footer__container__bottom .contip img {
   background-color: #e63027;
 }
 
+.green-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  background: #21a500;
+  border: 1px solid #21a500;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 auto;
+}
+.green-button:hover {
+  background-color: #177200;
+}
+@media (max-width: 991px) {
+  .green-button {
+    font-size: 14px;
+    height: 42px;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 0 24px;
+  }
+}
+
 input.form-input,
 select.form-select {
   width: -moz-max-content;
@@ -1518,6 +1547,16 @@ label.add-files:focus, label.add-files:hover {
   background-color: #f2f3f7;
   border-radius: 100%;
   margin-right: 15px;
+}
+
+.title-red-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 106px;
+  height: 1px;
+  background-color: #e63027;
+  margin: 8px auto 16px auto;
 }
 
 @media (max-width: 991px) {
@@ -2746,15 +2785,6 @@ label.add-files:focus, label.add-files:hover {
   margin: 0 0 8px 0;
   text-decoration: unset;
   text-transform: uppercase;
-}
-.mp-titles .title-red-line {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 106px;
-  height: 1px;
-  background-color: #e63027;
-  margin: 8px auto 16px auto;
 }
 .mp-titles .mp-description span {
   display: inline-flex;
@@ -4282,15 +4312,6 @@ label.add-files:focus, label.add-files:hover {
   background-color: #ffffff;
   padding-top: 70px;
   padding-bottom: 40px;
-}
-.product-card-similar-products .title-red-line {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 106px;
-  height: 1px;
-  background-color: #e63027;
-  margin: 8px auto 16px auto;
 }
 .product-card-similar-products #promo_products_swiper {
   margin: 40px 0;
@@ -7294,5 +7315,212 @@ main:has(.category-wrapper) {
   }
   .catalogs-container .catalogs-wrapper_col_bottom {
     height: auto;
+  }
+}
+#main-wrapper:has(.section-about-us) {
+  background-color: #f2f3f7;
+  padding-bottom: 150px;
+}
+@media (max-width: 760px) {
+  #main-wrapper:has(.section-about-us) {
+    padding-bottom: 32px;
+  }
+}
+
+.section-about-us {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 34px;
+  background-color: #ffffff;
+  padding: 45px;
+  border-radius: 20px;
+  margin: 0 auto 32px auto;
+}
+.section-about-us:last-of-type {
+  margin: 0 auto;
+}
+@media (max-width: 991px) {
+  .section-about-us {
+    flex-direction: column;
+    padding: 24px;
+    gap: 16px;
+  }
+}
+@media (max-width: 991px) {
+  .section-about-us__text {
+    display: flex;
+    flex-direction: column;
+    order: 0;
+  }
+}
+.section-about-us__text h3 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 91%;
+  letter-spacing: 19%;
+  text-transform: uppercase;
+  color: #212321;
+  margin: 0 0 7px 0;
+}
+.section-about-us__text h3 span {
+  color: #ed1717;
+}
+.section-about-us__text h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 136%;
+  text-transform: uppercase;
+  color: #003671;
+}
+@media (max-width: 991px) {
+  .section-about-us__text h2 {
+    font-size: 26px;
+  }
+}
+.section-about-us__text .title-red-line {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  margin: 8px auto 24px 16px;
+}
+@media (max-width: 760px) {
+  .section-about-us__text .title-red-line {
+    margin: 0 auto 16px 4px;
+  }
+}
+.section-about-us__text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #212321;
+}
+.section-about-us__text p strong,
+.section-about-us__text p b {
+  font-weight: 700;
+}
+@media (max-width: 760px) {
+  .section-about-us__text p {
+    font-size: 14px;
+  }
+}
+.section-about-us__text .icon-text-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 34px;
+  margin: 0 0 12px 0;
+}
+@media (max-width: 760px) {
+  .section-about-us__text .icon-text-box {
+    gap: 16px;
+  }
+}
+.section-about-us__text .icon-text-box__text strong {
+  display: inline-flex;
+  margin: 0 0 12px 0;
+}
+@media (max-width: 760px) {
+  .section-about-us__text .icon-text-box__text strong {
+    font-size: 15px;
+  }
+}
+@media (max-width: 760px) {
+  .section-about-us__text .icon-text-box__icon img {
+    width: 38px;
+    height: auto;
+  }
+}
+@media (max-width: 991px) {
+  .section-about-us__img {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+  }
+}
+.section-about-us__img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 20px;
+}
+.section-about-us .send-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+}
+.section-about-us .send-form .input-slot {
+  display: flex;
+  flex-direction: column;
+}
+.section-about-us .send-form .input-slot label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 177%;
+  color: #212321;
+}
+@media (max-width: 760px) {
+  .section-about-us .send-form .input-slot label {
+    font-size: 14px;
+  }
+}
+.section-about-us .send-form .input-slot input {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  margin: 0 0 10px 0;
+  width: 100%;
+  padding: 0 18px;
+}
+.section-about-us .send-form .input-slot textarea {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  margin: 0 0 20px 0;
+  width: 100%;
+  padding: 16px 18px;
+  border: 0;
+}
+.section-about-us .send-form .custom-checkbox-container {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 156%;
+  color: #212321;
+}
+.section-about-us .send-form-left {
+  width: 50%;
+}
+.section-about-us .send-form-left h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 136%;
+  text-transform: uppercase;
+  color: #003671;
+}
+@media (max-width: 760px) {
+  .section-about-us .send-form-left h2 {
+    font-size: 26px;
+  }
+}
+.section-about-us .send-form-right {
+  margin-top: 48px;
+  width: 50%;
+}
+@media (max-width: 760px) {
+  .section-about-us .send-form {
+    flex-direction: column;
+    gap: 0;
+  }
+  .section-about-us .send-form-left, .section-about-us .send-form-right {
+    width: 100%;
+    margin: 0;
+  }
+}
+@media (max-width: 760px) and (max-width: 500px) {
+  .section-about-us .send-form button {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=main.css.map */

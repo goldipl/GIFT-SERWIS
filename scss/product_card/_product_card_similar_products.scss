@@ -2,15 +2,6 @@
   background-color: $white;
   padding-top: 70px;
   padding-bottom: 40px;
-  .title-red-line {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 106px;
-    height: 1px;
-    background-color: $main-color-second;
-    margin: 8px auto 16px auto;
-  }
   #promo_products_swiper {
     margin: 40px 0;
     @media (max-width: 991px) {

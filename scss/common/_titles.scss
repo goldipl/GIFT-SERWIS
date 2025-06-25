@@ -27,6 +27,16 @@
   }
 }
 
+.title-red-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 106px;
+  height: 1px;
+  background-color: $main-color-second;
+  margin: 8px auto 16px auto;
+}
+
 @media (max-width: 991px) {
   .number-title {
     font-size: 16px;
