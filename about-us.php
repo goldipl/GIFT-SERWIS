@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>GiftSerwis - Kontakt</title>
+        <title>GiftSerwis - O nas</title>
         <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="./css/bootstrap.min.css" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/select2.min.css" />
@@ -16,19 +16,7 @@
             <?php include "./components/common/nav.php"; ?> 
         </header>
         <main id="main-wrapper">
-            <div class="breadcrumbs container">
-                <ul>
-                    <li class="breadcrumb-item">
-                        <a href="./index.php">Home</a>
-                    </li>
-                    <li class="breadcrumb-item">
-                        <span>Kontakt</span>
-                    </li>
-                </ul>
-            </div>
-            <?php include "./components/contact/contact_content.php"; ?> 
-            <?php include "./components/contact/contact_sales_department_content.php"; ?> 
-            <?php include "./components/contact/contact_other_departments_content.php"; ?> 
+            <?php include "./components/branding/branding.php"; ?> 
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 
