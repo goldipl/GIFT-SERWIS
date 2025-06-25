@@ -26,10 +26,9 @@
                     </li>
                 </ul>
             </div>
-            <?php include "./components/contact/contact_content.php"; ?> 
-            <?php include "./components/contact/contact_sales_department_content.php"; ?> 
-            <?php include "./components/contact/contact_other_departments_content.php"; ?> 
+            <?php include "./components/contact/contact_content.php"; ?>
         </main>
+        <?php include "./components/main_page/info_section.php"; ?>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 
         </footer>

@@ -1,104 +1,195 @@
 <div class="contact-container container">
-    <h1>Kontakt</h1>
-    <h4>W razie potrzeby prosimy o kontakt</h4>
-    <div class="contact-wrapper">
-        <div class="contact-wrapper_col">
-            <div class="title">
-                <p>Nasze Dane</p>
+  <form class="send-form">
+    <div class="send-form-left">
+      <h2>Napisz do Nas</h2>
+      <div class="input-slot">
+        <label for="name-surname">Imię i nazwisko *</label>
+        <input class="form-input" type="text" name="name-surname" id="name-surname" placeholder="Jan Nowak" required>
+      </div>
+      <div class="input-slot">
+        <label for="email">Email *</label>
+        <input class="form-input" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="email" id="email" placeholder="mail@gmail.com" required>
+      </div>
+      <div class="input-slot">
+        <label for="telephone">Telefon *</label>
+        <input class="form-input" type="text" name="telephone" id="telephone" placeholder="555 555 666" required>
+      </div>
+    </div>
+    <div class="send-form-right">
+      <div class="input-slot">
+        <label for="msgarea">Wiadomość</label>
+        <textarea class="form-textarea" name="msgarea" id="msgarea" placeholder="Wiadomość...."></textarea>
+      </div>
+      <div class="checkbox-button-box">
+        <label class="custom-checkbox-container">Wyrażam zgodę na przetwarzanie danych osobowych wpisanych w formularzu w celu otrzymania odpowiedzi na moje pytanie zgodnie z Polityką Prywatności. <input type="checkbox" class="custom_input">
+          <span class="custom-checkbox-checkmark"></span>
+        </label>
+        <button class="green-button">Wyślij</button>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="contact-row-container container">
+  <div class="contact-col-container">
+    <div class="contact-data">
+      <h2>Biuro</h2>
+      <div class="icon-contact-box">
+        <img class="contact-icon" src="./assets/icons/contact/telephone.svg" alt="Telefon" width="18" height="18">
+        <a class="contact-text gtm-phone" href="tel:91 433 97 11">tel. 91 433 97 11</a>
+      </div>
+      <div class="icon-contact-box">
+        <img class="contact-icon" src="./assets/icons/contact/envelope.svg" alt="Email" width="18" height="18">
+        <a class="contact-text gtm-mail" href="mailto:gift@giftserwis.com.pl">gift@giftserwis.com.pl</a>
+      </div>
+      <div class="icon-contact-box">
+        <img class="contact-icon" src="./assets/icons/contact/pin-map.svg" alt="Lokalizacja" width="18" height="18">
+        <div class="contact-text-col">
+          <span class="contact-text">ul. Madalińskiego 8</span>
+          <span class="contact-text">70-101 Szczecin</span>
+        </div>
+      </div>
+      <div class="icon-contact-box">
+        <img class="contact-icon" src="./assets/icons/contact/collection.svg" alt="NIP" width="18" height="18">
+        <div class="contact-text-col">
+          <span class="contact-text">NIP: 8521024786</span>
+        </div>
+      </div>
+      <div class="icon-contact-box">
+        <img class="contact-icon" src="./assets/icons/contact/clock.svg" alt="Godziny" width="18" height="18">
+        <div class="contact-text-col">
+          <span class="contact-text">Biuro czynne: poniedziałek-piątek: 8:00-16:00</span>
+        </div>
+      </div>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2378.0585361213266!2d14.5329676133736!3d53.41377927219353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47aa08e06b0dd47d%3A0x50439b6879c617f2!2sAntoniego%20Madali%C5%84skiego%208%2C%2070-101%20Szczecin!5e0!3m2!1spl!2spl!4v1750874415303!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div class="contact-col-container">
+    <div class="contact-row">
+      <div class="contact-row-col">
+        <div class="contact-data">
+          <h2>Produkcja/Magazyn</h2>
+          <div class="person-data">
+            <strong>Marcin Łowicki</strong>
+            <span>kierownik produkcji</span>
+          </div>
+          <div class="icon-contact-box">
+            <img class="contact-icon" src="./assets/icons/contact/telephone.svg" alt="Telefon" width="18" height="18">
+            <a class="contact-text gtm-phone" href="tel:605 390 934">tel. 605 390 934</a>
+          </div>
+          <div class="icon-contact-box">
+            <img class="contact-icon" src="./assets/icons/contact/envelope.svg" alt="Email" width="18" height="18">
+            <a class="contact-text gtm-mail" href="mailto:produkcja@giftserwis.com.pl">produkcja@giftserwis.com.pl</a>
+          </div>
+          <div class="icon-contact-box">
+            <img class="contact-icon" src="./assets/icons/contact/pin-map.svg" alt="Lokalizacja" width="18" height="18">
+            <div class="contact-text-col">
+              <span class="contact-text">al. Piastów 41 –</span>
+              <span class="contact-text">teren ZUT, hala A</span>
+              <span class="contact-text">71-065 Szczecin</span>
             </div>
-            <div class="contact-wrapper_col__content">
-                <div class="data-box location">
-                    <strong>PCM Sp. z o.o. EASY GIFTS Sp.k.</strong>
-                    <p>ul. Wrocławska 41 Byków</p>
-                    <p>55-095 Mirków</p>
-                </div>
-                <div class="data-box phone">
-                    <p class="phone"><a class="gtm-phone" href="tel:+48 71 315 23 30">+48 71 315 23 30</a></p>
-                </div>
-                <div class="data-box mail">
-                    <p class="mail"><a class="gtm-mail" href="mailto:biuro@GiftSerwis.pl">biuro@GiftSerwis.pl</a></p>
-                </div>
-                <div class="data-box hours">
-                    <p>czynne pon. - pt.: 08:00 - 16:00</p>
-                </div>
-                <div class="data-box data">
-                    <p>NIP: PL8961447858</p>
-                    <p>REGON: 020635065</p>
-                    <p>KRS: 0000457282</p>
-                    <p>GIOŚ: E0021035WZBW</p>
-                </div>
-            </div>
-            <div class="contact-wrapper_col__content map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2500.729120119161!2d17.223109877721452!3d51.187215371742305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fe5e729634add%3A0xa7c28460780ab14a!2sEasy%20Gifts!5e0!3m2!1spl!2spl!4v1742219503318!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="contact-row-col">
+        <img class="person-img" src="./assets/img/contact/person.png" alt="Person" width="240" height="253">
+      </div>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2377.711201694319!2d14.530441062428537!3d53.419990901134646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47aa0921ecf805cf%3A0xba4f3b668140a5fa!2sal.%20Piast%C3%B3w%2041%2C%2070-311%20Szczecin!5e0!3m2!1spl!2spl!4v1750874432842!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+<div class="contact-container container">
+    <h2>Konto bankowe</h2>
+    <div class="bank-accounts">
+        <div class="bank-accounts-col">
+            <strong>Rachunek do wpłat krajowych (PLN):</strong>
+            <div class="copy-field">
+                <span class="account-code">PL49 1020 2892 2276 3005 0000 0000</span>
+                <img class="copy-icon" src="./assets/icons/contact/copy.svg" alt="Kopiuj" width="18" height="18">
             </div>
         </div>
-        <div class="contact-wrapper_col">
-            <div class="title">
-                <p>Działy</p>
+        <div class="bank-accounts-col">
+             <strong>Rachunek do wpłat krajowych (EUR):</strong>
+             <div class="copy-field">
+                <span class="account-code">96 2490 0005 0000 4600 9862 0829</span>
+               <img class="copy-icon" src="./assets/icons/contact/copy.svg" alt="Kopiuj" width="18" height="18">
+             </div>
+        </div>
+    </div>
+</div>
+<div class="contact-container container">
+    <h2>Dział handlowy</h2>
+    <div class="contact-team">
+        <div class="contact-team-slot">
+            <div class="contact-team-slot__img">
+                <img class="person-img" src="./assets/img/contact/person.png" alt="Person" width="240" height="253">
             </div>
-            <div class="contact-wrapper_col__content">
-                <div class="contact-box">
-                    <h3 class="office">Biuro</h3>
-                    <p class="phone2"><a class="gtm-phone" href="tel:+48 713152330">+48 713 152 330</a></p>
-                    <p class="mail"><a class="gtm-mail" href="mailto:biuro@GiftSerwis.pl">biuro@GiftSerwis.pl</a></p>
-                    <p class="hours">czynne pon. - pt.: 08:00 - 16:00</p>
+            <div class="contact-team-slot__data">
+                <strong>Piotr Milewski</strong>
+                <span>managing director</span>
+                <div class="icon-contact-box">
+                    <img class="contact-icon" src="./assets/icons/contact/telephone.svg" alt="Telefon" width="18" height="18">
+                    <a class="contact-text gtm-phone" href="tel:601 796 858">tel. 601 796 858</a>
                 </div>
-                <div class="horizontal-line"></div>
-                <div class="contact-box">
-                    <h3 class="storage">Magazyn</h3>
-                    <p class="phone"><a class="gtm-phone" href="tel:+48 71 397 87 16">+48 71 397 87 16</a></p>
-                    <p class="phone2"><a class="gtm-phone" href="tel:+48 668 599 127">+48 668 599 127</a></p>
-                    <p class="mail"><a class="gtm-mail" href="mailto:magazyn@GiftSerwis.pl">magazyn@GiftSerwis.pl</a></p>
-                    <p class="hours">czynne pon. - pt.: 08:00 - 16:00</p>
-                </div>
-                <div class="horizontal-line"></div>
-                <div class="contact-box">
-                    <h3 class="storage">Drukarnia</h3>
-                    <p class="phone"><a class="gtm-phone" href="tel: +48 71 397 87 04"> +48 71 397 87 04</a></p>
-                    <p class="phone2"><a class="gtm-phone" href="tel:+48 600 375 241">+48 600 375 241</a></p>
-                    <p class="mail"><a class="gtm-mail" href="mailto:drukarnia@GiftSerwis.pl">drukarnia@GiftSerwis.pl</a></p>
-                    <p class="hours">czynne: pon. - pt.: 6:00 - 14:00</p>
+                <div class="icon-contact-box">
+                    <img class="contact-icon" src="./assets/icons/contact/envelope.svg" alt="Email" width="18" height="18">
+                    <a class="contact-text gtm-mail" href="mailto:piotr@giftserwis.com.pl">piotr@giftserwis.com.pl</a>
                 </div>
             </div>
         </div>
-        <div class="contact-wrapper_col">
-            <div class="title">
-                <p>Napisz do Nas</p>
+        <div class="contact-team-slot">
+            <div class="contact-team-slot__img">
+                <img class="person-img" src="./assets/img/contact/person.png" alt="Person" width="240" height="253">
             </div>
-            <div class="contact-wrapper_col__content">
-                <form class="send-form">
-                    <div class="input-slot">
-                        <p>Pole oznaczone * są wymagane</p>
-                        <label for="name-surname">Imię i nazwisko *</label>
-                        <input class="form-input" type="text" name="name-surname" id="name-surname" placeholder="Jan Nowak" required>
-                    </div>
-                    <div class="input-slot">
-                        <label for="company">Firma *</label>
-                        <input class="form-input" type="text" name="company" id="company" placeholder="Firma1" required>
-                    </div>
-                    <div class="input-slot">
-                        <label for="nip-code">NIP *</label>
-                        <input class="form-input" type="text" name="nip-code" id="nip-code" placeholder="54111474" required>
-                    </div>
-                    <div class="input-slot">
-                        <label for="email">E-mail *</label>
-                        <input class="form-input" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="email" id="email" placeholder="mail@gmail.com" required>
-                    </div>
-                    <div class="input-slot">
-                        <label for="telephone">Telefon *</label>
-                        <input class="form-input" type="text" name="telephone" id="telephone" placeholder="555 555 666" required>
-                    </div>
-                    <div class="input-slot">
-                        <label for="msgarea">Wiadomość</label>
-                        <textarea class="form-textarea" name="msgarea" id="msgarea" placeholder="Wiadomość...."></textarea>
-                    </div>
-                    <div class="checkbox-button-box">
-                        <label class="custom-checkbox-container">Administratorem Państwa danych osobowych jest PCM Sp. z o.o. EASY GIFTS Sp.k. (NIP: 8961447858). Dane osobowe przetwarzane będą wyłącznie w prawnie usprawiedliwionych celach administratora danych polegających na udzieleniu odpowiedzi na Państwa wiadomość. Podanie przez Państwa danych osobowych jest dobrowolne, ale też niezbędne do nawiązania z Państwem kontaktu za pomocą formularza kontaktowego. Szczegółowe informacje na temat przetwarzania Państwa danych osobowych mogą Państwo znaleźć w naszej <a href="#">Polityce prywatności</a> na temat zasad przetwarzania danych osobowych.<input type="checkbox" class="custom_input"><span class="custom-checkbox-checkmark"></span>
-                        </label>
-                        <button class="color-btn">Wyślij <img src="./assets/icons/common/buttons/button_pink_arrow.svg"></button>
-                    </div>
-                </form>
+            <div class="contact-team-slot__data">
+                <strong>Anna Marciniak</strong>
+                <span>kierownik działu handlowego</span>
+                <div class="icon-contact-box">
+                    <img class="contact-icon" src="./assets/icons/contact/telephone.svg" alt="Telefon" width="18" height="18">
+                    <a class="contact-text gtm-phone" href="tel:605 390 956">tel. 605 390 956</a>
+                </div>
+                <div class="icon-contact-box">
+                    <img class="contact-icon" src="./assets/icons/contact/envelope.svg" alt="Email" width="18" height="18">
+                    <a class="contact-text gtm-mail" href="mailto:anna@giftserwis.com.pl">anna@giftserwis.com.pl</a>
+                </div>
+            </div>
+        </div>
+        <div class="contact-team-slot">
+            <div class="contact-team-slot__img">
+                <img class="person-img" src="./assets/img/contact/person.png" alt="Person" width="240" height="253">
+            </div>
+            <div class="contact-team-slot__data">
+                <strong>Karolina Byczko</strong>
+                <span>specjalista ds. sprzedaży</span>
+                <div class="icon-contact-box">
+                    <img class="contact-icon" src="./assets/icons/contact/telephone.svg" alt="Telefon" width="18" height="18">
+                    <a class="contact-text gtm-phone" href="tel:605 390 957">tel. 605 390 957</a>
+                </div>
+                <div class="icon-contact-box">
+                    <img class="contact-icon" src="./assets/icons/contact/envelope.svg" alt="Email" width="18" height="18">
+                    <a class="contact-text gtm-mail" href="mailto:k.byczko@giftserwis.com.pl">k.byczko@giftserwis.com.pl</a>
+                </div>
+            </div>
+        </div>
+        <div class="contact-team-slot">
+            <div class="contact-team-slot__img">
+                <img class="person-img" src="./assets/img/contact/person.png" alt="Person" width="240" height="253">
+            </div>
+            <div class="contact-team-slot__data">
+                <strong>Weronika Jucha</strong>
+                <span>specjalista ds. klienta</span>
+                <div class="icon-contact-box">
+                    <img class="contact-icon" src="./assets/icons/contact/telephone.svg" alt="Telefon" width="18" height="18">
+                    <a class="contact-text gtm-phone" href="tel:783 704 030">tel. 783 704 030</a>
+                </div>
+                <div class="icon-contact-box">
+                    <img class="contact-icon" src="./assets/icons/contact/envelope.svg" alt="Email" width="18" height="18">
+                    <a class="contact-text gtm-mail" href="mailto:wjucha@giftserwis.com.pl">wjucha@giftserwis.com.pl</a>
+                </div>
             </div>
         </div>
     </div>
+</div>
+<div class="contact-banner container">
+    <img src="./assets/icons/common/footer/logo-footer.svg" alt="GiftSerwis" width="195" height="55">
+    <strong>Zapraszamy do współpracy</strong>
 </div>

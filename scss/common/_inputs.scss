@@ -17,6 +17,9 @@ select.form-select {
     border: 0;
     outline: 1px solid $main-color;
   }
+  @media (max-width: 760px) {
+    height: 40px;
+  }
 }
 
 textarea.form-textarea {

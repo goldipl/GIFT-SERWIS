@@ -159,13 +159,10 @@
     width: 50%;
     h2 {
       font-weight: 700;
-      font-size: 32px;
+      font-size: 22px;
       line-height: 136%;
       text-transform: uppercase;
       color: $main-color;
-      @media (max-width: 760px) {
-        font-size: 26px;
-      }
     }
   }
   &-right {
