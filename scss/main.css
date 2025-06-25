@@ -7004,4 +7004,26 @@ main:has(.category-wrapper) {
     width: 50%;
     margin: 0 auto;
   }
+}
+
+#branding .section-about-us:nth-of-type(even) .section-about-us__text {
+  order: 1;
+}
+#branding .section-about-us:nth-of-type(even) .section-about-us__img {
+  order: 0;
+}
+@media (max-width: 991px) {
+  #branding .section-about-us__text {
+    order: 0 !important;
+  }
+}
+@media (max-width: 991px) {
+  #branding .section-about-us__img {
+    order: 1;
+  }
+}
+#branding .section-about-us__img img {
+  width: 344px;
+  height: auto;
+  border-radius: 10px;
 }/*# sourceMappingURL=main.css.map */

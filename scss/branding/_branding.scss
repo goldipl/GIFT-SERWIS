@@ -1,0 +1,27 @@
+#branding {
+  .section-about-us:nth-of-type(even) {
+    .section-about-us__text {
+      order: 1;
+    }
+    .section-about-us__img {
+      order: 0;
+    }
+  }
+  .section-about-us {
+    &__text {
+      @media (max-width: 991px) {
+        order: 0 !important;
+      }
+    }
+    &__img {
+      @media (max-width: 991px) {
+        order: 1;
+      }
+      img {
+        width: 344px;
+        height: auto;
+        border-radius: 10px;
+      }
+    }
+  }
+}
