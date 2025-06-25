@@ -20,7 +20,7 @@
             <div class="breadcrumbs container">
                 <ul>
                     <li class="breadcrumb-item">
-                        <a href="./index.php">Home</a>
+                        <a href="/">Home</a>
                     </li>
                     <li class="breadcrumb-item">
                         <span>Katalogi</span>

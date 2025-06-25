@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg container">
   <div class="navbar-first-row"></div>
   <div class="container-fluid">
-    <a class="navbar-brand navbar-brand-mobile" href="./index.php">
+    <a class="navbar-brand navbar-brand-mobile" href="/">
       <img src="./assets/icons/common/header/logo-giftserwis.svg" alt="GiftSerwis - Dystrybutor gadżetów reklamowych" width="110" height="43">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -9,7 +9,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-top d-flex align-items-center justify-content-between navbar-nav me-auto mb-2 mb-lg-0 w-100">
-        <a class="navbar-brand navbar-brand-desktop" href="./index.php">
+        <a class="navbar-brand navbar-brand-desktop" href="/">
           <img src="./assets/icons/common/header/logo-giftserwis.svg" alt="GiftSerwis - Dystrybutor gadżetów reklamowych" width="160" height="62">
         </a>
         <form class="d-flex" role="search" id="nav-searchbar">
@@ -44,7 +44,7 @@
         <div class="d-flex bottom-nav-categories">
           <!-- Nav Item -->
           <li class="nav-item main-nav-item">
-            <a class="nav-link" href="">Home</a>
+            <a class="nav-link" href="/">Home</a>
           </li>
           <!-- Nav Item -->
           <li class="nav-item main-nav-item">
@@ -52,11 +52,11 @@
           </li>
           <!-- Nav Item -->
           <li class="nav-item main-nav-item">
-            <a class="nav-link" href="">O nas</a>
+            <a class="nav-link" href="./about-us.php">O nas</a>
           </li>
           <!-- Nav Item -->
           <li class="nav-item main-nav-item">
-            <a class="nav-link" href="">Katalogi</a>
+            <a class="nav-link" href="./catalogs.php">Katalogi</a>
           </li>
           <!-- Nav Item -->
           <li class="nav-item main-nav-item branding">
