@@ -7444,36 +7444,37 @@ main:has(.category-wrapper) {
      object-fit: contain;
   border-radius: 20px;
 }
-.section-about-us .send-form {
+
+.send-form {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 40px;
 }
-.section-about-us .send-form .input-slot {
+.send-form .input-slot {
   display: flex;
   flex-direction: column;
 }
-.section-about-us .send-form .input-slot label {
+.send-form .input-slot label {
   font-weight: 400;
   font-size: 16px;
   line-height: 177%;
   color: #212321;
 }
 @media (max-width: 760px) {
-  .section-about-us .send-form .input-slot label {
+  .send-form .input-slot label {
     font-size: 14px;
   }
 }
-.section-about-us .send-form .input-slot input {
+.send-form .input-slot input {
   background-color: #f4f4f4;
   border-radius: 10px;
   margin: 0 0 10px 0;
   width: 100%;
   padding: 0 18px;
 }
-.section-about-us .send-form .input-slot textarea {
+.send-form .input-slot textarea {
   background-color: #f4f4f4;
   border-radius: 10px;
   margin: 0 0 20px 0;
@@ -7481,16 +7482,16 @@ main:has(.category-wrapper) {
   padding: 16px 18px;
   border: 0;
 }
-.section-about-us .send-form .custom-checkbox-container {
+.send-form .custom-checkbox-container {
   font-weight: 400;
   font-size: 12px;
   line-height: 156%;
   color: #212321;
 }
-.section-about-us .send-form-left {
+.send-form-left {
   width: 50%;
 }
-.section-about-us .send-form-left h2 {
+.send-form-left h2 {
   font-weight: 700;
   font-size: 32px;
   line-height: 136%;
@@ -7498,26 +7499,26 @@ main:has(.category-wrapper) {
   color: #003671;
 }
 @media (max-width: 760px) {
-  .section-about-us .send-form-left h2 {
+  .send-form-left h2 {
     font-size: 26px;
   }
 }
-.section-about-us .send-form-right {
+.send-form-right {
   margin-top: 48px;
   width: 50%;
 }
 @media (max-width: 760px) {
-  .section-about-us .send-form {
+  .send-form {
     flex-direction: column;
     gap: 0;
   }
-  .section-about-us .send-form-left, .section-about-us .send-form-right {
+  .send-form-left, .send-form-right {
     width: 100%;
     margin: 0;
   }
 }
 @media (max-width: 760px) and (max-width: 500px) {
-  .section-about-us .send-form button {
+  .send-form button {
     display: flex;
     justify-content: center;
     width: 50%;
