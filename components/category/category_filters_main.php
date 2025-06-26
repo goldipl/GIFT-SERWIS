@@ -40,12 +40,6 @@
       <a href="#" class="products-image" rel="nofollow">
         <img src="./assets/img/main_page/products/green_pen.jpg" alt="products img" width="200" height="200">
       </a>
-      <!-- Product label -->
-      <div class="product-label-box">
-        <div class="product-label" style="background-color: #FFD2CB;">
-          <p>Nowość</p>
-        </div>
-      </div>
       <a href="#" class="products-title">
         <h3 class="text-start">Długopis metalowy</h3>
       </a>

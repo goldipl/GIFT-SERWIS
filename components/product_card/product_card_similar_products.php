@@ -52,12 +52,6 @@
                     <a href="#" class="products-image" rel="nofollow">
                         <img src="./assets/img/main_page/products/headphones.jpg" alt="products block img" width="200" height="200">
                     </a>
-                    <!-- Product label -->
-                    <div class="product-label-box">
-                        <div class="product-label" style="background-color: #FFD2CB;">
-                        <p>Nowość</p>
-                        </div>
-                    </div>
                     <a href="#" class="products-title">
                         <h3 class="text-start">Słuchawki bluetooth</h3>
                     </a>

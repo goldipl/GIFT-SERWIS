@@ -2465,7 +2465,7 @@ label.add-files:focus, label.add-files:hover {
   display: flex;
   height: 200px;
   width: 200px;
-  margin: 24px auto;
+  margin: 24px auto 100px;
   text-decoration: none;
 }
 .promo_products_swiper .swiper_products_block_box__top .products-image img {
@@ -2996,7 +2996,9 @@ label.add-files:focus, label.add-files:hover {
   display: flex;
 }
 .swiper_products_block_box .product-label-box {
-  position: relative;
+  position: absolute;
+  top: 240px;
+  left: 32px;
   display: inline-flex;
   flex-wrap: wrap;
   z-index: 1;
@@ -3072,12 +3074,6 @@ label.add-files:focus, label.add-files:hover {
   color: #ffffff;
   margin: 12px 0 0 0;
   text-transform: uppercase;
-}
-.swiper_products_block_box__top .products-image {
-  display: flex;
-  height: 200px;
-  width: 200px;
-  margin: 24px auto;
 }
 .swiper_products_block_box__top .products-image img {
   height: 200px;
@@ -5617,7 +5613,9 @@ main:has(.category-wrapper) {
   display: flex;
 }
 .category-filters-main__slot .product-label-box {
-  position: relative;
+  position: absolute;
+  top: 196px;
+  left: 16px;
   display: inline-flex;
   flex-wrap: wrap;
   z-index: 1;
@@ -5701,7 +5699,7 @@ main:has(.category-wrapper) {
   display: flex;
   height: 160px;
   width: 160px;
-  margin: 24px auto;
+  margin: 24px auto 100px;
   text-decoration: none;
 }
 .category-filters-main__slot__top .products-image img {

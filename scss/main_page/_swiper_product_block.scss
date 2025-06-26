@@ -14,7 +14,9 @@
     }
   }
   .product-label-box {
-    position: relative;
+    position: absolute;
+    top: 240px;
+    left: 32px;
     display: inline-flex;
     flex-wrap: wrap;
     z-index: 1;
@@ -94,10 +96,6 @@
   }
   &__top {
     .products-image {
-      display: flex;
-      height: 200px;
-      width: 200px;
-      margin: 24px auto;
       img {
         height: 200px;
         width: 100%;
