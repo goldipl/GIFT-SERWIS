@@ -74,55 +74,83 @@
             <ul class="dropdown-menu">
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/electronics.svg" alt="menu icon" width="25" height="25">Elektronika </a>
+                  <img src="./assets/icons/common/header/menu/electronics.svg" alt="menu icon" width="25" height="25">Elektronika</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/pens.svg" alt="menu icon" width="25" height="25">Artykuły piśmiennicze </a>
+                  <img src="./assets/icons/common/header/menu/food-and-drinks.svg" alt="menu icon" width="25" height="25">Żywność i napoje</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/electronics.svg" alt="menu icon" width="25" height="25">Elektronika </a>
+                  <img src="./assets/icons/common/header/menu/mugs.svg" alt="menu icon" width="25" height="25">Kubki i naczynia</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/electronics.svg" alt="menu icon" width="25" height="25">Elektronika </a>
+                  <img src="./assets/icons/common/header/menu/calendars.svg" alt="menu icon" width="25" height="25">Kalendarze i planery</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/electronics.svg" alt="menu icon" width="25" height="25">Elektronika </a>
+                  <img src="./assets/icons/common/header/menu/pens.svg" alt="menu icon" width="25" height="25">Artykuły piśmiennicze</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/electronics.svg" alt="menu icon" width="25" height="25">Elektronika </a>
+                  <img src="./assets/icons/common/header/menu/tools.svg" alt="menu icon" width="25" height="25">Narzędzia</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/electronics.svg" alt="menu icon" width="25" height="25">Elektronika </a>
+                  <img src="./assets/icons/common/header/menu/antistress.svg" alt="menu icon" width="25" height="25">Antystresy</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/electronics.svg" alt="menu icon" width="25" height="25">Elektronika </a>
+                  <img src="./assets/icons/common/header/menu/typography.svg" alt="menu icon" width="25" height="25">Poligrafia</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/electronics.svg" alt="menu icon" width="25" height="25">Elektronika </a>
+                  <img src="./assets/icons/common/header/menu/umbrellas.svg" alt="menu icon" width="25" height="25">Parasole</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/electronics.svg" alt="menu icon" width="25" height="25">Elektronika </a>
+                  <img src="./assets/icons/common/header/menu/bags.svg" alt="menu icon" width="25" height="25">Torby i plecaki</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/electronics.svg" alt="menu icon" width="25" height="25">Elektronika </a>
+                  <img src="./assets/icons/common/header/menu/medical.svg" alt="menu icon" width="25" height="25">Medyczne i higieniczne</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/electronics.svg" alt="menu icon" width="25" height="25">Elektronika </a>
+                  <img src="./assets/icons/common/header/menu/outside-catalog.svg" alt="menu icon" width="25" height="25">Poza katalogiem</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/electronics.svg" alt="menu icon" width="25" height="25">Elektronika </a>
+                  <img src="./assets/icons/common/header/menu/key-rings.svg" alt="menu icon" width="25" height="25">Breloki</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <img src="./assets/icons/common/header/menu/games.svg" alt="menu icon" width="25" height="25">Gry i zabawki</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <img src="./assets/icons/common/header/menu/mascots.svg" alt="menu icon" width="25" height="25">Maskotki</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <img src="./assets/icons/common/header/menu/presents-packs.svg" alt="menu icon" width="25" height="25">Zestawy prezentowe</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <img src="./assets/icons/common/header/menu/notepads.svg" alt="menu icon" width="25" height="25">Notesy</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <img src="./assets/icons/common/header/menu/lanyards.svg" alt="menu icon" width="25" height="25">Smycze</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <img src="./assets/icons/common/header/menu/reflectors.svg" alt="menu icon" width="25" height="25">Odblaski i bezpieczeństwo</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <img src="./assets/icons/common/header/menu/100percent.svg" alt="menu icon" width="25" height="25">Personalizacja (100% personalizowane)</a>
               </li>
             </ul>
           </li>
@@ -132,47 +160,55 @@
             <ul class="dropdown-menu">
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/electronics.svg" alt="menu icon" width="25" height="25">Koszulki </a>
+                  <img src="./assets/icons/common/header/menu/t-shirts.svg" alt="menu icon" width="25" height="25">Koszulki</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/pens.svg" alt="menu icon" width="25" height="25">Koszulki Polo </a>
+                  <img src="./assets/icons/common/header/menu/jackets.svg" alt="menu icon" width="25" height="25">Kurtki i kamizelki</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/pens.svg" alt="menu icon" width="25" height="25">Koszulki Polo </a>
+                  <img src="./assets/icons/common/header/menu/boots.svg" alt="menu icon" width="25" height="25">Obuwie bezpieczne</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/pens.svg" alt="menu icon" width="25" height="25">Koszulki Polo </a>
+                  <img src="./assets/icons/common/header/menu/frotte.svg" alt="menu icon" width="25" height="25">Frotte</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/pens.svg" alt="menu icon" width="25" height="25">Koszulki Polo </a>
+                  <img src="./assets/icons/common/header/menu/polo.svg" alt="menu icon" width="25" height="25">Koszulki Polo</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/pens.svg" alt="menu icon" width="25" height="25">Koszulki Polo </a>
+                  <img src="./assets/icons/common/header/menu/polary.svg" alt="menu icon" width="25" height="25">Polary</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/pens.svg" alt="menu icon" width="25" height="25">Koszulki Polo </a>
+                  <img src="./assets/icons/common/header/menu/blouses.svg" alt="menu icon" width="25" height="25">Bluzy</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/pens.svg" alt="menu icon" width="25" height="25">Koszulki Polo </a>
+                  <img src="./assets/icons/common/header/menu/bags.svg" alt="menu icon" width="25" height="25">Torby</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/pens.svg" alt="menu icon" width="25" height="25">Koszulki Polo </a>
+                  <img src="./assets/icons/common/header/menu/shirts.svg" alt="menu icon" width="25" height="25">Koszule</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/pens.svg" alt="menu icon" width="25" height="25">Koszulki Polo </a>
+                  <img src="./assets/icons/common/header/menu/trousers.svg" alt="menu icon" width="25" height="25">Spodnie / szorty</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/pens.svg" alt="menu icon" width="25" height="25">Koszulki Polo </a>
+                  <img src="./assets/icons/common/header/menu/hats.svg" alt="menu icon" width="25" height="25">Czapki</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <img src="./assets/icons/common/header/menu/additional.svg" alt="menu icon" width="25" height="25">Dodatkowy asortyment</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <img src="./assets/icons/common/header/menu/accessories.svg" alt="menu icon" width="25" height="25">Akcesoria</a>
               </li>
             </ul>
           </li>
@@ -182,35 +218,63 @@
             <ul class="dropdown-menu">
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/electronics.svg" alt="menu icon" width="25" height="25">Biuro</a>
+                  <img src="./assets/icons/common/header/menu/office.svg" alt="menu icon" width="25" height="25">Biuro</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/pens.svg" alt="menu icon" width="25" height="25">Samochodowe</a>
+                  <img src="./assets/icons/common/header/menu/easter.svg" alt="menu icon" width="25" height="25">Wielkanoc</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/pens.svg" alt="menu icon" width="25" height="25">Samochodowe</a>
+                  <img src="./assets/icons/common/header/menu/beach.svg" alt="menu icon" width="25" height="25">Na plażę & lato</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/pens.svg" alt="menu icon" width="25" height="25">Samochodowe</a>
+                  <img src="./assets/icons/common/header/menu/xmas.svg" alt="menu icon" width="25" height="25">XMAS</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/pens.svg" alt="menu icon" width="25" height="25">Samochodowe</a>
+                  <img src="./assets/icons/common/header/menu/cars.svg" alt="menu icon" width="25" height="25">Samochodowe</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/pens.svg" alt="menu icon" width="25" height="25">Samochodowe</a>
+                  <img src="./assets/icons/common/header/menu/valentines.svg" alt="menu icon" width="25" height="25">Walentynki</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/pens.svg" alt="menu icon" width="25" height="25">Samochodowe</a>
+                  <img src="./assets/icons/common/header/menu/building.svg" alt="menu icon" width="25" height="25">Budowlane & BHP</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/pens.svg" alt="menu icon" width="25" height="25">Samochodowe</a>
+                  <img src="./assets/icons/common/header/menu/news.svg" alt="menu icon" width="25" height="25">Nowości & Trendy</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <img src="./assets/icons/common/header/menu/children.svg" alt="menu icon" width="25" height="25">Dla dzieci</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <img src="./assets/icons/common/header/menu/events.svg" alt="menu icon" width="25" height="25">Eventy & Konferencje</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <img src="./assets/icons/common/header/menu/eco.svg" alt="menu icon" width="25" height="25">Eko & Zero Waste</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <img src="./assets/icons/common/header/menu/horeca.svg" alt="menu icon" width="25" height="25">Dla gastronomii & HoReCa</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <img src="./assets/icons/common/header/menu/special-events.svg" alt="menu icon" width="25" height="25">Święta & Okazje specjalne</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <img src="./assets/icons/common/header/menu/travel.svg" alt="menu icon" width="25" height="25">Podróże</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <img src="./assets/icons/common/header/menu/sport.svg" alt="menu icon" width="25" height="25">Sport & Aktywność</a>
               </li>
             </ul>
           </li>

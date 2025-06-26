@@ -514,7 +514,7 @@ nav .navbar-bottom .main-nav-item > a.big-dropdown.show::after {
     margin-right: 18px;
   }
   nav .dropdown-menu li a:hover img {
-    filter: invert(1) brightness(220);
+    filter: invert(0) brightness(220);
   }
   nav .dropdown-menu.second-lvl-menu {
     padding: 21px 60px 21px 0;
