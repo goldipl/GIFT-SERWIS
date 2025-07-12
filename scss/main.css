@@ -104,7 +104,7 @@ body #main-wrapper.opened-menu::after {
 #topbar {
   position: relative;
   background-color: #f0f0f0;
-  height: 40px;
+  height: 32px;
   z-index: 11;
 }
 @media (max-width: 991px) {
