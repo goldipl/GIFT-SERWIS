@@ -21,9 +21,9 @@ footer {
           justify-content: center;
           align-items: center;
           background-color: $grey11;
-          min-width: 42px;
-          width: 42px;
-          height: 42px;
+          min-width: 36px;
+          width: 36px;
+          height: 36px;
           border-radius: 100%;
           @media (max-width: 991px) {
             min-width: 28px;
@@ -36,9 +36,16 @@ footer {
           }
         }
       }
+      .address-footer {
+        cursor: pointer;
+        &:hover {
+          span {
+            color: $main-color-second;
+          }
+        }
+      }
       .first-column {
         max-width: 372px;
-        margin-right: 24px;
         .footer-logo {
           margin: 0 0 25px 0;
           img {
@@ -61,7 +68,7 @@ footer {
             }
           }
           p {
-            font-size: 16px;
+            font-size: 15px;
             font-weight: 400;
             line-height: 160%;
             color: $white;
@@ -81,7 +88,7 @@ footer {
           text-transform: uppercase;
         }
         a {
-          font-size: 16px;
+          font-size: 15px;
           font-style: normal;
           font-weight: 400;
           line-height: 177.023%;
@@ -124,7 +131,7 @@ footer {
           margin: 0 0 16px 0;
         }
         a {
-          font-size: 16px;
+          font-size: 15px;
           font-style: normal;
           font-weight: 400;
           line-height: 160%;

@@ -8,7 +8,7 @@
         <p>Bardzo szeroki zakres dostarczanych przez nas artykułów począwszy od porcelany, poprzez tekstylia, produkty codziennego użytku, artykuły piśmienne, na elektronice kończąc, daje możliwość współpracy z odbiorcami praktycznie każdej branży.</p>
       </div>
     </div>
-    <div class="d-flex flex-column align-items-start col-3 second-column">
+    <div class="d-flex flex-column align-items-start col-2 second-column">
       <div class="footer-contacts-box d-flex flex-column">
         <h2>Kontakt biuro</h2>
         <div class="footer-contact-box">
@@ -27,10 +27,10 @@
           <div class="contact-icon">
             <img src="./assets/icons/common/footer/blue-location.svg" alt="adres" width="18" height="18">
           </div>
-          <div class="address-footer d-flex flex-column">
+          <a href="https://www.google.com/maps/dir//Antoniego+Madali%C5%84skiego+8,+70-101+Szczecin/@53.4137793,14.5329676,903m/data=!3m1!1e3!4m9!4m8!1m0!1m5!1m1!1s0x47aa08e06b0dd47d:0x50439b6879c617f2!2m2!1d14.5355479!2d53.4137793!3e0?entry=ttu&g_ep=EgoyMDI1MDcwOS4wIKXMDSoASAFQAw%3D%3D" class="address-footer d-flex flex-column">
             <span>ul. Madalińskiego 8</span>
             <span>70-101 Szczecin</span>
-          </div>
+          </a>
         </div>
       </div>
     </div>
@@ -53,11 +53,11 @@
           <div class="contact-icon">
             <img src="./assets/icons/common/footer/blue-location.svg" alt="adres" width="18" height="18">
           </div>
-          <div class="address-footer d-flex flex-column">
+          <a href="https://www.google.com/maps/place/al.+Piast%C3%B3w+41,+70-311+Szczecin/@53.419991,14.5327263,903m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47aa0921ecf805cf:0xba4f3b668140a5fa!8m2!3d53.419991!4d14.5353066!16s%2Fg%2F11bw4b46b6?entry=ttu&g_ep=EgoyMDI1MDcwOS4wIKXMDSoASAFQAw%3D%3D" class="address-footer d-flex flex-column">
             <span>al. Piastów 41 –</span>
             <span>teren ZUT, hala A</span>
             <span>71-065 Szczecin</span>
-          </div>
+          </a>
         </div>
       </div>
     </div>
