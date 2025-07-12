@@ -104,19 +104,24 @@ body #main-wrapper.opened-menu::after {
 #topbar {
   position: relative;
   background-color: #f0f0f0;
-  height: 32px;
+  height: 40px;
   z-index: 11;
 }
 @media (max-width: 991px) {
   #topbar {
-    height: auto;
-    padding: 4px 16px;
+    height: 32px;
+    padding: 7px 16px;
     box-sizing: border-box;
   }
 }
 #topbar .container {
-  height: 32px;
+  height: 40px;
   padding: 0;
+}
+@media (max-width: 991px) {
+  #topbar .container {
+    height: auto;
+  }
 }
 #topbar .container .topbar-links a,
 #topbar .container .topbar-contact a {
