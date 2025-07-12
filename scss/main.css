@@ -5054,25 +5054,23 @@ label.add-files:focus, label.add-files:hover {
 
 .contact-team {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 64px;
   margin: 30px 0 0 0;
 }
 @media (max-width: 1240px) {
   .contact-team {
-    flex-wrap: wrap;
     gap: 48px;
   }
 }
 @media (max-width: 760px) {
   .contact-team {
-    flex-direction: row;
-    justify-content: center;
+    gap: 32px;
   }
 }
 .contact-team-slot {
+  flex: 0 1 254px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -5080,28 +5078,37 @@ label.add-files:focus, label.add-files:hover {
 }
 @media (max-width: 760px) {
   .contact-team-slot {
-    width: 42%;
+    flex: 0 1 100%;
   }
 }
 .contact-team-slot__img {
+  width: 100%;
   display: flex;
   border-radius: 10px;
   margin: 0 0 30px 0;
+}
+@media (max-width: 500px) {
+  .contact-team-slot__img {
+    margin: 0 0 8px 0;
+  }
 }
 .contact-team-slot__img img {
   border-radius: 10px;
   width: 100%;
   max-height: 240px;
   height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 500px) {
+  .contact-team-slot__img img {
+    max-height: unset;
+  }
 }
 .contact-team-slot__data {
+  width: 100%;
   display: flex;
   flex-direction: column;
-}
-@media (max-width: 760px) {
-  .contact-team-slot__data {
-    width: 100%;
-  }
 }
 .contact-team-slot__data strong {
   font-weight: 700;
