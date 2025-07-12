@@ -111,18 +111,12 @@ body #main-wrapper.opened-menu::after {
   #topbar {
     height: auto;
     padding: 4px 16px;
+    box-sizing: border-box;
   }
 }
 #topbar .container {
-  height: 40px;
+  height: 32px;
   padding: 0;
-}
-@media (max-width: 991px) {
-  #topbar .container {
-    flex-direction: column;
-    justify-content: flex-end !important;
-    align-items: flex-end !important;
-  }
 }
 #topbar .container .topbar-links a,
 #topbar .container .topbar-contact a {
@@ -156,8 +150,19 @@ body #main-wrapper.opened-menu::after {
 #topbar .container .topbar-contact a img {
   margin-right: 8px;
 }
+@media (max-width: 760px) {
+  #topbar .container .topbar-links a img,
+  #topbar .container .topbar-contact a img {
+    margin-right: 4px;
+  }
+}
 #topbar .container .topbar-contact {
   gap: 24px;
+}
+@media (max-width: 760px) {
+  #topbar .container .topbar-contact {
+    gap: 6px;
+  }
 }
 
 header {

@@ -6,15 +6,11 @@
   @media (max-width: 991px) {
     height: auto;
     padding: 4px 16px;
+    box-sizing: border-box;
   }
   .container {
-    height: 40px;
+    height: 32px;
     padding: 0;
-    @media (max-width: 991px) {
-      flex-direction: column;
-      justify-content: flex-end !important;
-      align-items: flex-end !important;
-    }
     .topbar-links,
     .topbar-contact {
       a {
@@ -40,11 +36,17 @@
         }
         img {
           margin-right: 8px;
+          @media (max-width: 760px) {
+            margin-right: 4px;
+          }
         }
       }
     }
     .topbar-contact {
       gap: 24px;
+      @media (max-width: 760px) {
+        gap: 6px;
+      }
     }
   }
 }
