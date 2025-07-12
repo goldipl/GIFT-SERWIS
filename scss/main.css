@@ -6903,11 +6903,17 @@ main:has(.category-wrapper) {
 }
 
 #branding .our-job {
+  font-size: 16px;
   color: #e63027;
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+}
+@media (max-width: 991px) {
+  #branding .our-job {
+    font-size: 14px;
+  }
 }
 #branding .our-job:hover {
   color: #003671;
