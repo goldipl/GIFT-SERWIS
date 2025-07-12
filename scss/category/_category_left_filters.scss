@@ -1,4 +1,24 @@
 .category-left-filters-box {
+  .expand-hidden-checkboxes-btn {
+    display: inline-flex;
+    font-size: 14px;
+    color: $main-color;
+    cursor: pointer;
+    margin: 0 0 8px 0;
+    user-select: none;
+    &:hover {
+      color: $main-color-second;
+    }
+  }
+
+  .hidden-checkboxes {
+    display: none;
+    &.show-checkboxes {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
   &__button {
     display: none;
     flex-direction: row;

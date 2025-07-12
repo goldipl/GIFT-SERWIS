@@ -15,3 +15,20 @@ show_filters_btn.addEventListener('click', () => {
     filters_box.classList.toggle('show');
     btn_img.classList.toggle('rotate');
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const toggleBtn = document.querySelector(".expand-hidden-checkboxes-btn");
+    const checkboxContainer = document.querySelector(".hidden-checkboxes");
+
+    if (toggleBtn && checkboxContainer) {
+      toggleBtn.addEventListener("click", function () {
+        checkboxContainer.classList.toggle("show-checkboxes");
+
+        if (checkboxContainer.classList.contains("show-checkboxes")) {
+          toggleBtn.textContent = "Zwiń...";
+        } else {
+          toggleBtn.textContent = "Pokaż więcej...";
+        }
+      });
+    }
+});

@@ -5278,6 +5278,26 @@ main:has(.category-wrapper) {
     display: none;
   }
 }
+.category-left-filters-box .expand-hidden-checkboxes-btn {
+  display: inline-flex;
+  font-size: 14px;
+  color: #003671;
+  cursor: pointer;
+  margin: 0 0 8px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.category-left-filters-box .expand-hidden-checkboxes-btn:hover {
+  color: #e63027;
+}
+.category-left-filters-box .hidden-checkboxes {
+  display: none;
+}
+.category-left-filters-box .hidden-checkboxes.show-checkboxes {
+  display: flex;
+  flex-direction: column;
+}
 .category-left-filters-box__button {
   display: none;
   flex-direction: row;

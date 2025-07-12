@@ -22,6 +22,22 @@
         </div>
         <div class="category-left-filters__slot">
             <div class="header">
+                <h3>Dostępność</h3>
+            </div>
+            <div class="content">
+                <label class="custom-checkbox-container">24h/48h <input type="checkbox" class="custom_input">
+                    <span class="custom-checkbox-checkmark"></span>
+                </label>
+                <label class="custom-checkbox-container">2-3 dni <input type="checkbox" class="custom_input">
+                    <span class="custom-checkbox-checkmark"></span>
+                </label>
+                <label class="custom-checkbox-container">Dostawa <input type="checkbox" class="custom_input">
+                    <span class="custom-checkbox-checkmark"></span>
+                </label>
+            </div>
+        </div>
+        <div class="category-left-filters__slot">
+            <div class="header">
                 <h3>Kolor</h3>
             </div>
             <div class="content">
@@ -49,69 +65,73 @@
                     <span class="checkbox-quantity">(1)</span>
                 </div>
 
-                <div class="checkbox-row">
-                    <label class="custom-checkbox-container">
-                        <div class="color red"></div>Czerwony <input type="checkbox" class="custom_input">
-                        <span class="custom-checkbox-checkmark"></span>
-                    </label>
-                    <span class="checkbox-quantity">(0)</span>
+                <div class="hidden-checkboxes">
+                    <div class="checkbox-row">
+                        <label class="custom-checkbox-container">
+                            <div class="color red"></div>Czerwony <input type="checkbox" class="custom_input">
+                            <span class="custom-checkbox-checkmark"></span>
+                        </label>
+                        <span class="checkbox-quantity">(0)</span>
+                    </div>
+
+                    <div class="checkbox-row">
+                        <label class="custom-checkbox-container">
+                            <div class="color green"></div>Zielony <input type="checkbox" class="custom_input">
+                            <span class="custom-checkbox-checkmark"></span>
+                        </label>
+                        <span class="checkbox-quantity">(0)</span>
+                    </div>
+
+                    <div class="checkbox-row">
+                        <label class="custom-checkbox-container">
+                            <div class="color blue"></div>Granatowy <input type="checkbox" class="custom_input">
+                            <span class="custom-checkbox-checkmark"></span>
+                        </label>
+                        <span class="checkbox-quantity">(0)</span>
+                    </div>
+
+                    <div class="checkbox-row">
+                        <label class="custom-checkbox-container">
+                            <div class="color purple"></div>Fioletowy <input type="checkbox" class="custom_input">
+                            <span class="custom-checkbox-checkmark"></span>
+                        </label>
+                        <span class="checkbox-quantity">(0)</span>
+                    </div>
+
+                    <div class="checkbox-row">
+                        <label class="custom-checkbox-container">
+                            <div class="color orange"></div>Pomarańczowy <input type="checkbox" class="custom_input">
+                            <span class="custom-checkbox-checkmark"></span>
+                        </label>
+                        <span class="checkbox-quantity">(0)</span>
+                    </div>
+
+                    <div class="checkbox-row">
+                        <label class="custom-checkbox-container">
+                            <div class="color yellow"></div>Zółty <input type="checkbox" class="custom_input">
+                            <span class="custom-checkbox-checkmark"></span>
+                        </label>
+                        <span class="checkbox-quantity">(0)</span>
+                    </div>
+
+                    <div class="checkbox-row">
+                        <label class="custom-checkbox-container">
+                            <div class="color pink"></div>Rózowy <input type="checkbox" class="custom_input">
+                            <span class="custom-checkbox-checkmark"></span>
+                        </label>
+                        <span class="checkbox-quantity">(0)</span>
+                    </div>
+
+                    <div class="checkbox-row">
+                        <label class="custom-checkbox-container">
+                            <div class="color lightblue"></div>Niebieski <input type="checkbox" class="custom_input">
+                            <span class="custom-checkbox-checkmark"></span>
+                        </label>
+                        <span class="checkbox-quantity">(0)</span>
+                    </div>
                 </div>
 
-                <div class="checkbox-row">
-                    <label class="custom-checkbox-container">
-                        <div class="color green"></div>Zielony <input type="checkbox" class="custom_input">
-                        <span class="custom-checkbox-checkmark"></span>
-                    </label>
-                    <span class="checkbox-quantity">(0)</span>
-                </div>
-
-                <div class="checkbox-row">
-                    <label class="custom-checkbox-container">
-                        <div class="color blue"></div>Granatowy <input type="checkbox" class="custom_input">
-                        <span class="custom-checkbox-checkmark"></span>
-                    </label>
-                    <span class="checkbox-quantity">(0)</span>
-                </div>
-
-                <div class="checkbox-row">
-                    <label class="custom-checkbox-container">
-                        <div class="color purple"></div>Fioletowy <input type="checkbox" class="custom_input">
-                        <span class="custom-checkbox-checkmark"></span>
-                    </label>
-                    <span class="checkbox-quantity">(0)</span>
-                </div>
-
-                <div class="checkbox-row">
-                    <label class="custom-checkbox-container">
-                        <div class="color orange"></div>Pomarańczowy <input type="checkbox" class="custom_input">
-                        <span class="custom-checkbox-checkmark"></span>
-                    </label>
-                    <span class="checkbox-quantity">(0)</span>
-                </div>
-
-                <div class="checkbox-row">
-                    <label class="custom-checkbox-container">
-                        <div class="color yellow"></div>Zółty <input type="checkbox" class="custom_input">
-                        <span class="custom-checkbox-checkmark"></span>
-                    </label>
-                    <span class="checkbox-quantity">(0)</span>
-                </div>
-
-                <div class="checkbox-row">
-                    <label class="custom-checkbox-container">
-                        <div class="color pink"></div>Rózowy <input type="checkbox" class="custom_input">
-                        <span class="custom-checkbox-checkmark"></span>
-                    </label>
-                    <span class="checkbox-quantity">(0)</span>
-                </div>
-
-                <div class="checkbox-row">
-                    <label class="custom-checkbox-container">
-                        <div class="color lightblue"></div>Niebieski <input type="checkbox" class="custom_input">
-                        <span class="custom-checkbox-checkmark"></span>
-                    </label>
-                    <span class="checkbox-quantity">(0)</span>
-                </div>
+                <span class="expand-hidden-checkboxes-btn">Pokaż więcej...</span>
             </div>
 
         </div>
