@@ -6902,20 +6902,111 @@ main:has(.category-wrapper) {
   }
 }
 
+#branding .our-job {
+  color: #e63027;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+#branding .our-job:hover {
+  color: #003671;
+}
+#branding .branding-slot-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+@media (max-width: 760px) {
+  #branding .branding-slot-box {
+    flex-direction: column;
+  }
+}
 #branding .section-about-us:nth-of-type(even) .section-about-us__text {
   order: 1;
 }
 #branding .section-about-us:nth-of-type(even) .section-about-us__img {
   order: 0;
 }
+#branding .section-about-us {
+  display: flex;
+  flex-direction: column;
+}
+#branding .section-about-us .swiper {
+  width: 100%;
+  overflow: hidden;
+}
+#branding .section-about-us .swiper.hidden {
+  display: none;
+}
+#branding .section-about-us .swiper-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+#branding .section-about-us .swiper-slide {
+  width: 200px !important;
+  height: auto;
+}
+#branding .section-about-us .swiper-slide img {
+  width: 200px !important;
+  height: auto;
+}
+#branding .section-about-us .swiper .swiper-button-next {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  background-image: url("./../assets/icons/main_page/hero_swiper/arrow-right.svg");
+  background-size: contain;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  top: 50%;
+  right: 0;
+  z-index: 1;
+  border-radius: 100%;
+}
+@media (max-width: 991px) {
+  #branding .section-about-us .swiper .swiper-button-next {
+    width: 40px;
+    height: 40px;
+  }
+}
+#branding .section-about-us .swiper .swiper-button-next::after {
+  display: none;
+}
+#branding .section-about-us .swiper .swiper-button-prev {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  background-image: url("./../assets/icons/main_page/hero_swiper/arrow-left.svg");
+  background-size: contain;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+  border-radius: 100%;
+}
+@media (max-width: 991px) {
+  #branding .section-about-us .swiper .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+  }
+}
+#branding .section-about-us .swiper .swiper-button-prev::after {
+  display: none;
+}
 @media (max-width: 991px) {
   #branding .section-about-us__text {
-    order: 0 !important;
+    order: 1 !important;
   }
 }
 @media (max-width: 991px) {
   #branding .section-about-us__img {
-    order: 1;
+    order: 2 !important;
   }
 }
 #branding .section-about-us__img img {

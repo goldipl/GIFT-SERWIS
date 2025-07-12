@@ -1,4 +1,21 @@
 #branding {
+  .our-job {
+    color: $main-color-second;
+    cursor: pointer;
+    user-select: none;
+    &:hover {
+      color: $main-color;
+    }
+  }
+  .branding-slot-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    @media (max-width: 760px) {
+      flex-direction: column;
+    }
+  }
   .section-about-us:nth-of-type(even) {
     .section-about-us__text {
       order: 1;
@@ -8,14 +25,78 @@
     }
   }
   .section-about-us {
+    display: flex;
+    flex-direction: column;
+    .swiper {
+      width: 100%;
+      overflow: hidden;
+      &.hidden {
+        display: none;
+      }
+      &-wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+      }
+      &-slide {
+        width: 200px !important;
+        height: auto;
+        img {
+          width: 200px !important;
+          height: auto;
+        }
+      }
+      .swiper-button-next {
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        background-image: url("./../assets/icons/main_page/hero_swiper/arrow-right.svg");
+        background-size: contain;
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center center;
+        top: 50%;
+        right: 0;
+        z-index: 1;
+        border-radius: 100%;
+        @media (max-width: 991px) {
+          width: 40px;
+          height: 40px;
+        }
+        &::after {
+          display: none;
+        }
+      }
+      .swiper-button-prev {
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        background-image: url("./../assets/icons/main_page/hero_swiper/arrow-left.svg");
+        background-size: contain;
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center center;
+        top: 50%;
+        left: 0;
+        z-index: 1;
+        border-radius: 100%;
+        @media (max-width: 991px) {
+          width: 40px;
+          height: 40px;
+        }
+        &::after {
+          display: none;
+        }
+      }
+    }
     &__text {
       @media (max-width: 991px) {
-        order: 0 !important;
+        order: 1 !important;
       }
     }
     &__img {
       @media (max-width: 991px) {
-        order: 1;
+        order: 2 !important;
       }
       img {
         width: 344px;

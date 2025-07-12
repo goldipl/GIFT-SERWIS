@@ -7,6 +7,7 @@
         <title>GiftSerwis - Znakowanie</title>
         <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="./css/bootstrap.min.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/swiper-bundle.css" />
         <link rel="stylesheet" href="./css/select2.min.css" />
         <link rel="stylesheet" href="./scss/main.css">
     </head>
@@ -36,6 +37,9 @@
         <script src="./js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="./js/bootbox.min.js"></script>
         <script src="./js/select2.min.js"></script>
+        <script src="./js/swiper/swiper-bundle.js"></script>
+        <script src="./js/swiper/swiper.js"></script>
         <script src="./js/script.js"></script>
+        <script src="./js/branding/our-job-swiper.js"></script>
     </body>
 </html>
