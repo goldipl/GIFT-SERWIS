@@ -40,5 +40,9 @@ This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License
 
 ## Screenshots
 
-![screenshot](./screenshots/screenshot01.jpg)
-![screenshot](./screenshots/screenshot02.jpg)
+![screenshot](./screenshots/giftserwis01.jpg)
+![screenshot](./screenshots/giftserwis02.jpg)
+![screenshot](./screenshots/giftserwis03.jpg)
+![screenshot](./screenshots/giftserwis04.jpg)
+![screenshot](./screenshots/giftserwis05.jpg)
+![screenshot](./screenshots/giftserwis06.jpg)
