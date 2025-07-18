@@ -11,6 +11,8 @@
         <select name="sort-by" id="sort-by" class="form-select">
             <option value="Nazwa produktu A-Z">Nazwa produktu A-Z</option>
             <option value="Nazwa produktu Z-A">Nazwa produktu Z-A</option>
+            <option value="Ceny rosnąco">Ceny rosnąco</option>
+            <option value="Ceny malejąco">Ceny malejąco</option>
         </select>
     </div>
     <div class="category-top-filters__slot">
