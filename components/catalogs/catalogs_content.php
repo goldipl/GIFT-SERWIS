@@ -7,24 +7,11 @@
                 <div class="catalogs-wrapper_col_top_left">
                     <img src="./assets/img/catalogs/catalogs-01.jpg" alt="Katalog" width="348" height="497">
                 </div>
-            </div>
-            <div class="catalogs-wrapper_col_bottom">
-                <div class="catalogs-wrapper_col_bottom__btns">
-                    <a href="" class="catalogs-wrapper_col_bottom__btns--btn">
-                        <span>ZOBACZ ONLINE</span>
-                        <img src="./assets/icons/catalogs/eye.svg" alt="eye" width="24" height="20">
-                    </a>
-                    <a href="" class="catalogs-wrapper_col_bottom__btns--btn">
-                        <span>POBIERZ</span>
-                        <img src="./assets/icons/catalogs/download.svg" alt="download" width="20" height="20">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="catalogs-wrapper_col">
-            <div class="catalogs-wrapper_col_top">
-                <div class="catalogs-wrapper_col_top_left">
-                    <img src="./assets/img/catalogs/catalogs-02.jpg" alt="Katalog" width="348" height="497">
+                <div class="catalogs-wrapper_col_top_right">
+                    <div class="catalogs-text">
+                        <h2>Katalog No.1</h2>
+                        <p>Katalog NO.1 to niezastąpione narzędzie dla profesjonalistów  poszukujących inspiracji do innowacyjnych metod promocji marki. Zawiera  obszerny asortyment gadżetów z różnych segmentów. Znajdziesz w nim  produkty dostosowane do różnorodnych potrzeb - od zaawansowanej  elektroniki po eleganckie akcesoria biurowe oraz przedmioty codziennego  użytku.</p>
+                    </div>
                 </div>
             </div>
             <div class="catalogs-wrapper_col_bottom">
@@ -45,6 +32,12 @@
                 <div class="catalogs-wrapper_col_top_left">
                     <img src="./assets/img/catalogs/catalogs-02.jpg" alt="Katalog" width="348" height="497">
                 </div>
+                <div class="catalogs-wrapper_col_top_right">
+                    <div class="catalogs-text">
+                        <h2>Katalog No.1</h2>
+                        <p>Katalog NO.1 to niezastąpione narzędzie dla profesjonalistów  poszukujących inspiracji do innowacyjnych metod promocji marki. Zawiera  obszerny asortyment gadżetów z różnych segmentów. Znajdziesz w nim  produkty dostosowane do różnorodnych potrzeb - od zaawansowanej  elektroniki po eleganckie akcesoria biurowe oraz przedmioty codziennego  użytku.</p>
+                    </div>
+                </div>
             </div>
             <div class="catalogs-wrapper_col_bottom">
                 <div class="catalogs-wrapper_col_bottom__btns">
@@ -63,6 +56,37 @@
             <div class="catalogs-wrapper_col_top">
                 <div class="catalogs-wrapper_col_top_left">
                     <img src="./assets/img/catalogs/catalogs-02.jpg" alt="Katalog" width="348" height="497">
+                </div>
+                <div class="catalogs-wrapper_col_top_right">
+                    <div class="catalogs-text">
+                        <h2>Katalog No.1</h2>
+                        <p>Katalog NO.1 to niezastąpione narzędzie dla profesjonalistów  poszukujących inspiracji do innowacyjnych metod promocji marki. Zawiera  obszerny asortyment gadżetów z różnych segmentów. Znajdziesz w nim  produkty dostosowane do różnorodnych potrzeb - od zaawansowanej  elektroniki po eleganckie akcesoria biurowe oraz przedmioty codziennego  użytku.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="catalogs-wrapper_col_bottom">
+                <div class="catalogs-wrapper_col_bottom__btns">
+                    <a href="" class="catalogs-wrapper_col_bottom__btns--btn">
+                        <span>ZOBACZ ONLINE</span>
+                        <img src="./assets/icons/catalogs/eye.svg" alt="eye" width="24" height="20">
+                    </a>
+                    <a href="" class="catalogs-wrapper_col_bottom__btns--btn">
+                        <span>POBIERZ</span>
+                        <img src="./assets/icons/catalogs/download.svg" alt="download" width="20" height="20">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="catalogs-wrapper_col">
+            <div class="catalogs-wrapper_col_top">
+                <div class="catalogs-wrapper_col_top_left">
+                    <img src="./assets/img/catalogs/catalogs-02.jpg" alt="Katalog" width="348" height="497">
+                </div>
+                <div class="catalogs-wrapper_col_top_right">
+                    <div class="catalogs-text">
+                        <h2>Katalog No.1</h2>
+                        <p>Katalog NO.1 to niezastąpione narzędzie dla profesjonalistów  poszukujących inspiracji do innowacyjnych metod promocji marki. Zawiera  obszerny asortyment gadżetów z różnych segmentów. Znajdziesz w nim  produkty dostosowane do różnorodnych potrzeb - od zaawansowanej  elektroniki po eleganckie akcesoria biurowe oraz przedmioty codziennego  użytku.</p>
+                    </div>
                 </div>
             </div>
             <div class="catalogs-wrapper_col_bottom">

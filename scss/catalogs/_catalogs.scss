@@ -34,7 +34,7 @@
     &_col {
       display: flex;
       flex-direction: column;
-      height: 650px;
+      height: auto;
       width: calc(33% - 24px);
       max-width: 408px;
       margin-right: 23px;
@@ -57,12 +57,12 @@
       }
       &_top {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
         padding: 36px 36px 26px 36px;
         border-bottom: 1px solid $grey11;
-        height: 590px;
+        height: auto;
         &_left {
           width: 100%;
           img {
@@ -74,6 +74,7 @@
           }
         }
         &_right {
+          margin-top: 24px;
           .catalogs-text {
             h2 {
               font-size: 24px;
