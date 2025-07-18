@@ -14,12 +14,6 @@
         </a>
         <form class="d-flex" role="search" id="nav-searchbar">
           <input class="form-control mx-2" type="search" placeholder="Cześć!  Czego dziś szukasz?" aria-label="Search">
-          <div class="vertical-line"></div>
-          <select id="search-query-select">
-            <option>Wszędzie</option>
-            <option>Kategoria</option>
-            <option>Kategoria2</option>
-          </select>
           <button class="btn btn-outline-success" type="submit">Szukaj</button>
         </form>
         <div class="nav-account-cart d-flex align-items-center">
