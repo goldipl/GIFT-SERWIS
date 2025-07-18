@@ -6480,6 +6480,7 @@ main:has(.category-wrapper) {
   margin-right: 23px;
   margin-bottom: 23px;
   background-color: #ffffff;
+  border-radius: 20px;
 }
 .catalogs-container .catalogs-wrapper_col.video-slot {
   height: auto;
