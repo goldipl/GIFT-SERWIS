@@ -17,18 +17,24 @@ show_filters_btn.addEventListener('click', () => {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    const toggleBtn = document.querySelector(".expand-hidden-checkboxes-btn");
-    const checkboxContainer = document.querySelector(".hidden-checkboxes");
+  const toggleButtons = document.querySelectorAll(".expand-hidden-checkboxes-btn");
 
-    if (toggleBtn && checkboxContainer) {
-      toggleBtn.addEventListener("click", function () {
-        checkboxContainer.classList.toggle("show-checkboxes");
+  toggleButtons.forEach(function (toggleBtn) {
+    const contentContainer = toggleBtn.closest(".content");
+    if (contentContainer) {
+      const checkboxContainer = contentContainer.querySelector(".hidden-checkboxes");
 
-        if (checkboxContainer.classList.contains("show-checkboxes")) {
-          toggleBtn.textContent = "Zwiń...";
-        } else {
-          toggleBtn.textContent = "Pokaż więcej...";
-        }
-      });
+      if (checkboxContainer) {
+        toggleBtn.addEventListener("click", function () {
+          checkboxContainer.classList.toggle("show-checkboxes");
+
+          if (checkboxContainer.classList.contains("show-checkboxes")) {
+            toggleBtn.textContent = "Zwiń...";
+          } else {
+            toggleBtn.textContent = "Pokaż więcej...";
+          }
+        });
+      }
     }
+  });
 });
