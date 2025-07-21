@@ -697,6 +697,7 @@ nav .navbar-bottom .main-nav-item > a.big-dropdown.show::after {
   }
   nav .navbar-bottom .main-nav-item .dropdown-item {
     font-size: 14px;
+    border-radius: 10px;
   }
   nav .navbar-bottom .main-nav-item .dropdown-menu {
     border: 0;
