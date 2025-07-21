@@ -354,6 +354,9 @@ nav {
           }
         }
       }
+      .dropdown-item.dropdown-toggle.show::after {
+        rotate: 90deg;
+      }
       .dropdown.dropend {
         position: relative !important;
         .dropdown-menu.second-lvl-menu {

@@ -529,6 +529,9 @@ nav .navbar-bottom .main-nav-item > a.big-dropdown.show::after {
     background-color: #e63027;
     color: #ffffff;
   }
+  nav .dropdown-menu .dropdown-item.dropdown-toggle.show::after {
+    rotate: 90deg;
+  }
   nav .dropdown-menu .dropdown.dropend {
     position: relative !important;
   }
