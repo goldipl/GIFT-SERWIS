@@ -1413,7 +1413,7 @@ footer .footer__container__bottom .contip img {
   margin: 0 auto;
 }
 .green-button:hover {
-  background-color: #177200;
+  background-color: rgb(22.8, 114, 0);
 }
 @media (max-width: 991px) {
   .green-button {
@@ -4046,7 +4046,7 @@ label.add-files:focus, label.add-files:hover {
      object-fit: contain;
 }
 .product_card_gallery_info .product-info .quantity-add-box .add-box .add-to-cart-btn:hover {
-  background-color: #177200;
+  background-color: rgb(22.8, 114, 0);
 }
 @media (max-width: 760px) {
   .product_card_gallery_info .product-info .quantity-add-box .add-box .add-to-cart-btn {
@@ -6267,7 +6267,7 @@ main:has(.category-wrapper) {
   margin: 0 auto;
 }
 .category-left-helpbox .helpbox-button:hover {
-  background-color: #177200;
+  background-color: rgb(22.8, 114, 0);
 }
 @media (max-width: 991px) {
   .category-left-helpbox .helpbox-button {
@@ -6407,7 +6407,7 @@ main:has(.category-wrapper) {
   border-radius: 20px;
 }
 .not-found-box-text .contact-btn:hover {
-  background-color: #177200;
+  background-color: rgb(22.8, 114, 0);
 }
 @media (max-width: 1200px) {
   .not-found-box-text .contact-btn {

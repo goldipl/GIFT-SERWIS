@@ -46,6 +46,7 @@
   <div class="contact-col-container">
     <div class="contact-data">
       <h2>Biuro</h2>
+      <p>Gift Serwis Piotr Milewski</p>
       <div class="icon-contact-box">
         <img class="contact-icon" src="./assets/icons/contact/telephone.svg" alt="Telefon" width="18" height="18">
         <a class="contact-text gtm-phone" href="tel:91 433 97 11">tel. 91 433 97 11</a>
