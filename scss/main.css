@@ -535,6 +535,9 @@ nav .navbar-bottom .main-nav-item > a.big-dropdown.show::after {
   nav .dropdown-menu .dropdown.dropend {
     position: relative !important;
   }
+  nav .dropdown-menu .dropdown.dropend .dropdown-toggle.show img {
+    filter: invert(0) brightness(220);
+  }
   nav .dropdown-menu .dropdown.dropend .dropdown-menu.second-lvl-menu {
     display: none;
     position: absolute;

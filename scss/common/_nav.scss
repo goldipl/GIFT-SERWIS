@@ -359,6 +359,11 @@ nav {
       }
       .dropdown.dropend {
         position: relative !important;
+        .dropdown-toggle.show {
+          img {
+            filter: invert(0) brightness(220);
+          }
+        }
         .dropdown-menu.second-lvl-menu {
           display: none;
           position: absolute;
