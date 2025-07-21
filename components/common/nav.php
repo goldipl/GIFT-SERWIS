@@ -66,13 +66,55 @@
           <li class="nav-item dropdown main-nav-item">
             <a class="nav-link dropdown-toggle big-dropdown" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Gadżety</a>
             <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/electronics.svg" alt="menu icon" width="25" height="25">Elektronika</a>
+              <li class="dropdown dropend">
+                <a class="dropdown-item dropdown-toggle" href="#" id="electronicsDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="./assets/icons/common/header/menu/electronics.svg" alt="menu icon" width="25" height="25">Elektronika
+                </a>
+                <ul class="dropdown-menu second-lvl-menu" aria-labelledby="electronicsDropdown">
+                  <li>
+                    <a class="dropdown-item" href="#">Powerbanki</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Głośniki</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Słuchawki</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Kable USB</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Powerbanki</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Głośniki</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Słuchawki</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Kable USB</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Słuchawki</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Kable USB</a>
+                  </li>
+                </ul>
               </li>
-              <li>
-                <a class="dropdown-item" href="#">
-                  <img src="./assets/icons/common/header/menu/food-and-drinks.svg" alt="menu icon" width="25" height="25">Żywność i napoje</a>
+              <li class="dropdown dropend">
+                <a class="dropdown-item dropdown-toggle" href="#" id="foodAndDrinksDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="./assets/icons/common/header/menu/food-and-drinks.svg" alt="menu icon" width="25" height="25">Żywność i napoje
+                </a>
+                <ul class="dropdown-menu second-lvl-menu" aria-labelledby="foodAndDrinksDropdown">
+                  <li>
+                    <a class="dropdown-item" href="#">Pojemniki na żywność</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Bidony</a>
+                  </li>
+                </ul>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
