@@ -560,7 +560,7 @@ nav .navbar-bottom .main-nav-item > a.big-dropdown.show::after {
     gap: 0;
     border: 0;
     padding: 16px;
-    border-radius: 30px !important;
+    border-radius: 10px !important;
   }
   nav .dropdown-menu.show {
     display: grid;
